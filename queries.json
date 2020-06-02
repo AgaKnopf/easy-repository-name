@@ -1,0 +1,28 @@
+{
+ "config" : [
+      {
+        "text": "Average level load times",
+        "value":
+          "SELECT now() as time, avg(loadingtime) as \"loading_time\", text(mapid) metric FROM performance_maploading GROUP BY mapid ORDER BY \"loading_time\" DESC LIMIT 20",
+        "format": "time_series"
+      },
+      {
+        "text": "Unit death per session",
+        "value":
+          "SELECT now() as time, count(logic_unit_death_id) as \"unitdeath\", text(session_id) as metric FROM logic_unit_death GROUP BY session_id ORDER BY session_id ASC LIMIT 20",
+        "format": "time_series"
+      },
+      {
+        "text": "Food harvested",
+        "value":
+          "SELECT now() as time, count(resources_food) as \"food\", text(session_id) as metric FROM logic_resources_harvested GROUP BY session_id LIMIT 20",
+        "format": "time_series"
+      },
+      {
+        "text": "Table data example, loot",
+        "value":
+          "SELECT count(logic_hero_item_looted_id) as \"loot\", session_id FROM logic_hero_item_looted GROUP BY session_id LIMIT 20",
+        "format": "time_series"
+      }
+  ]
+}
