@@ -1,3 +1,24 @@
-config [
-{}
-]
+{
+ "config" : [
+      {
+        "text": "SELECT * FROM actor",
+        "value": "SELECT * FROM actor"
+        "format": "table"
+      },
+      {
+        "text": "SELECT * FROM film",
+        "value": "SELECT * FROM film"
+        "format": "table"
+      },
+      {
+        "text": "SELECT * FROM city",
+        "value": "SELECT * FROM city"
+        "format": "table"
+      },
+      {
+        "text": "SELECT * FROM country",
+        "value": "SELECT * FROM country"
+        "format": "table"
+      }
+  ]
+}
