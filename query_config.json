@@ -1,7 +1,6 @@
 {
     "configurator" : [
          {
-           "id": 0,
            "text": "Hero death id",
            "value":
              "SELECT now() as time, hero_death_id as \"hero_death_id\"",
@@ -28,19 +27,18 @@
            ]
          },
          {
-           "id": 1,
            "text": "Unit death",
            "value":
              "SELECT now() as time, count(logic_unit_death_id) as \"unitdeath\"",
            "from": "FROM logic_unit_death GROUP BY session_id ORDER BY session_id ASC LIMIT 20",
            "attributes": [
                 {
-                    "id": 0,
+                    "id": 3,
                     "text": "session id",
                     "value": ", text(session_id) as metric" 
                 },
                 {
-                    "id": 1,
+                    "id": 4,
                     "text": "creature id",
                     "value": ", text(creature_id) as metric" 
                 }                
