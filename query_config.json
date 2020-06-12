@@ -5,7 +5,7 @@
            "text": "Hero death id",
            "value":
              "SELECT now() as time, hero_death_id as \"hero_death_id\"",
-           "from": "FROM logic_hero_death",
+           "from": " FROM logic_hero_death",
            "attributes": [
                {
                 "id": 0,
@@ -32,7 +32,7 @@
            "text": "Unit death",
            "value":
              "SELECT now() as time, count(logic_unit_death_id) as \"unitdeath\"",
-           "from": "FROM logic_unit_death GROUP BY session_id ORDER BY session_id ASC LIMIT 20",
+           "from": " FROM logic_unit_death GROUP BY session_id ORDER BY session_id ASC LIMIT 20",
            "attributes": [
                 {
                     "id": 3,
