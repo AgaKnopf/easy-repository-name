@@ -1,25 +1,25 @@
 {   "order" : [
         {
             "text" : "Ascending",
-            "value": "ASC"
+            "value": " ASC"
         },
         {
             "text" : "Descending",
-            "value": "DESC"
+            "value": " DESC"
         },    
     ],
     "limit" : {
-        "limit": 10,
-        "limit": 20,
-        "limit": 50,
-        "limit": 100,
-        "limit": 200,
-        "limit": 300,
-        "limit": 500,
-        "limit": 1000,
-        "limit": 2000,
-        "limit": 5000,
-        "limit": 10000
+        "limit": " LIMIT 10",
+        "limit": " LIMIT 20",
+        "limit": " LIMIT 50",
+        "limit": " LIMIT 100",
+        "limit": " LIMIT 200",
+        "limit": " LIMIT 300",
+        "limit": " LIMIT 500",
+        "limit": " LIMIT 1000",
+        "limit": " LIMIT 2000",
+        "limit": " LIMIT 5000",
+        "limit": " LIMIT 10000"
     },
     "configurator" : [
          {
