@@ -4,7 +4,7 @@
            "id": 0,
            "text": "Hero death id",
            "value":
-             "SELECT now() as time, hero_death_id as \"hero_death_id\"",
+             "SELECT now() as time, logic_hero_death_id as \"hero_death_id\"",
            "from": " FROM logic_hero_death",
            "attributes": [
                {
