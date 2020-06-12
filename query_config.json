@@ -1,4 +1,13 @@
-{
+{   "order" : [
+        {
+            "text" : "Ascending",
+            "value": "ASC"
+        },
+        {
+            "text" : "Descending",
+            "value": "DESC"
+        },    
+    ]
     "limit" : {
         "limit": 10,
         "limit": 20,
