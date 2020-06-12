@@ -1,6 +1,7 @@
 {
     "configurator" : [
          {
+           "id": 0,
            "text": "Hero death id",
            "value":
              "SELECT now() as time, hero_death_id as \"hero_death_id\"",
@@ -27,6 +28,7 @@
            ]
          },
          {
+           "id": 1,
            "text": "Unit death",
            "value":
              "SELECT now() as time, count(logic_unit_death_id) as \"unitdeath\"",
