@@ -29,20 +29,32 @@
          },
          {
            "id": 1,
-           "text": "Unit death",
+           "text": "Count unit death",
            "value":
              "SELECT now() as time, count(logic_unit_death_id) as \"unitdeath\"",
-           "from": " FROM logic_unit_death GROUP BY session_id ORDER BY session_id ASC LIMIT 20",
+           "from": " FROM logic_unit_death",
            "attributes": [
                 {
                     "id": 3,
                     "text": "session id",
-                    "value": ", text(session_id) as metric" 
+                    "value": ", text(session_id) as metric",
+                    "attributes": {
+                            "group_by": " GROUP BY session_id",
+                            "order_by": " ORDER BY session_id",
+                            "order": " ASC",
+                            "limit": "  LIMIT 20"
+                        }
                 },
                 {
                     "id": 4,
                     "text": "creature id",
-                    "value": ", text(creatureid) as metric" 
+                    "value": ", text(creatureid) as metric",
+                    "attributes": {
+                        "group_by": " GROUP BY creatureid",
+                        "order_by": " ORDER BY creatureid",
+                        "order": " ASC",
+                        "limit": "  LIMIT 20"
+                    }                     
                 }                
            ] 
          }
