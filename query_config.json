@@ -1,74 +1,80 @@
-{   "order" : [
-        {
-            "text" : "Ascending",
-            "value": " ASC"
-        },
-        {
-            "text" : "Descending",
-            "value": " DESC"
-        },    
-    ],
-    "limit" : [
-            10, 20, 50, 100, 200, 300, 500, 1000, 2000, 5000, 10000
-    ],
-    "configurator" : [
-         {
-           "id": 0,
-           "text": "Hero death id",
-           "value":
-             "SELECT now() as time, logic_hero_death_id as \"hero_death_id\"",
-           "from": " FROM logic_hero_death",
-           "attributes": [
-               {
-                "id": 0,
-                "text": "creature id",
-                "value":
-                  ", text(creatureid) as metric"
-               },
-               {
-                "id": 1,
-                "text": "session id",
-                "value":
-                  ", text(session_id) as metric"
-               },
-               {
-                "id": 2,
-                "text": "basic faction",
-                "value":
-                  ", text(basic_faction) as metric"
+{
+   "order":[
+      {
+         "text":"Ascending",
+         "value":" ASC"
+      },
+      {
+         "text":"Descending",
+         "value":" DESC"
+      }
+   ],
+   "limit":[
+      10,
+      20,
+      50,
+      100,
+      200,
+      300,
+      500,
+      1000,
+      2000,
+      5000,
+      10000
+   ],
+   "configurator":[
+      {
+         "id":0,
+         "text":"Hero death id",
+         "value":"SELECT now() as time, logic_hero_death_id as \"hero_death_id\"",
+         "from":" FROM logic_hero_death",
+         "attributes":[
+            {
+               "id":0,
+               "text":"creature id",
+               "value":", text(creatureid) as metric"
+            },
+            {
+               "id":1,
+               "text":"session id",
+               "value":", text(session_id) as metric"
+            },
+            {
+               "id":2,
+               "text":"basic faction",
+               "value":", text(basic_faction) as metric"
+            }
+         ]
+      },
+      {
+         "id":1,
+         "text":"Count unit death",
+         "value":"SELECT now() as time, count(logic_unit_death_id) as \"unitdeath\"",
+         "from":" FROM logic_unit_death",
+         "attributes":[
+            {
+               "id":3,
+               "text":"session id",
+               "value":", text(session_id) as metric",
+               "attributes":{
+                  "group_by":" GROUP BY session_id",
+                  "order_by":" ORDER BY session_id",
+                  "order":" ASC",
+                  "limit":"  LIMIT 20"
                }
-           ]
-         },
-         {
-           "id": 1,
-           "text": "Count unit death",
-           "value":
-             "SELECT now() as time, count(logic_unit_death_id) as \"unitdeath\"",
-           "from": " FROM logic_unit_death",
-           "attributes": [
-                {
-                    "id": 3,
-                    "text": "session id",
-                    "value": ", text(session_id) as metric",
-                    "attributes": {
-                            "group_by": " GROUP BY session_id",
-                            "order_by": " ORDER BY session_id",
-                            "order": " ASC",
-                            "limit": "  LIMIT 20"
-                        }
-                },
-                {
-                    "id": 4,
-                    "text": "creature id",
-                    "value": ", text(creatureid) as metric",
-                    "attributes": {
-                        "group_by": " GROUP BY creatureid",
-                        "order_by": " ORDER BY creatureid",
-                        "order": " ASC",
-                        "limit": "  LIMIT 20"
-                    }                     
-                }                
-           ] 
-         }
-     ]
-   }
+            },
+            {
+               "id":4,
+               "text":"creature id",
+               "value":", text(creatureid) as metric",
+               "attributes":{
+                  "group_by":" GROUP BY creatureid",
+                  "order_by":" ORDER BY creatureid",
+                  "order":" ASC",
+                  "limit":"  LIMIT 20"
+               }
+            }
+         ]
+      }
+   ]
+}
