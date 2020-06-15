@@ -32,17 +32,20 @@
             {
                "id":0,
                "text":"creature id",
-               "value":", text(creatureid) as metric"
+               "value":", text(creatureid) as metric",
+               "limit":"  LIMIT 20"
             },
             {
                "id":1,
                "text":"session id",
-               "value":", text(session_id) as metric"
+               "value":", text(session_id) as metric",
+               "limit":"  LIMIT 20"
             },
             {
                "id":2,
                "text":"basic faction",
-               "value":", text(basic_faction) as metric"
+               "value":", text(basic_faction) as metric",
+               "limit":"  LIMIT 20"
             }
          ]
       },
