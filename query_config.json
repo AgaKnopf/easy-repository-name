@@ -1,83 +1,122 @@
-{
-   "order":[
-      {
-         "text":"Ascending",
-         "value":" ASC"
-      },
-      {
-         "text":"Descending",
-         "value":" DESC"
-      }
-   ],
-   "limit":[
-      "10",
-      "20",
-      "50",
-      "100",
-      "200",
-      "300",
-      "500",
-      "1000",
-      "2000",
-      "5000",
-      "10000"
-   ],
-   "configurator":[
-      {
-         "id":0,
-         "text":"Hero death id",
-         "value":"SELECT now() as time, logic_hero_death_id as \"hero_death_id\"",
-         "from":" FROM logic_hero_death",
-         "attributes":[
-            {
-               "id":0,
-               "text":"creature id",
-               "value":", text(creatureid) as metric",
-               "limit":"  LIMIT 20"
-            },
-            {
-               "id":1,
-               "text":"session id",
-               "value":", text(session_id) as metric",
-               "limit":"  LIMIT 20"
-            },
-            {
-               "id":2,
-               "text":"basic faction",
-               "value":", text(basic_faction) as metric",
-               "limit":"  LIMIT 20"
-            }
-         ]
-      },
-      {
-         "id":1,
-         "text":"Count unit death",
-         "value":"SELECT now() as time, count(logic_unit_death_id) as \"unitdeath\"",
-         "from":" FROM logic_unit_death",
-         "attributes":[
-            {
-               "id":3,
-               "text":"session id",
-               "value":", text(session_id) as metric",
-               "attributes":{
-                  "group_by":" GROUP BY session_id",
-                  "order_by":" ORDER BY session_id",
-                  "order":" ASC",
-                  "limit":"  LIMIT 20"
-               }
-            },
-            {
-               "id":4,
-               "text":"creature id",
-               "value":", text(creatureid) as metric",
-               "attributes":{
-                  "group_by":" GROUP BY creatureid",
-                  "order_by":" ORDER BY creatureid",
-                  "order":" ASC",
-                  "limit":"  LIMIT 20"
-               }
-            }
-         ]
-      }
-   ]
+{ "types":{
+    "hero party levelup id": {
+      "text": "Hero party levelup id",
+      "value": "logic_hero_party_levelup_id"
+    },
+    "hero attributes": {
+      "text": "Hero attributes id",
+      "value": "logic_hero_attributes_id"
+    },
+    "next techlevel reached id": {
+      "text": "Next techlevel reached id",
+      "value": "logic_next_techlevel_reached_id"
+    },
+    "hero revivalrunes change id": {
+      "text": "Hero revivalrunes change id",
+      "value": "logic_hero_revivalrunes_change_id"
+    },
+    "strength" : [
+      "0", "1", "2", "3", "4", "5"
+    ],
+    "dexterity" : [
+      "0", "1", "2", "3", "4", "5"
+    ],
+    "intelligence" : [
+      "0", "1", "2", "3", "4", "5"
+    ],
+    "constitution" : [
+      "0", "1", "2", "3", "4", "5"
+    ],
+    "willpower" : [
+      "0", "1", "2", "3", "4", "5"
+    ],
+    "faction": [
+      "0", "1", "2", "3", "4", "5"
+    ],
+    "session id": {
+      "text": "session id",
+      "value": "session_id"
+    }    
+  },
+  "order":[
+     {
+        "text":"Ascending",
+        "value":" ASC"
+     },
+     {
+        "text":"Descending",
+        "value":" DESC"
+     }
+  ],
+  "limit":[
+     "10",
+     "20",
+     "50",
+     "100",
+     "200",
+     "300",
+     "500",
+     "1000",
+     "2000",
+     "5000",
+     "10000"
+  ],
+  "configurator":[
+     {
+        "id":0,
+        "text":"Hero death id",
+        "value":"SELECT now() as time, logic_hero_death_id as \"hero_death_id\"",
+        "from":" FROM logic_hero_death",
+        "attributes":[
+           {
+              "id":0,
+              "text":"creature id",
+              "value":", text(creatureid) as metric",
+              "limit":"  LIMIT 20"
+           },
+           {
+              "id":1,
+              "text":"session id",
+              "value":", text(session_id) as metric",
+              "limit":"  LIMIT 20"
+           },
+           {
+              "id":2,
+              "text":"basic faction",
+              "value":", text(basic_faction) as metric",
+              "limit":"  LIMIT 20"
+           }
+        ]
+     },
+     {
+        "id":1,
+        "text":"Count unit death",
+        "value":"SELECT now() as time, count(logic_unit_death_id) as \"unitdeath\"",
+        "from":" FROM logic_unit_death",
+        "attributes":[
+           {
+              "id":3,
+              "text":"session id",
+              "value":", text(session_id) as metric",
+              "attributes":{
+                 "group_by":" GROUP BY session_id",
+                 "order_by":" ORDER BY session_id",
+                 "order":" ASC",
+                 "limit":"  LIMIT 20"
+              }
+           },
+           {
+              "id":4,
+              "text":"creature id",
+              "value":", text(creatureid) as metric",
+              "attributes":{
+                 "group_by":" GROUP BY creatureid",
+                 "order_by":" ORDER BY creatureid",
+                 "order":" ASC",
+                 "limit":"  LIMIT 20"
+              }
+           }
+        ]
+     }
+  ]
 }
