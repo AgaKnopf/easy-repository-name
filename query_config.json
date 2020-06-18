@@ -1,37 +1,93 @@
-{ "types":{
+{ 
+   "types":{
+      "select_box": {
+         "name": "select_box",
+         "text": "",
+         "value": "<div></div>"
+      },
+      "dropdown_list": {
+         "name": "dropdown_list",
+         "text": "--Select--",
+         "value": "<div class=\"gf-form-select-wrapper\"><select class=\"gf-form-input gf-size-auto\" ng-model=\"ctrl.target.THQNFirstPartOfQuery\" datasource=\"ctrl.datasource\"data-mode=\"sql\" ng-options=\"s.text for s in ctrl.target.THQNConfigQueries track by s.id\"><option value=\"\">--Select--<\/option><\/select><\/div>"
+      },
+      "label": {
+         "name": "label",
+         "text": "",
+         "value": "<div></div>"
+      },
+      "range_upper_bound": {
+         "name": "range upper bound",
+         "text": "to",
+         "value": "<div></div>"
+      },
+      "range_lower_bound": {
+         "name": "range lower bound",
+         "text": "from",
+         "value": "<div></div>"
+      }
+   },
+   "something":{
     "hero party levelup id": {
+      "table": "logic_hero_party_levelup",
       "text": "Hero party levelup id",
       "value": "logic_hero_party_levelup_id"
     },
     "hero attributes": {
+      "table": "logic_hero_attributes",
       "text": "Hero attributes id",
       "value": "logic_hero_attributes_id"
     },
     "next techlevel reached id": {
+      "table": "logic_next_techlevel_reached",
       "text": "Next techlevel reached id",
       "value": "logic_next_techlevel_reached_id"
     },
     "hero revivalrunes change id": {
+      "table": "logic_hero_revivalrunes_change",
       "text": "Hero revivalrunes change id",
       "value": "logic_hero_revivalrunes_change_id"
     },
-    "strength" : [
-      "0", "1", "2", "3", "4", "5"
-    ],
-    "dexterity" : [
-      "0", "1", "2", "3", "4", "5"
-    ],
-    "intelligence" : [
-      "0", "1", "2", "3", "4", "5"
-    ],
-    "constitution" : [
-      "0", "1", "2", "3", "4", "5"
-    ],
-    "willpower" : [
-      "0", "1", "2", "3", "4", "5"
-    ],
+    "Player XP": {
+      "text" : "Player XP",
+      "type": "select_box",
+      "strength" : {
+         "text": "str",
+         "type": "dropdown",
+         "values": [
+            "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+         ]
+      },
+      "dexterity" : {
+         "text": "dex",
+         "type": "dropdown",
+         "values": [
+            "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+         ]
+      },
+      "intelligence" : {
+         "text": "int",
+         "type": "dropdown",
+         "values": [
+            "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+         ]
+      },
+      "constitution" : {
+         "text": "const",
+         "type": "dropdown",
+         "values": [
+            "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+         ]
+      },
+      "willpower" : {
+         "text": "will",
+         "type": "dropdown",
+         "values": [
+            "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+         ]
+      }
+    },
     "faction": [
-      "0", "1", "2", "3", "4", "5"
+      "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
     ],
     "session id": {
       "text": "session id",
@@ -41,10 +97,12 @@
   "order":[
      {
         "text":"Ascending",
+        "type": "dropdown",
         "value":" ASC"
      },
      {
         "text":"Descending",
+        "type": "dropdown",
         "value":" DESC"
      }
   ],
@@ -65,24 +123,28 @@
      {
         "id":0,
         "text":"Hero death id",
+        "type": "dropdown",
         "value":"SELECT now() as time, logic_hero_death_id as \"hero_death_id\"",
         "from":" FROM logic_hero_death",
         "attributes":[
            {
               "id":0,
               "text":"creature id",
+              "type": "dropdown",
               "value":", text(creatureid) as metric",
               "limit":"  LIMIT 20"
            },
            {
               "id":1,
               "text":"session id",
+              "type": "dropdown",
               "value":", text(session_id) as metric",
               "limit":"  LIMIT 20"
            },
            {
               "id":2,
               "text":"basic faction",
+              "type": "dropdown",
               "value":", text(basic_faction) as metric",
               "limit":"  LIMIT 20"
            }
@@ -91,12 +153,14 @@
      {
         "id":1,
         "text":"Count unit death",
+        "type": "dropdown",
         "value":"SELECT now() as time, count(logic_unit_death_id) as \"unitdeath\"",
         "from":" FROM logic_unit_death",
         "attributes":[
            {
               "id":3,
               "text":"session id",
+              "type": "dropdown",
               "value":", text(session_id) as metric",
               "attributes":{
                  "group_by":" GROUP BY session_id",
@@ -108,6 +172,7 @@
            {
               "id":4,
               "text":"creature id",
+              "type": "dropdown",
               "value":", text(creatureid) as metric",
               "attributes":{
                  "group_by":" GROUP BY creatureid",
