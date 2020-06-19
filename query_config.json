@@ -8,7 +8,7 @@
       "dropdown_list": {
          "name": "dropdown_list",
          "text": "--Select--",
-         "value": "<div class=\"gf-form-select-wrapper\"><select class=\"gf-form-input gf-size-auto\" ng-model=\"ctrl.target.THQNFirstPartOfQuery\" datasource=\"ctrl.datasource\"data-mode=\"sql\" ng-options=\"s.text for s in ctrl.target.THQNConfigQueries track by s.id\"><option value=\"\">--Select--<\/option><\/select><\/div>"
+         "value": "<input type='text' ng-model='target.THQNTest'/>"
       },
       "label": {
          "name": "label",
