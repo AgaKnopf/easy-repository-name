@@ -8,7 +8,7 @@
       "dropdown_list": {
          "name": "dropdown_list",
          "text": "--Select--",
-         "value": "<input type=\"text\" class=\"gf-form-input\" ng-model=\"target.THQNTest\" placeholder=\"JSON url\"><\/input>\"
+         "value": "<input type=\"text\" class=\"gf-form-input\" ng-model=\"target.THQNTest\" placeholder=\"JSON url\"><\/input>"
       },
       "label": {
          "name": "label",
