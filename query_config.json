@@ -8,7 +8,7 @@
       "dropdown_list": {
          "name": "dropdown_list",
          "text": "--Select--",
-         "value": "<label class=\"gf-form-label query-keyword\">Buuuuuuuuuuuuuuuu<\/label>"
+         "value":  "<input type=\"text\" class=\"gf-form-input\" ng-model=\"ctrl.target.thqnDUPA\" placeholder=\"DUUUPA\"><\/input>"
       },
       "label": {
          "name": "label",
