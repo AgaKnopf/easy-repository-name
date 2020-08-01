@@ -1,0 +1,309 @@
+abilities_lookup_id,hero_type,descid
+1,Archer,MP_Aimed_Shot_I
+2,Archer,MP_Aimed_Shot_II
+3,Archer,MP_Aimed_Shot_III
+4,Archer,MP_Haste_I
+5,Archer,MP_Haste_II
+6,Archer,MP_Haste_III
+7,Archer,MP_Multishot_I
+8,Archer,MP_Multishot_II
+9,Archer,MP_Multishot_III
+10,Archer,MP_Poison_Arrow_I
+11,Archer,MP_Poison_Arrow_II
+12,Archer,MP_Poison_Arrow_III
+13,Archer,NEW_MP_AimedShot
+14,Archer,NEW_MP_AimedShot_I
+15,Archer,NEW_MP_AimedShot_II
+16,Archer,NEW_MP_AimedShot_III
+17,Archer,NEW_MP_Chainshot
+18,Archer,NEW_MP_Chainshot_I
+19,Archer,NEW_MP_Chainshot_II
+20,Archer,NEW_MP_Chainshot_III
+21,Archer,NEW_MP_Concentrate
+22,Archer,NEW_MP_Concentrate_I
+23,Archer,NEW_MP_Concentrate_II
+24,Archer,NEW_MP_Concentrate_III
+25,Archer,NEW_MP_DisablingShot_I
+26,Archer,NEW_MP_DisablingShot_II
+27,Archer,NEW_MP_DisablingShot_III
+28,Archer,NEW_MP_EntanglingShot_I
+29,Archer,NEW_MP_EntanglingShot_II
+30,Archer,NEW_MP_EntanglingShot_III
+31,Archer,NEW_MP_Equilibrium
+32,Archer,NEW_MP_Equilibrium_I
+33,Archer,NEW_MP_Equilibrium_II
+34,Archer,NEW_MP_Equilibrium_III
+35,Archer,NEW_MP_FirstAid
+36,Archer,NEW_MP_FirstAid_I
+37,Archer,NEW_MP_FirstAid_II
+38,Archer,NEW_MP_FirstAid_III
+39,Archer,NEW_MP_Mark
+40,Archer,NEW_MP_Mark_I
+41,Archer,NEW_MP_Mark_II
+42,Archer,NEW_MP_Mark_III
+43,Assassin,NEW_MP_Assassin
+44,Assassin,NEW_MP_Assassin_I
+45,Assassin,NEW_MP_Assassin_II
+46,Assassin,NEW_MP_Assassin_III
+47,Assassin,NEW_MP_BloodEruption
+48,Assassin,NEW_MP_BloodEruption_I
+49,Assassin,NEW_MP_BloodEruption_II
+50,Assassin,NEW_MP_BloodEruption_III
+51,Assassin,NEW_MP_FanOfKnives
+52,Assassin,NEW_MP_FanOfKnives_I
+53,Assassin,NEW_MP_FanOfKnives_II
+54,Assassin,NEW_MP_FanOfKnives_III
+55,Assassin,NEW_MP_Punch
+56,Assassin,NEW_MP_Punch_I
+57,Assassin,NEW_MP_Punch_II
+58,Assassin,NEW_MP_Punch_III
+59,Assassin,NEW_MP_Stab
+60,Assassin,NEW_MP_Stab_I
+61,Assassin,NEW_MP_Stab_II
+62,Assassin,NEW_MP_Stab_III
+63,Assassin,NEW_MP_Teleport
+64,Assassin,NEW_MP_Teleport_I
+65,Assassin,NEW_MP_Teleport_II
+66,Assassin,NEW_MP_Teleport_III
+67,Black Mage,MP_Epidemic_I
+68,Black Mage,MP_Epidemic_II
+69,Black Mage,MP_Epidemic_III
+70,Black Mage,MP_LocustSwarm_I
+71,Black Mage,MP_LocustSwarm_II
+72,Black Mage,MP_LocustSwarm_III
+73,Black Mage,MP_RaiseDead_I
+74,Black Mage,MP_RaiseDead_II
+75,Black Mage,MP_RaiseDead_III
+76,Black Mage,MP_Warlock_I
+77,Black Mage,MP_Warlock_II
+78,Black Mage,MP_Warlock_III
+79,Black Mage,NEW_MP_BloodGolem
+80,Black Mage,NEW_MP_BloodGolem_I
+81,Black Mage,NEW_MP_BloodGolem_II
+82,Black Mage,NEW_MP_BloodGolem_III
+83,Black Mage,NEW_MP_Curse
+84,Black Mage,NEW_MP_Curse_I
+85,Black Mage,NEW_MP_Curse_II
+86,Black Mage,NEW_MP_Curse_III
+87,Black Mage,NEW_MP_DarkPact
+88,Black Mage,NEW_MP_DarkPact_I
+89,Black Mage,NEW_MP_DarkPact_II
+90,Black Mage,NEW_MP_DarkPact_III
+91,Black Mage,NEW_MP_DeathVerdict_I
+92,Black Mage,NEW_MP_DeathVerdict_II
+93,Black Mage,NEW_MP_DeathVerdict_III
+94,Black Mage,NEW_MP_Epidemic
+95,Black Mage,NEW_MP_Epidemic_I
+96,Black Mage,NEW_MP_Epidemic_II
+97,Black Mage,NEW_MP_Epidemic_III
+98,Black Mage,NEW_MP_RaiseDead
+99,Black Mage,NEW_MP_RaiseDead_I
+100,Black Mage,NEW_MP_RaiseDead_II
+101,Black Mage,NEW_MP_RaiseDead_III
+102,Black Mage,NEW_MP_Silence
+103,Black Mage,NEW_MP_Silence_I
+104,Black Mage,NEW_MP_Silence_II
+105,Black Mage,NEW_MP_Silence_III
+106,Demonologist,NEW_MP_BloodDrinker
+107,Demonologist,NEW_MP_BloodDrinker_I
+108,Demonologist,NEW_MP_BloodDrinker_II
+109,Demonologist,NEW_MP_BloodDrinker_III
+110,Demonologist,NEW_MP_CorpseExplosion
+111,Demonologist,NEW_MP_CorpseExplosion_I
+112,Demonologist,NEW_MP_CorpseExplosion_II
+113,Demonologist,NEW_MP_CorpseExplosion_III
+114,Demonologist,NEW_MP_DarkStorm
+115,Demonologist,NEW_MP_DarkStorm_I
+116,Demonologist,NEW_MP_DarkStorm_II
+117,Demonologist,NEW_MP_DarkStorm_III
+118,Demonologist,NEW_MP_InfectingStrikes
+119,Demonologist,NEW_MP_InfectingStrikes_I
+120,Demonologist,NEW_MP_InfectingStrikes_II
+121,Demonologist,NEW_MP_InfectingStrikes_III
+122,Demonologist,NEW_MP_Sacrifice
+123,Demonologist,NEW_MP_Sacrifice_I
+124,Demonologist,NEW_MP_Sacrifice_II
+125,Demonologist,NEW_MP_Sacrifice_III
+126,Demonologist,NEW_MP_Transformation
+127,Demonologist,NEW_MP_Transformation_I
+128,Demonologist,NEW_MP_Transformation_II
+129,Demonologist,NEW_MP_Transformation_III
+130,Elementalist,MP_Fireball_I
+131,Elementalist,MP_Fireball_II
+132,Elementalist,MP_Fireball_III
+133,Elementalist,MP_IceShock_I
+134,Elementalist,MP_IceShock_II
+135,Elementalist,MP_IceShock_III
+136,Elementalist,MP_Tremor_I
+137,Elementalist,MP_Tremor_II
+138,Elementalist,MP_Tremor_III
+139,Elementalist,MP_Warmage_I
+140,Elementalist,MP_Warmage_II
+141,Elementalist,MP_Warmage_III
+142,Elementalist,NEW_MP_Blizzard
+143,Elementalist,NEW_MP_Blizzard_I
+144,Elementalist,NEW_MP_Blizzard_II
+145,Elementalist,NEW_MP_Blizzard_III
+146,Elementalist,NEW_MP_Fireball
+147,Elementalist,NEW_MP_Fireball_I
+148,Elementalist,NEW_MP_Fireball_II
+149,Elementalist,NEW_MP_Fireball_III
+150,Elementalist,NEW_MP_Ice Nova
+151,Elementalist,NEW_MP_Ice Nova_I
+152,Elementalist,NEW_MP_Ice Nova_II
+153,Elementalist,NEW_MP_Ice Nova_III
+154,Elementalist,NEW_MP_IceBlock_I
+155,Elementalist,NEW_MP_IceBlock_II
+156,Elementalist,NEW_MP_IceBlock_III
+157,Elementalist,NEW_MP_Meditation
+158,Elementalist,NEW_MP_Meditation_I
+159,Elementalist,NEW_MP_Meditation_II
+160,Elementalist,NEW_MP_Meditation_III
+161,Elementalist,NEW_MP_Tremor
+162,Elementalist,NEW_MP_Tremor_I
+163,Elementalist,NEW_MP_Tremor_II
+164,Elementalist,NEW_MP_Tremor_III
+165,Elementalist,NEW_MP_Warmage
+166,Elementalist,NEW_MP_Warmage_I
+167,Elementalist,NEW_MP_Warmage_II
+168,Elementalist,NEW_MP_Warmage_III
+169,Marauder,MP_Awareness_I
+170,Marauder,MP_Awareness_II
+171,Marauder,MP_Awareness_III
+172,Marauder,MP_BrutalStrike_I
+173,Marauder,MP_BrutalStrike_II
+174,Marauder,MP_BrutalStrike_III
+175,Marauder,MP_Enrage_I
+176,Marauder,MP_Enrage_II
+177,Marauder,MP_Enrage_III
+178,Marauder,MP_Whirlwind_I
+179,Marauder,MP_Whirlwind_II
+180,Marauder,MP_Whirlwind_III
+181,Marauder,NEW_MP_BrutalStrike
+182,Marauder,NEW_MP_BrutalStrike_I
+183,Marauder,NEW_MP_BrutalStrike_II
+184,Marauder,NEW_MP_BrutalStrike_III
+185,Marauder,NEW_MP_DestroyLife
+186,Marauder,NEW_MP_DestroyLife_I
+187,Marauder,NEW_MP_DestroyLife_II
+188,Marauder,NEW_MP_DestroyLife_III
+189,Marauder,NEW_MP_Marauder
+190,Marauder,NEW_MP_Marauder_Enrage_I
+191,Marauder,NEW_MP_Marauder_Enrage_II
+192,Marauder,NEW_MP_Marauder_Enrage_III
+193,Marauder,NEW_MP_Marauder_I
+194,Marauder,NEW_MP_Marauder_II
+195,Marauder,NEW_MP_Marauder_III
+196,Marauder,NEW_MP_Marauder_Retaliate_I
+197,Marauder,NEW_MP_Marauder_Retaliate_II
+198,Marauder,NEW_MP_Marauder_Retaliate_III
+199,Marauder,NEW_MP_Shatter
+200,Marauder,NEW_MP_Shatter_I
+201,Marauder,NEW_MP_Shatter_II
+202,Marauder,NEW_MP_Shatter_III
+203,Marauder,NEW_MP_TearDown
+204,Marauder,NEW_MP_TearDown_I
+205,Marauder,NEW_MP_TearDown_II
+206,Marauder,NEW_MP_TearDown_III
+207,Marauder,NEW_MP_Whirlwind
+208,Marauder,NEW_MP_Whirlwind_I
+209,Marauder,NEW_MP_Whirlwind_II
+210,Marauder,NEW_MP_Whirlwind_III
+211,Paladin,MP_Battlepriest_I
+212,Paladin,MP_Battlepriest_II
+213,Paladin,MP_Battlepriest_III
+214,Paladin,MP_CommandingPresence_I
+215,Paladin,MP_CommandingPresence_II
+216,Paladin,MP_CommandingPresence_III
+217,Paladin,MP_HolyShield_I
+218,Paladin,MP_HolyShield_II
+219,Paladin,MP_HolyShield_III
+220,Paladin,MP_Warcry_I
+221,Paladin,MP_Warcry_II
+222,Paladin,MP_Warcry_III
+223,Paladin,NEW_MP_Battletraining
+224,Paladin,NEW_MP_Battletraining_I
+225,Paladin,NEW_MP_Battletraining_II
+226,Paladin,NEW_MP_Battletraining_III
+227,Paladin,NEW_MP_CommandingPresence
+228,Paladin,NEW_MP_CommandingPresence_I
+229,Paladin,NEW_MP_CommandingPresence_II
+230,Paladin,NEW_MP_CommandingPresence_III
+231,Paladin,NEW_MP_Enrage
+232,Paladin,NEW_MP_Enrage_I
+233,Paladin,NEW_MP_Enrage_II
+234,Paladin,NEW_MP_Enrage_III
+235,Paladin,NEW_MP_Haste
+236,Paladin,NEW_MP_Haste_I
+237,Paladin,NEW_MP_Haste_II
+238,Paladin,NEW_MP_Haste_III
+239,Paladin,MP_Reborn
+240,Paladin,Reborn
+241,Paladin,NEW_MP_Reborn
+242,Paladin,NEW_MP_Reborn_I
+243,Paladin,NEW_MP_Reborn_II
+244,Paladin,NEW_MP_Reborn_III
+245,Paladin,NEW_MP_Regenerate
+246,Paladin,NEW_MP_Regenerate_I
+247,Paladin,NEW_MP_Regenerate_II
+248,Paladin,NEW_MP_Regenerate_III
+249,Shaman,NEW_MP_ChainLightning
+250,Shaman,NEW_MP_ChainLightning_I
+251,Shaman,NEW_MP_ChainLightning_II
+252,Shaman,NEW_MP_ChainLightning_III
+253,Shaman,NEW_MP_EarthTotem
+254,Shaman,NEW_MP_EarthTotem_I
+255,Shaman,NEW_MP_EarthTotem_II
+256,Shaman,NEW_MP_EarthTotem_III
+257,Shaman,NEW_MP_FireTotem
+258,Shaman,NEW_MP_FireTotem_I
+259,Shaman,NEW_MP_FireTotem_II
+260,Shaman,NEW_MP_FireTotem_III
+261,Shaman,NEW_MP_Hawkeye
+262,Shaman,NEW_MP_Hawkeye_I
+263,Shaman,NEW_MP_Hawkeye_II
+264,Shaman,NEW_MP_Hawkeye_III
+265,Shaman,NEW_MP_LightningTotem
+266,Shaman,NEW_MP_LightningTotem_I
+267,Shaman,NEW_MP_LightningTotem_II
+268,Shaman,NEW_MP_LightningTotem_III
+269,Shaman,ProtectionTotem
+270,Shaman,ProtectionTotem_I
+271,Shaman,ProtectionTotem_II
+272,Shaman,ProtectionTotem_III
+273,White Mage,MP_Blessing_I
+274,White Mage,MP_Blessing_II
+275,White Mage,MP_Blessing_III
+276,White Mage,MP_PureSpirit_I
+277,White Mage,MP_PureSpirit_II
+278,White Mage,MP_PureSpirit_III
+279,White Mage,MP_Resurrect_I
+280,White Mage,MP_Resurrect_II
+281,White Mage,MP_Resurrect_III
+282,White Mage,MP_TouchOfElen_I
+283,White Mage,MP_TouchOfElen_II
+284,White Mage,MP_TouchOfElen_III
+285,White Mage,NEW_MP_Blessing
+286,White Mage,NEW_MP_Blessing_I
+287,White Mage,NEW_MP_Blessing_II
+288,White Mage,NEW_MP_Blessing_III
+289,White Mage,NEW_MP_ElensBlessing
+290,White Mage,NEW_MP_ElensBlessing_I
+291,White Mage,NEW_MP_ElensBlessing_II
+292,White Mage,NEW_MP_ElensBlessing_III
+293,White Mage,NEW_MP_Heal
+294,White Mage,NEW_MP_Heal_I
+295,White Mage,NEW_MP_Heal_II
+296,White Mage,NEW_MP_Heal_III
+297,White Mage,NEW_MP_HealingCircle
+298,White Mage,NEW_MP_HealingCircle_I
+299,White Mage,NEW_MP_HealingCircle_II
+300,White Mage,NEW_MP_HealingCircle_III
+301,White Mage,NEW_MP_Judgement
+302,White Mage,NEW_MP_Judgement_I
+303,White Mage,NEW_MP_Judgement_II
+304,White Mage,NEW_MP_Judgement_III
+305,White Mage,NEW_MP_Revive
+306,White Mage,NEW_MP_Revive_I
+307,White Mage,NEW_MP_Revive_II
+308,White Mage,NEW_MP_Revive_III
