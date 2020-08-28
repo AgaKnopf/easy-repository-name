@@ -1,0 +1,694 @@
+{ 
+   "templates":{
+      "faction": {
+         "column": "basic_faction",
+         "table": "logic_hero_death",
+         "type": "dropdown_db_list",
+         "text": "Faction",      
+         "sql": "SELECT DISTINCT basic_faction, basic_faction FROM logic_hero_death ORDER BY basic_faction ASC" 
+      },
+      "hero": {
+         "column": "hero",
+         "table": "logic_hero_attributes",
+         "type": "dropdown_db_list",
+         "text": "Hero",        
+         "sql": "SELECT DISTINCT hero, hero FROM logic_hero_attributes ORDER BY hero ASC"
+      },
+      "ability": {
+         "column": "descid",
+         "table": "logic_hero_ability_unlock",
+         "type": "dropdown_db_list",
+         "text": "Ability",    
+         "sql": "SELECT DISTINCT descid, descid FROM logic_hero_ability_unlock ORDER BY descid ASC" 
+      },
+      "race": {
+         "column": "race",
+         "table": "pregame_skirmish_faction",
+         "type": "dropdown_db_list",
+         "text": "Race",    
+         "sql": "SELECT DISTINCT race, race FROM pregame_skirmish_faction ORDER BY race ASC" 
+      },
+      "hero_type": {
+         "column": "hero_type",
+         "table": "abilities_lookup",
+         "type": "dropdown_db_list",
+         "text": "Hero",    
+         "sql": "SELECT DISTINCT hero_type, hero_type FROM abilities_lookup ORDER BY hero_type ASC" 
+      },
+      "general_map": {
+         "column": "general_map",
+         "table": "pregame_skirmish_configuration",
+         "type": "dropdown_db_list",
+         "text": "Map",    
+         "sql": "SELECT name, map_id FROM Maps ORDER BY map_id ASC"
+      },
+      "range": {
+         "type": "dropdown_list_input",
+         "table": "",
+         "text": "Range",
+         "attr": [
+            {
+               "text": "less than", 
+               "value": "<"
+            },
+            {
+               "text": "less than or equal", 
+               "value": "<="
+            },
+            {
+               "text": "greater than",
+               "value": ">"
+            },
+            {
+               "text": "greater than or equal",
+               "value": ">="
+            },
+            {
+               "text": "between",
+               "value": "<>"
+            },
+            {
+               "text": "equal to",
+               "value": "="
+            },
+            {
+               "text": "not equal to",
+               "value": "!="
+            }
+         ]
+      },
+      "equals": {
+         "type": "dropdown_list_input",
+         "table": "",
+         "text": "Equals",
+         "attr": [
+            {
+               "text": "equal to",
+               "value": "="
+            },
+            {
+               "text": "not equal to",
+               "value": "!="
+            }
+         ]
+      },      
+      "loot": {
+         "text" : "Loot",
+         "table": "",
+         "type" : "dropdown_list_input",
+         "attr" : [
+            {
+               "text" : "loot name",
+               "type" : "equals",
+               "column" : "descid"
+            }
+         ]
+      },
+      "player_xp": {
+         "text" : "Player XP",
+         "table": "",
+         "type": "dropdown_list_input",
+         "attr" : [
+          {
+            "text": "strength",
+            "table": "",
+            "type": "range",
+            "column": "astr"
+           },
+          {
+            "text": "dexterity",
+            "table": "",
+            "type": "range",
+            "column": "adex"
+         },
+         {
+            "text": "intelligence",
+            "table": "",
+            "type": "range",
+            "column": "aint"
+         },
+         {
+            "text": "constitution",
+            "table": "",
+            "type": "range",
+            "column": "acon"
+         },
+         {
+            "text": "willpower",
+            "table": "",
+            "type": "range",
+            "column": "awil"
+         }
+         ]
+      },
+      "time": {
+         "text" : "Time",
+         "table": "",
+         "type": "dropdown_list_input",
+         "attr" : [
+            {
+              "text": "minutes",
+              "table": "",
+              "type": "range",
+              "column": "tick_minutes"
+             }
+         ]
+      },
+      "basic_tick": {
+         "text" : "Time",
+         "table": "",
+         "type": "dropdown_list_input",
+         "attr" : [
+            {
+              "text": "basic tick",
+              "table": "",
+              "type": "range",
+              "column": "basic_tick"
+             }
+         ]
+      },
+      "resources": {
+         "text" : "Resources owned",
+         "table": "",
+         "type": "dropdown_list_input",
+         "attr" : [
+            {
+              "text": "planks",
+              "type": "range",
+              "table": "",
+              "column": "resources_planks"
+             },
+             {
+               "text": "food",
+               "type": "range",
+               "table": "",
+               "column": "resources_food"
+             },   
+             {
+               "text": "bricks",
+               "type": "range",
+               "table": "",
+               "column": "resources_bricks"
+             },
+             {
+               "text": "iron",
+               "type": "range",
+               "table": "",
+               "column": "resources_iron"
+             },
+             {
+               "text": "aria",
+               "type": "range",
+               "table": "",
+               "column": "resources_aria"
+             },
+             {
+               "text": "lenya",
+               "type": "range",
+               "table": "",
+               "column": "resources_lenya"
+             },
+             {
+               "text": "black ash",
+               "type": "range",
+               "table": "",
+               "column": "resources_blackash"
+             }
+            ]
+      },
+      "temp_bool": {
+         "text" : "Resources owned",
+         "table": "",
+         "type": "dropdown_list_bool",
+         "attr" : [
+            {
+              "text": "Has AI players",
+              "type": "bool",
+              "table": "",
+              "column": "resources_planks"
+             },
+             {
+               "text": "Has more than 2 players",
+               "type": "bool",
+               "table": "",
+               "column": "resources_food"
+             }
+            ]         
+      }    
+   },   
+  "order":[
+     {
+        "text":"Ascending",
+        "type": "dropdown",
+        "value":" ASC"
+     },
+     {
+        "text":"Descending",
+        "type": "dropdown",
+        "value":" DESC"
+     }
+  ],
+  "limit":[
+     "10",
+     "20",
+     "50",
+     "100",
+     "200",
+     "300",
+     "500",
+     "1000",
+     "2000",
+     "5000",
+     "10000"
+  ],
+  "configurator":[
+      {
+         "text": "Abilities Lookup Table",
+         "type": "graph",
+         "format": "table",
+         "value": ["*"],
+         "table": [
+                     "abilities_lookup"
+         ]
+      },
+      {
+         "text": "Games",
+         "type": "graph",
+         "format": "table",
+         "value": [
+                     "general_revision,",
+                     "COUNT(*)"
+                  ],
+         "table": [
+                     "pregame_skirmish_configuration"
+         ],
+         "group_by": ["general_revision"]
+      },
+      {
+         "text": "Hero Ability Unlock",
+         "type": "graph",
+         "format": "table",
+         "value": [  
+                     "logic_hero_ability_unlock.descid,",                   
+                     "COUNT(logic_hero_ability_unlock.descid)"
+                  ],
+         "group_by": [
+                        "logic_hero_ability_unlock.descid",
+                        "abilities_lookup.hero_type"
+                     ],
+         "order_by": ["logic_hero_ability_unlock.descid"],
+         "table": [
+                     "logic_hero_ability_unlock",
+                     " LEFT JOIN ",
+                        "abilities_lookup ON ",
+                        "abilities_lookup.descid = logic_hero_ability_unlock.descid"
+                  ],
+         "not_null": ["abilities_lookup.descid"],
+         "constraints": {
+            "database": [
+               {
+                  "template": "hero_type",
+                  "html_input": "dropdown_db_0"
+               }
+            ]
+         }
+      },
+      {
+         "text": "Hero Death",
+         "type": "graph",
+         "format": "time_series",
+         "value": [
+                     "(now() - interval '5 hours' + (ROW_NUMBER() OVER(ORDER BY subtable.tick_minutes)) * interval '1 minute') as \"time\",",                      
+                     "COUNT(*) as \"count of id_hero\""
+                  ],
+         "group_by": [
+                        "subtable.tick_minutes"
+                     ],
+         "order_by": ["\"time\""],
+         "table": [
+                     "(",
+                     "SELECT",
+                        "(session_id, basic_sessionid, basic_faction, creatureid ) as id_hero,",
+                        "ROUND(basic_tick/1200,2) as tick_minutes",
+                     "FROM logic_hero_death",
+                     ") as subtable"
+                  ]
+      },
+      {
+         "text": "Revival Runes",
+         "type": "graph",
+         "format": "time_series",
+         "value": [
+                     "(now() - interval '5 hours' + (ROW_NUMBER() OVER(ORDER BY subtable.tick_minutes)) * interval '1 minutes') as \"time\",", 
+                     "ROUND(AVG(subtable.round_avg),2) as avg_amount"
+                  ],
+         "nested_table": [
+                     "SELECT",
+                        "ROUND(AVG(amount),2) as round_avg,",
+                        "ROUND(basic_tick/1200) as tick_minutes,",
+                        "pregame_skirmish_configuration.general_map as general_map,",
+                        "pregame_skirmish_faction.race as race",
+                     "FROM logic_hero_revivalrunes_change",
+                     "LEFT JOIN pregame_skirmish_configuration ON",
+                        "pregame_skirmish_configuration.session_id = logic_hero_revivalrunes_change.session_id AND",
+                        "pregame_skirmish_configuration.general_sessionid = logic_hero_revivalrunes_change.basic_sessionid",
+                     "RIGHT JOIN pregame_skirmish_faction ON",
+                        "pregame_skirmish_faction.session_id = logic_hero_revivalrunes_change.session_id AND",
+                        "pregame_skirmish_faction.sessionid = logic_hero_revivalrunes_change.basic_sessionid AND",
+                        "pregame_skirmish_faction.faction = logic_hero_revivalrunes_change.basic_faction"
+                  ],
+         "nested_as": "subtable",
+         "nested_group_by": ["tick_minutes", "race", "general_map"],
+         "nested_constraints": {
+            "database": [
+               {
+                  "template": "race",
+                  "html_input": "dropdown_db_0"
+               },
+               {
+                  "template": "general_map",
+                  "html_input": "dropdown_db_1"                  
+               }
+            ]
+         },
+         "not_null": [
+            "subtable.round_avg",
+            "subtable.tick_minutes"
+         ],
+         "group_by": ["subtable.tick_minutes"]
+      },
+      {
+         "text": "Stone Harvested",
+         "type": "graph",
+         "format": "time_series",
+         "value": [  
+                     "(now() - interval '5 hours' + (ROW_NUMBER() OVER(ORDER BY  basic_tick/1200)) * interval '1 minutes') as \"time\",",                   
+                     "COUNT(resources_bricks) as \"Stone harvested\""
+                  ],
+         "group_by": ["basic_tick"],
+         "order_by": ["basic_tick"],
+         "table": [
+                     "logic_resources_harvested",
+                     " LEFT JOIN ",
+                     "pregame_skirmish_faction ON",
+                     "pregame_skirmish_faction.session_id = logic_resources_harvested.session_id AND ",
+                     "pregame_skirmish_faction.sessionid = logic_resources_harvested.basic_sessionid AND ",
+                     "pregame_skirmish_faction.faction = logic_resources_harvested.basic_faction",
+                     " RIGHT JOIN ",
+                     "pregame_skirmish_configuration ON",
+                     "pregame_skirmish_faction.session_id = pregame_skirmish_configuration.session_id AND ",
+                     "pregame_skirmish_faction.sessionid = pregame_skirmish_configuration.general_sessionid"                    
+                  ],
+         "constraints": {
+            "database": [
+               {
+                  "template": "race",
+                  "html_input": "dropdown_db_0"
+               },
+               {
+                  "template": "general_map",
+                  "html_input": "dropdown_db_1" 
+               }
+            ]
+         }
+      },
+      {
+         "text": "Gold Gathered Over Time",
+         "type": "graph",
+         "format": "time_series",
+         "value": [  
+                     "(now() - interval '5 hours' + (ROW_NUMBER() OVER(ORDER BY  basic_tick/1200)) * interval '1 minutes') as \"time\",",                   
+                     "(SUM(gold_gathered) / (SELECT COUNT(*) FROM pregame_skirmish_configuration)) as average_gold"
+                  ],
+         "group_by": ["basic_tick"],
+         "order_by": ["basic_tick"],
+         "table": [
+            "logic_hero_gold",
+            " LEFT JOIN ",
+            "pregame_skirmish_faction ON",
+            "pregame_skirmish_faction.session_id = logic_hero_gold.session_id AND ",
+            "pregame_skirmish_faction.sessionid = logic_hero_gold.basic_sessionid AND ",
+            "pregame_skirmish_faction.faction = logic_hero_gold.basic_faction",
+            " RIGHT JOIN ",
+            "pregame_skirmish_configuration ON",
+            "pregame_skirmish_faction.session_id = pregame_skirmish_configuration.session_id AND ",
+            "pregame_skirmish_faction.sessionid = pregame_skirmish_configuration.general_sessionid"                    
+         ],
+         "use_table_constraints": "logic_hero_gold",
+         "constraints": {
+            "database": [
+               {
+                  "template": "general_map",
+                  "html_input": "dropdown_db_1" 
+               }
+            ]
+         }
+      },
+      {
+         "text": "Number of items by name",
+         "type": "graph",
+         "format": "table",
+         "value": [                                                            
+                     "subtable.loot_count as loot_count,",
+                     "logic_hero_item_looted.descid"
+                  ],
+         "table": [
+            "logic_hero_item_looted",
+            "RIGHT JOIN", 
+            "(",
+               "SELECT", 
+                  "COUNT(*) as loot_count, ",
+                  "descid",
+               "FROM",
+                  "logic_hero_item_looted",
+               "WHERE",
+                  "descid <> 'Gold'",                  
+               "GROUP BY",
+                  "descid",	
+            ") as subtable ON",
+            "subtable.descid = logic_hero_item_looted.descid",
+            "LEFT JOIN pregame_skirmish_configuration ON",
+               "pregame_skirmish_configuration.session_id = logic_hero_item_looted.session_id AND",
+               "pregame_skirmish_configuration.general_sessionid = logic_hero_item_looted.basic_sessionid"
+         ],
+         "group_by": [
+            "logic_hero_item_looted.descid",
+            "subtable.loot_count"
+         ],
+         "use_table_constraints": "logic_hero_gold",
+         "constraints": {
+            "database": [
+               {
+                  "template": "general_map",
+                  "html_input": "dropdown_db_1" 
+               }
+            ]
+         }
+      },
+      {
+         "text": "Number of games",
+         "type": "graph",
+         "format": "table",
+         "value": [ "COUNT (*)"],
+         "table": ["pregame_skirmish_configuration"]
+      },
+      {
+         "text": "Number of games by map",
+         "type": "graph",
+         "format": "time_series",
+         "value": [                                                            
+                     "now() as \"time\",",
+                     "COUNT (*),",
+                     "maps.name"
+                  ],
+         "table": [ 
+            "pregame_skirmish_configuration",
+            " LEFT JOIN ",
+               "maps ON ",
+               "pregame_skirmish_configuration.general_map = maps.map_id",
+            " WHERE ",
+               "maps.name IS NOT NULL"
+         ],
+         "group_by": [ "maps.name" ]
+      },
+      {
+         "text": "First Attack",
+         "type": "graph",
+         "format": "time_series",
+         "value": [  
+                     "(now() - interval '5 hours' + (ROW_NUMBER() OVER(ORDER BY  subtable.tick_rounded)) * interval '1 minutes') as \"time\",",                   
+                     "COUNT(subtable.time_stamp) as count_of_time_stamp"
+                  ],
+         "group_by": ["subtable.tick_rounded"],
+         "table": [
+                     "(",
+                     " SELECT ",
+                     "ROUND(tick/1200,0) as tick_rounded, ",
+                     "time_stamp ",
+                     "FROM ",
+                     "logic_capital_first_damage",
+                     ") as subtable"                    
+                  ]
+      },
+      {
+         "text": "First Attack Min Time by Map Name",
+         "type": "graph",
+         "format": "time_series",
+         "value": [  
+                     "now() as \"time\",",
+                     "MIN(tick/1200)  as min_tick_minutes, ",
+                     "maps.name"
+                  ],
+         "group_by": ["maps.name"],
+         "table": [
+                     "logic_capital_first_damage ",
+                     "LEFT JOIN pregame_skirmish_configuration ON ",
+                        "pregame_skirmish_configuration.session_id = logic_capital_first_damage.session_id AND ",
+                        "pregame_skirmish_configuration.general_sessionid = logic_capital_first_damage.sessionid ",
+                     "RIGHT JOIN maps ON ",
+                        "pregame_skirmish_configuration.general_map = maps.map_id ",
+                     "WHERE ",
+                        "maps.map_id IS NOT NULL AND logic_capital_first_damage.tick IS NOT NULL "                    
+                  ]
+      }, 
+      {
+         "text": "First Attack Avg Time by Map Name",
+         "type": "graph",
+         "format": "time_series",
+         "value": [  
+                     "now() as \"time\",",
+                     "AVG(tick/1200)  as min_tick_minutes, ",
+                     "maps.name"
+                  ],
+         "group_by": ["maps.name"],
+         "table": [
+                     "logic_capital_first_damage ",
+                     "LEFT JOIN pregame_skirmish_configuration ON ",
+                        "pregame_skirmish_configuration.session_id = logic_capital_first_damage.session_id AND ",
+                        "pregame_skirmish_configuration.general_sessionid = logic_capital_first_damage.sessionid ",
+                     "RIGHT JOIN maps ON ",
+                        "pregame_skirmish_configuration.general_map = maps.map_id ",
+                     "WHERE ",
+                        "maps.map_id IS NOT NULL AND logic_capital_first_damage.tick IS NOT NULL "                    
+                  ]
+      }, 
+      {
+         "text": "Game End Win",
+         "type": "graph",
+         "format": "time_series",
+         "value": [  
+                     "(now() - interval '5 hours' + (ROW_NUMBER() OVER(ORDER BY  subtable.tick_rounded)) * interval '1 minutes') as \"time\",",                   
+                     "COUNT(subtable.time_stamp) as count_of_time_stamp"
+                  ],
+         "group_by": ["subtable.tick_rounded"],
+         "table": [
+                     "(",
+                     " SELECT ",
+                     "ROUND(basic_tick/1200,0) as tick_rounded, ",
+                     "time_stamp ",
+                     "FROM ",
+                     "logic_condition_win",
+                     ") as subtable"                    
+                  ]
+      },
+      {
+         "text": "Game End Win Min Time by Map",
+         "type": "graph",
+         "format": "time_series",
+         "value": [  
+                     "now() as \"time\",",
+                     "MIN(basic_tick/1200)  as min_tick_minutes, ",
+                     "maps.name"
+                  ],
+         "group_by": ["maps.name"],
+         "table": [
+                     "logic_condition_win ",
+                     "LEFT JOIN pregame_skirmish_configuration ON ",
+                        "pregame_skirmish_configuration.session_id = logic_condition_win.session_id AND ",
+                        "pregame_skirmish_configuration.general_sessionid = logic_condition_win.basic_sessionid ",
+                     "RIGHT JOIN maps ON ",
+                        "pregame_skirmish_configuration.general_map = maps.map_id ",
+                     "WHERE ",
+                        "maps.map_id IS NOT NULL AND logic_condition_win.basic_tick IS NOT NULL "                    
+                  ]
+      },
+      {
+         "text": "Game End Win Avg Time by Map",
+         "type": "graph",
+         "format": "time_series",
+         "value": [  
+                     "now() as \"time\",",
+                     "AVG(basic_tick/1200)  as min_tick_minutes, ",
+                     "maps.name"
+                  ],
+         "group_by": ["maps.name"],
+         "table": [
+                     "logic_condition_win ",
+                     "LEFT JOIN pregame_skirmish_configuration ON ",
+                        "pregame_skirmish_configuration.session_id = logic_condition_win.session_id AND ",
+                        "pregame_skirmish_configuration.general_sessionid = logic_condition_win.basic_sessionid ",
+                     "RIGHT JOIN maps ON ",
+                        "pregame_skirmish_configuration.general_map = maps.map_id ",
+                     "WHERE ",
+                        "maps.map_id IS NOT NULL AND logic_condition_win.basic_tick IS NOT NULL "                    
+                  ]
+      },          
+      {
+         "text": "Game End Win Min Time by Race",
+         "type": "graph",
+         "format": "time_series",
+         "value": [  
+                     "now() as \"time\",",
+                     "MIN(basic_tick/1200) as min_tick_minutes, ",
+                     "pregame_skirmish_faction.race"
+                  ],
+         "group_by": ["pregame_skirmish_faction.race"],
+         "table": [
+                     "logic_condition_win ",
+                     "LEFT JOIN pregame_skirmish_faction ON ",
+                        "pregame_skirmish_faction.session_id = logic_condition_win.session_id AND ",
+                        "pregame_skirmish_faction.sessionid = logic_condition_win.basic_sessionid ",
+                     "WHERE",
+	                     "pregame_skirmish_faction.race IS NOT NULL"
+                  ]
+      }, 
+      {
+         "text": "Game End Win Avg Time by Race",
+         "type": "graph",
+         "format": "time_series",
+         "value": [  
+                     "now() as \"time\",",
+                     "AVG(basic_tick/1200) as min_tick_minutes, ",
+                     "pregame_skirmish_faction.race"
+                  ],
+         "group_by": ["pregame_skirmish_faction.race"],
+         "table": [
+                     "logic_condition_win ",
+                     "LEFT JOIN pregame_skirmish_faction ON ",
+                        "pregame_skirmish_faction.session_id = logic_condition_win.session_id AND ",
+                        "pregame_skirmish_faction.sessionid = logic_condition_win.basic_sessionid ",
+                     "WHERE",
+	                     "pregame_skirmish_faction.race IS NOT NULL"
+                  ]
+      },
+      {
+         "text": "Tiers",
+         "type": "graph",
+         "format": "time_series",
+         "value": [
+                     "(now() - interval '5 hours' + (ROW_NUMBER() OVER(ORDER BY  subtable.tick_rounded)) * interval '1 minutes') as \"time\",",
+                     "COUNT(subtable.count_value)"
+                  ],
+         "table": [
+                     "(",
+                     "SELECT",
+                        "ROUND(basic_tick/1200,2) as tick_rounded, ",
+                        "1 as count_value ",
+                     "FROM ", 
+                        "logic_next_techlevel_reached ",
+                        ") as subtable"
+         ],
+         "group_by": ["subtable.tick_rounded"]
+      }
+  ]
+}
