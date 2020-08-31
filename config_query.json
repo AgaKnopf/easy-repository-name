@@ -340,7 +340,7 @@
          "format": "time_series",
          "value": [
                      "(now() - interval '5 hours' + (ROW_NUMBER() OVER(ORDER BY subtable.tick_minutes)) * interval '1 minutes') as \"time\",", 
-                     "ROUND(AVG(subtable.round_avg),2) as avg_amount"
+                     "ROUND(AVG(subtable.round_avg),2) as __name"
                   ],
          "nested_table": [
                      "SELECT",
@@ -383,7 +383,7 @@
          "format": "time_series",
          "value": [  
                      "(now() - interval '5 hours' + (ROW_NUMBER() OVER(ORDER BY  basic_tick/1200)) * interval '1 minutes') as \"time\",",                   
-                     "COUNT(resources_bricks) as \"Stone harvested\""
+                     "COUNT(resources_bricks) as __name"
                   ],
          "group_by": ["basic_tick"],
          "order_by": ["basic_tick"],
