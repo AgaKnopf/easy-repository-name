@@ -689,6 +689,39 @@
                         ") as subtable"
          ],
          "group_by": ["subtable.tick_rounded"]
-      }
+      },
+      {
+         "text": "Technologies Researched",
+         "type": "graph",
+         "format": "table",
+         "value": [   
+            "logic_production_upgrade.descid,",
+            "pregame_skirmish_faction.race,",
+            "COUNT(logic_production_upgrade.descid),",
+            "(SELECT COUNT(logic_production_upgrade.descid) FROM logic_production_upgrade) as count_all,",
+            "((CAST(COUNT(logic_production_upgrade.descid) AS DECIMAL)) / (SELECT COUNT(logic_production_upgrade.descid) FROM logic_production_upgrade)) as percent"
+                  ],
+         "group_by": [
+            "logic_production_upgrade.descid",
+            "pregame_skirmish_faction.race"
+         ],
+         "order_by": ["percent"],
+         "table": [
+            "logic_production_upgrade",
+            "LEFT JOIN",
+               "pregame_skirmish_faction ON",
+                  "logic_production_upgrade.session_id = pregame_skirmish_faction.session_id AND",
+                  "logic_production_upgrade.basic_sessionid = pregame_skirmish_faction.sessionid AND",
+                  "logic_production_upgrade.basic_faction = pregame_skirmish_faction.faction"
+         ],
+         "constraints": {
+            "database": [
+               {
+                  "template": "race",
+                  "html_input": "dropdown_db_0" 
+               }
+            ]
+         }
+      }      
   ]
 }
