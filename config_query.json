@@ -695,32 +695,54 @@
          "type": "graph",
          "format": "table",
          "value": [   
-            "logic_production_upgrade.descid,",
-            "pregame_skirmish_faction.race,",
-            "COUNT(logic_production_upgrade.descid),",
-            "(SELECT COUNT(logic_production_upgrade.descid) FROM logic_production_upgrade) as count_all,",
-            "((CAST(COUNT(logic_production_upgrade.descid) AS DECIMAL)) / (SELECT COUNT(logic_production_upgrade.descid) FROM logic_production_upgrade)) as percent"
-                  ],
-         "group_by": [
-            "logic_production_upgrade.descid",
-            "pregame_skirmish_faction.race"
+            "ROUND((descid_1 / descid_sum ) * 100, 2) as percent_count_of_descid,",
+            "descid_1,",
+            "descid_sum"
          ],
-         "order_by": ["percent"],
-         "table": [
-            "logic_production_upgrade",
-            "LEFT JOIN",
-               "pregame_skirmish_faction ON",
-                  "logic_production_upgrade.session_id = pregame_skirmish_faction.session_id AND",
-                  "logic_production_upgrade.basic_sessionid = pregame_skirmish_faction.sessionid AND",
-                  "logic_production_upgrade.basic_faction = pregame_skirmish_faction.faction"
+         "order_by": ["percent_count_of_descid"],
+         "nested_names": [
+            "subtable1",
+            "subtable2"
          ],
-         "constraints": {
-            "database": [
-               {
-                  "template": "race",
-                  "html_input": "dropdown_db_0" 
-               }
+         "nested_table": {
+            "subtable1": [
+               "SELECT",
+                  "CAST(COUNT(logic_production_upgrade.descid) AS DECIMAL) AS descid_1",
+               "FROM", 	
+                  "logic_production_upgrade",
+               "LEFT JOIN",
+                  "pregame_skirmish_faction ON",
+                     "logic_production_upgrade.session_id = pregame_skirmish_faction.session_id AND",
+                     "logic_production_upgrade.basic_sessionid = pregame_skirmish_faction.sessionid AND",
+                     "logic_production_upgrade.basic_faction = pregame_skirmish_faction.faction"
+            ],
+            "subtable2": [
+               "SELECT",
+                  "COUNT(logic_production_upgrade.descid) AS descid_sum",
+               "FROM", 	
+                  "logic_production_upgrade",
+               "LEFT JOIN",
+                  "pregame_skirmish_faction ON",
+                     "logic_production_upgrade.session_id = pregame_skirmish_faction.session_id AND",
+                     "logic_production_upgrade.basic_sessionid = pregame_skirmish_faction.sessionid AND",
+                     "logic_production_upgrade.basic_faction = pregame_skirmish_faction.faction"
             ]
+         },
+         "nested_group_by": {
+            "subtable1": "logic_production_upgrade.descid"
+         },
+         "nested_constraints": {
+            "subtable1": {
+               "database": [
+                  {
+                     "template": "race",
+                     "html_input": "dropdown_db_0" 
+                  }
+               ]
+            },
+            "subtable2": {
+               "reference": "subtable1"
+            }
          }
       }      
   ]
