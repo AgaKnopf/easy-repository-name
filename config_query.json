@@ -695,7 +695,7 @@
          "type": "graph",
          "format": "table",
          "value": [   
-            "ROUND((descid_1 / descid_sum ) * 100, 2) as percent___name,",
+            "ROUND((descid_1 / descid_sum ) * 100, 2) as __name,",
             "descid_1,",
             "descid_sum"
          ],
