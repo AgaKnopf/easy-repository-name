@@ -729,7 +729,7 @@
             ]
          },
          "nested_group_by": {
-            "subtable1": "logic_production_upgrade.descid"
+            "subtable1": ["logic_production_upgrade.descid"]
          },
          "nested_constraints": {
             "subtable1": {
