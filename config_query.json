@@ -696,7 +696,6 @@
          "format": "table",
          "value": [   
             "ROUND((descid_1 / descid_sum ) * 100, 2) as __name,",
-            "descid_1,",
             "building_descid"
          ],
          "order_by": ["__name"],
@@ -707,7 +706,7 @@
          "nested_table": {
             "subtable1": [
                "SELECT",
-                  "CAST(COUNT(logic_production_upgrade.descid) AS DECIMAL) AS descid_1",
+                  "CAST(COUNT(logic_production_upgrade.descid) AS DECIMAL) AS descid_1,",
                   "logic_production_upgrade.descid as building_descid",
                "FROM", 	
                   "logic_production_upgrade",
