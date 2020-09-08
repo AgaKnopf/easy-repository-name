@@ -744,6 +744,20 @@
                "reference": "subtable1"
             }
          }
-      }      
+      }
+      {
+         "text": "Race, count of race",
+         "type": "graph",
+         "format": "table",
+         "value": [
+            "SELECT",
+               "COUNT(race),",
+               "race",
+            "FROM",
+               "pregame_skirmish_faction",
+            "GROUP BY",
+               "race"
+         ]
+      }     
   ]
 }
