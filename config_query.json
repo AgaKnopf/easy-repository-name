@@ -750,14 +750,15 @@
          "type": "graph",
          "format": "table",
          "value": [
-               "COUNT(race),",
+               "COUNT(race) as count_race,",
                "race"
             ],
          "table": [
                "pregame_skirmish_faction",
             "GROUP BY",
                "race"
-         ]
+         ],
+         "order_by": ["count_race"]
       }     
   ]
 }
