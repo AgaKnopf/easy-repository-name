@@ -752,11 +752,14 @@
          "value": [
             "SELECT",
                "COUNT(race),",
-               "race",
+               "race"
+            ],
+         "table": [
             "FROM",
                "pregame_skirmish_faction",
             "GROUP BY",
                "race"
+         ]
          ]
       }     
   ]
