@@ -746,7 +746,7 @@
          }
       },
       {
-         "text": "Race, count of race",
+         "text": "Count of race",
          "type": "graph",
          "format": "table",
          "value": [
