@@ -691,15 +691,15 @@
          "group_by": ["subtable.tick_rounded"]
       },
       {
-         "text": "Technologies Researched",
+         "text": "Technologies Researched Descid Percent By Race",
          "type": "graph",
          "format": "table",
          "value": [   
             "ROUND((descid_1 / descid_sum ) * 100, 2) as __name,",
             "descid_1,",
-            "descid_sum"
+            "building_descid"
          ],
-         "order_by": ["percent_count_of_descid"],
+         "order_by": ["__name"],
          "nested_names": [
             "subtable1",
             "subtable2"
@@ -708,6 +708,7 @@
             "subtable1": [
                "SELECT",
                   "CAST(COUNT(logic_production_upgrade.descid) AS DECIMAL) AS descid_1",
+                  "logic_production_upgrade.descid as building_descid",
                "FROM", 	
                   "logic_production_upgrade",
                "LEFT JOIN",
