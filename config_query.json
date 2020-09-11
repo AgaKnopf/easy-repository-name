@@ -814,6 +814,56 @@
                "subtable1.descid = subtable2.descid"
          ],
          "order_by": ["group_size"]   
-      }       
+      },
+      {
+         "text": "Unit Creation Total Sums",
+         "type": "graph",
+         "format": "table",
+         "value": [
+            "SUM(subtable1.units_total) as sum_units_total,",
+            "SUM(subtable1.units_total / subtable1.group_size)  as sum_sets_produced,",
+            "SUM(ROUND(CAST((subtable1.units_total / subtable1.group_size) AS DECIMAL)/ subtable2.total_players, 2)) as sum_set_per_player,",
+            "SUM(subtable2.total_players) as sum_total_players"		
+         ],
+         "table": [
+            "(",
+               "SELECT",
+                  "units.faction as faction,",
+                  "units.tier as tier,",
+                  "logic_production_unit.descid as descid,",
+                  "units.group_size as group_size,",
+                  "COUNT(*) as units_total",
+               "FROM",
+                  "logic_production_unit",
+               "LEFT JOIN",
+                  "units ON logic_production_unit.descid = units.creature_name",
+               "WHERE",
+                  "units.group_size IS NOT NULL AND",
+                  "units.faction IS NOT NULL AND",
+                  "units.tier IS NOT NULL",
+               "GROUP BY", 
+                  "logic_production_unit.descid,",
+                  "units.group_size,",
+                  "units.faction,",
+                  "units.tier",
+            ") as subtable1",
+      "LEFT JOIN",
+         "(",
+            "SELECT",
+               "logic_production_unit.descid as descid,",
+               "COUNT(*) as total_players",
+            "FROM",
+               "pregame_skirmish_faction",
+            "LEFT JOIN",
+               "logic_production_unit ON", 
+                  "logic_production_unit.session_id = pregame_skirmish_faction.session_id AND",
+                  "logic_production_unit.basic_sessionid = pregame_skirmish_faction.sessionid AND",
+                  "logic_production_unit.basic_faction = pregame_skirmish_faction.faction",
+            "GROUP BY",
+               "logic_production_unit.descid",
+            ") AS subtable2 ON",
+               "subtable1.descid = subtable2.descid"            
+         ]
+      }
   ]
 }
