@@ -761,7 +761,7 @@
          "order_by": ["count_race"]
       },
       {
-         "text": "Unit Creation",
+         "text": "Units Built",
          "type": "graph",
          "format": "table",
          "value": [   
@@ -816,7 +816,7 @@
          "order_by": ["group_size"]   
       },
       {
-         "text": "Unit Creation Total Sums",
+         "text": "Units Built Sums",
          "type": "graph",
          "format": "table",
          "value": [
@@ -864,6 +864,40 @@
             ") AS subtable2 ON",
                "subtable1.descid = subtable2.descid"            
          ]
+      },
+      {
+         "text": "Buildings Started",
+         "type": "graph",
+         "format": "table",
+         "value": [
+            "logic_building_started.desc,",
+            "COUNT(*) as \"count started\""
+         ],
+         "table": [
+            "logic_building_started"
+         ],
+         "group_by": ["logic_building_started.desc"],
+         "order_by": ["\"count started\""]
+      },
+      {
+         "text": "Buildings Finished",
+         "type": "graph",
+         "format": "table",
+         "value": [
+            "logic_building_started.desc,",
+            "COUNT(*) as \"count finished\""
+         ],
+         "table": [
+            "logic_building_finished",
+            "INNER JOIN ",
+               "logic_building_started ON",
+               "logic_building_started.session_id = logic_building_finished.session_id AND ",
+               "logic_building_started.basic_sessionid = logic_building_finished.basic_sessionid AND ",
+               "logic_building_started.basic_faction = logic_building_finished.basic_faction AND ",
+               "logic_building_started.buildingid = logic_building_finished.buildingid"
+         ],
+         "group_by": ["logic_building_started.desc"],
+         "order_by": ["\"count finished\""]
       }
   ]
 }
