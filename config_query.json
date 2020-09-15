@@ -923,6 +923,44 @@
             "subtable1.desc1 = subtable3.desc3"	
          ],
          "order_by": ["desc1"]
-      }
+      },
+      {
+         "text": "Buildings Started Per Player",
+         "type": "graph",
+         "format": "table",
+         "value": [
+            "desc1,",
+            "ROUND((CAST(building_started AS DECIMAL) / total_players), 2) as building_started_per_player,",
+            "total_players"
+         ],
+         "table": [
+            "(",
+            "SELECT",
+               "logic_building_started.desc as desc1,",
+               "COUNT(*) as total_players",
+            "FROM",
+               "pregame_skirmish_faction",
+            "INNER JOIN",
+               "logic_building_started ON",
+                  "pregame_skirmish_faction.session_id = logic_building_started.session_id AND",
+                  "pregame_skirmish_faction.sessionid = logic_building_started.basic_sessionid AND",
+                  "pregame_skirmish_faction.faction = logic_building_started.basic_faction",		
+            "GROUP BY",
+               "logic_building_started.desc",
+         ") as subtable1",
+      "LEFT JOIN",
+         "(",
+            "SELECT",
+               "logic_building_started.desc as desc2,",
+               "COUNT(*) as building_started",
+            "FROM",
+               "logic_building_started",
+            "GROUP BY",
+               "logic_building_started.desc",
+         ") as subtable2 ON",
+            "subtable1.desc1 = subtable2.desc2"
+         ],
+         "order_by": ["desc1"]
+      }      
   ]
 }
