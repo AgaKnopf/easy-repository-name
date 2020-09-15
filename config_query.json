@@ -870,34 +870,59 @@
          "type": "graph",
          "format": "table",
          "value": [
-            "logic_building_started.desc,",
-            "COUNT(*) as \"count started\""
+            "desc1,",
+            "building_started,",
+            "building_destroyed,",
+            "building_demolish,",
+            "ROUND((CAST(building_destroyed AS DECIMAL) / building_started), 4) as rate_destroyed,",
+            "ROUND((CAST(building_demolish AS DECIMAL) / building_started), 4) as rate_demolished"
          ],
          "table": [
-            "logic_building_started"
-         ],
-         "group_by": ["logic_building_started.desc"],
-         "order_by": ["\"count started\""]
-      },
-      {
-         "text": "Buildings Finished",
-         "type": "graph",
-         "format": "table",
-         "value": [
-            "logic_building_started.desc,",
-            "COUNT(*) as \"count finished\""
-         ],
-         "table": [
-            "logic_building_finished",
-            "INNER JOIN ",
+            "(",
+            "SELECT",
+               "logic_building_started.desc as desc1,",
+               "COUNT(*) as building_started",
+            "FROM",
+               "logic_building_started",
+            "GROUP BY",
+               "logic_building_started.desc",
+         ") as subtable1",
+         "LEFT JOIN",
+            "(",
+            "SELECT",
+               "logic_building_started.desc  as desc2,",
+               "COUNT(*) as building_destroyed",
+            "FROM",
+               "logic_building_destroyed",
+            "INNER JOIN",
                "logic_building_started ON",
-               "logic_building_started.session_id = logic_building_finished.session_id AND ",
-               "logic_building_started.basic_sessionid = logic_building_finished.basic_sessionid AND ",
-               "logic_building_started.basic_faction = logic_building_finished.basic_faction AND ",
-               "logic_building_started.buildingid = logic_building_finished.buildingid"
+                  "logic_building_started.session_id = logic_building_destroyed.session_id AND",
+                  "logic_building_started.basic_sessionid = logic_building_destroyed.basic_sessionid AND",
+                  "logic_building_started.basic_faction = logic_building_destroyed.basic_faction AND",
+                  "logic_building_started.buildingid = logic_building_destroyed.buildingid",	
+            "GROUP BY",
+               "logic_building_started.desc",
+         ") as subtable2 ON",
+            "subtable1.desc1 = subtable2.desc2",
+         "LEFT JOIN",
+         "(",
+            "SELECT",
+               "logic_building_started.desc  as desc3,",
+               "COUNT(*) as building_demolish",
+            "FROM",
+               "logic_building_demolish",
+            "INNER JOIN",
+               "logic_building_started ON",
+                  "logic_building_started.session_id = logic_building_demolish.session_id AND",
+                  "logic_building_started.basic_sessionid = logic_building_demolish.basic_sessionid AND",
+                  "logic_building_started.basic_faction = logic_building_demolish.basic_faction AND",
+                  "logic_building_started.buildingid = logic_building_demolish.buildingid",	
+            "GROUP BY",
+               "logic_building_started.desc",
+         ") as subtable3 ON",
+            "subtable1.desc1 = subtable3.desc3"	
          ],
-         "group_by": ["logic_building_started.desc"],
-         "order_by": ["\"count finished\""]
+         "order_by": ["desc1"]
       }
   ]
 }
