@@ -1,0 +1,181 @@
+SELECT 
+	subtable4.race_opponent as "race, opponent race",
+	subtable4.games_won as "games won",
+	subtable5.games_lost as "games lost",
+	ROUND((CAST(subtable4.games_won as decimal) / (subtable4.games_won + subtable5.games_lost)), 2) as "win rate 1v1"
+FROM
+	(
+	SELECT -- first race wins
+		(race, subtable3.lose_race)  as race_opponent,
+		COUNT(*) as games_won
+	FROM
+		pregame_skirmish_faction
+	INNER JOIN  -- find winning id_player
+		(
+		SELECT
+			subtable1.session_id,
+			subtable1.sessionid,
+			logic_condition_win.basic_faction as win_faction
+		FROM
+			(
+			-- find number of players for each id_game
+			SELECT
+				COUNT(*) as number_of_players,
+				session_id, 
+				sessionid
+			FROM
+				pregame_skirmish_faction
+			GROUP BY
+				session_id, 
+				sessionid
+			ORDER BY
+				pregame_skirmish_faction.session_id,
+				pregame_skirmish_faction.sessionid
+			) as subtable1 -- can't check WHERE COUNT... condition here, I need an alias for COUNT, so will check it later in (1)
+		LEFT JOIN
+			logic_condition_win ON
+				subtable1.session_id = logic_condition_win.session_id AND
+				subtable1.sessionid = logic_condition_win.basic_sessionid
+		WHERE -- (1) if there are 2 players, we can find a pair win_race - lose_race
+			subtable1.number_of_players = 2 AND logic_condition_win.basic_faction IS NOT NULL
+		) as subtable2 ON
+			pregame_skirmish_faction.session_id = subtable2.session_id AND
+			pregame_skirmish_faction.sessionid = subtable2.sessionid AND
+			pregame_skirmish_faction.faction = subtable2.win_faction
+	LEFT JOIN -- match winning id_player with losing id_player and include lose_race
+		(
+		SELECT -- get lose_race
+			race as lose_race,
+			pregame_skirmish_faction.session_id,
+			pregame_skirmish_faction.sessionid,
+			pregame_skirmish_faction.faction
+		FROM
+			pregame_skirmish_faction
+		INNER JOIN
+			(
+			SELECT
+				subtable1.session_id,
+				subtable1.sessionid,
+				logic_condition_lose.basic_faction as lose_faction
+			FROM
+				(
+				SELECT -- find number of players for each id_game
+					COUNT(*) as number_of_players,
+					session_id, 
+					sessionid
+				FROM
+					pregame_skirmish_faction
+				GROUP BY
+					session_id, 
+					sessionid
+				ORDER BY
+					pregame_skirmish_faction.session_id,
+					pregame_skirmish_faction.sessionid
+				) as subtable1
+			LEFT JOIN -- match those id_games with loses
+				logic_condition_lose ON
+					subtable1.session_id = logic_condition_lose.session_id AND
+					subtable1.sessionid = logic_condition_lose.basic_sessionid
+			WHERE -- only include id_games with 2 players 
+				subtable1.number_of_players = 2 AND logic_condition_lose.basic_faction IS NOT NULL
+			) as subtable2 ON
+				pregame_skirmish_faction.session_id = subtable2.session_id AND
+				pregame_skirmish_faction.sessionid = subtable2.sessionid AND
+				pregame_skirmish_faction.faction = subtable2.lose_faction
+		) as subtable3 ON
+				pregame_skirmish_faction.session_id = subtable3.session_id AND
+				pregame_skirmish_faction.sessionid = subtable3. sessionid
+	WHERE -- the win-lose pairs must contain distinct races
+		race <> subtable3.lose_race
+	GROUP BY -- counting games which found pairs have played, and the first in the pair won
+		(race, subtable3.lose_race)	
+	) as subtable4
+LEFT JOIN -- first race loses
+	(
+	SELECT 
+		(race, subtable3.win_race)  as race_opponent,
+		COUNT(*) as games_lost
+	FROM
+		pregame_skirmish_faction
+	INNER JOIN  -- find winning id_player
+		(
+		SELECT
+			subtable1.session_id as test1,
+			subtable1.sessionid as test2,
+			logic_condition_lose.basic_faction as ohgodwhy
+		FROM
+			(
+			-- find number of players for each id_game
+			SELECT
+				COUNT(*) as number_of_players,
+				session_id, 
+				sessionid
+			FROM
+				pregame_skirmish_faction
+			GROUP BY
+				session_id, 
+				sessionid
+			ORDER BY
+				pregame_skirmish_faction.session_id,
+				pregame_skirmish_faction.sessionid
+			) as subtable1 -- can't check WHERE COUNT... condition here, I need an alias for COUNT, so will check it later in (1)
+		LEFT JOIN
+			logic_condition_lose ON
+				subtable1.session_id = logic_condition_lose.session_id AND
+				subtable1.sessionid = logic_condition_lose.basic_sessionid
+		WHERE -- (1) if there are 2 players, we can find a pair win_race - lose_race
+			subtable1.number_of_players = 2 AND logic_condition_lose.basic_faction IS NOT NULL
+		) as subtable2 ON
+			pregame_skirmish_faction.faction = subtable2.ohgodwhy AND
+			pregame_skirmish_faction.session_id = subtable2.test1 AND
+			pregame_skirmish_faction.sessionid = subtable2.test2 
+
+	LEFT JOIN -- match winning id_player with losing id_player and include lose_race
+		(
+		SELECT -- get lose_race
+			race as win_race,
+			pregame_skirmish_faction.session_id,
+			pregame_skirmish_faction.sessionid,
+			pregame_skirmish_faction.faction
+		FROM
+			pregame_skirmish_faction
+		INNER JOIN
+			(
+			SELECT
+				subtable1.session_id,
+				subtable1.sessionid,
+				logic_condition_win.basic_faction as win_faction
+			FROM
+				(
+				SELECT -- find number of players for each id_game
+					COUNT(*) as number_of_players,
+					session_id, 
+					sessionid
+				FROM
+					pregame_skirmish_faction
+				GROUP BY
+					session_id, 
+					sessionid
+				ORDER BY
+					pregame_skirmish_faction.session_id,
+					pregame_skirmish_faction.sessionid
+				) as subtable1
+			LEFT JOIN -- match those id_games with loses
+				logic_condition_win ON
+					subtable1.session_id = logic_condition_win.session_id AND
+					subtable1.sessionid = logic_condition_win.basic_sessionid
+			WHERE -- only include id_games with 2 players 
+				subtable1.number_of_players = 2 AND logic_condition_win.basic_faction IS NOT NULL
+			) as subtable2 ON
+				pregame_skirmish_faction.session_id = subtable2.session_id AND
+				pregame_skirmish_faction.sessionid = subtable2.sessionid AND
+				pregame_skirmish_faction.faction = subtable2.win_faction
+		) as subtable3 ON
+				pregame_skirmish_faction.session_id = subtable3.session_id AND
+				pregame_skirmish_faction.sessionid = subtable3.sessionid
+	WHERE -- the win-lose pairs must contain distinct races
+		race <> subtable3.win_race
+	GROUP BY -- counting games which found pairs have played, and the first in the pair won
+		(race, subtable3.win_race)
+	) as subtable5 ON
+		subtable5.race_opponent = subtable4.race_opponent
