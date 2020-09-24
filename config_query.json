@@ -272,6 +272,15 @@
          ]
       },
       {
+         "text": "Maps Lookup Table",
+         "type": "graph",
+         "format": "table",
+         "value": ["*"],
+         "table": [
+                     "Maps"
+         ]
+      },	  
+      {
          "text": "Games",
          "type": "graph",
          "format": "table",
