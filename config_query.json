@@ -983,7 +983,8 @@
             "pregame_skirmish_configuration",
             "GROUP BY",
                "general_revision"               
-         ]     
+         ],
+         "order_by": ["general_revision"]
       },
       {
          "text": "Games Played: Race Combinations 1v1 ",
@@ -1170,7 +1171,7 @@
                "subtable5.race_opponent = subtable4.race_opponent",
             "WHERE",
                "subtable5.games_lost IS NOT NULL AND ",
-               "subtable4.games_won IS NOT NULL" 
+               "subtable4.games_won IS NOT NULL"
          ]     
       }       
   ]
