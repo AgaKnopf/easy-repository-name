@@ -117,12 +117,12 @@
   ],
   "configurator":[
       {
-         "text": "Abilities Lookup Table",
+         "text": "Cause of death",
          "type": "graph",
          "format": "table",
          "value": [
-               "lower_cause_of_death as cause_of_death,",
-               "COUNT(subtable.lower_cause_of_death)"
+               "lower_cause_of_death as \"cause of death\",",
+               "COUNT(subtable.lower_cause_of_death) as \"count cause of death\""
             ],
          "table": [
             "(",
@@ -131,18 +131,18 @@
             "WHERE cause_of_death IS NOT NULL",
             ") as subtable"
          ],
-         "group_by": ["cause_of_death"],
-         "order_by": ["cause_of_death"]
+         "group_by": ["lower_cause_of_death"],
+         "order_by": ["\"count cause of death\""]
       },
       {
          "text": "Mastery 1 choices",
          "type": "graph",
          "format": "table",
          "value": [
-            "SELECT",
                "mastery_1 as \"mastery_1 popularity\",",
-               "COUNT(mastery_1) as \"count of mastery_1\"",
-            "FROM",
+               "COUNT(mastery_1) as \"count of mastery_1\""
+         ],
+         "table": [
                "chapter_end_stats"
          ],
          "group_by": ["mastery_1"],
@@ -153,12 +153,10 @@
          "type": "graph",
          "format": "table",
          "value": [
-            "SELECT",
                "mastery_2 as \"mastery_2 popularity\",",
                "COUNT(mastery_2) as \"count of mastery_2\"",
-            "FROM",
-               "chapter_end_stats"
          ],
+         "table": ["chapter_end_stats"],
          "group_by": ["mastery_2"],
          "order_by":["\"count of mastery_2\""]
       }      
