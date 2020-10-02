@@ -158,7 +158,7 @@
          ],
          "table": ["chapter_end_stats"],
          "group_by": ["mastery_2"],
-         "order_by" :["\"count of mastery_2\""]
+         "order_by": ["\"count of mastery_2\""]
       }      
   ]
 }
