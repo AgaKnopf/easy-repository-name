@@ -158,7 +158,22 @@
          ],
          "table": ["chapter_end_stats"],
          "group_by": ["mastery_2"],
-         "order_by": ["\"count of mastery_2\""]
-      }      
+         "order_by":["\"count of mastery_2\""]
+      },
+      {
+         "text": "Player Session Duration",
+         "type": "graph",
+         "format": "table",
+         "value": [
+               "session_id, SUM(session_time)"
+         ],
+         "table": [
+               "player_session_duration",
+            "WHERE",
+               "multiplayer = false"
+         ],
+         "group_by": ["session_id"],
+         "order_by":["session_id"]
+      }             
   ]
 }
