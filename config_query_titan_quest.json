@@ -1,0 +1,138 @@
+{ 
+   "templates":{
+      "faction": {
+         "column": "basic_faction",
+         "table": "logic_hero_death",
+         "type": "dropdown_db_list",
+         "text": "Faction",      
+         "sql": "SELECT DISTINCT basic_faction, basic_faction FROM logic_hero_death ORDER BY basic_faction ASC" 
+      },
+      "general_map": {
+         "column": "general_map",
+         "table": "pregame_skirmish_configuration",
+         "type": "dropdown_db_list",
+         "text": "Map",    
+         "sql": "SELECT name, map_id FROM Maps ORDER BY map_id ASC"
+      },
+      "range": {
+         "type": "dropdown_list_input",
+         "table": "",
+         "text": "Range",
+         "attr": [
+            {
+               "text": "less than", 
+               "value": "<"
+            },
+            {
+               "text": "less than or equal", 
+               "value": "<="
+            },
+            {
+               "text": "greater than",
+               "value": ">"
+            },
+            {
+               "text": "greater than or equal",
+               "value": ">="
+            },
+            {
+               "text": "between",
+               "value": "<>"
+            },
+            {
+               "text": "equal to",
+               "value": "="
+            },
+            {
+               "text": "not equal to",
+               "value": "!="
+            }
+         ]
+      },
+      "equals": {
+         "type": "dropdown_list_input",
+         "table": "",
+         "text": "Equals",
+         "attr": [
+            {
+               "text": "equal to",
+               "value": "="
+            },
+            {
+               "text": "not equal to",
+               "value": "!="
+            }
+         ]
+      },      
+      "loot": {
+         "text" : "Loot",
+         "table": "",
+         "type" : "dropdown_list_input",
+         "attr" : [
+            {
+               "text" : "loot name",
+               "type" : "equals",
+               "column" : "descid"
+            }
+         ]
+      },
+      "time": {
+         "text" : "Time",
+         "table": "",
+         "type": "dropdown_list_input",
+         "attr" : [
+            {
+              "text": "minutes",
+              "table": "",
+              "type": "range",
+              "column": "tick_minutes"
+             }
+         ]
+      }
+   },   
+  "order":[
+     {
+        "text":"Ascending",
+        "type": "dropdown",
+        "value":" ASC"
+     },
+     {
+        "text":"Descending",
+        "type": "dropdown",
+        "value":" DESC"
+     }
+  ],
+  "limit":[
+     "10",
+     "20",
+     "50",
+     "100",
+     "200",
+     "300",
+     "500",
+     "1000",
+     "2000",
+     "5000",
+     "10000"
+  ],
+  "configurator":[
+      {
+         "text": "Abilities Lookup Table",
+         "type": "graph",
+         "format": "table",
+         "value": [
+               "lower_cause_of_death as cause_of_death,",
+               "COUNT(subtable.lower_cause_of_death)"
+            ],
+         "table": [
+            "(",
+            "SELECT (lower(cause_of_death)) as lower_cause_of_death",
+            "FROM player_death",
+            "WHERE cause_of_death IS NOT NULL",
+            ") as subtable"
+         ],
+         "group_by": ["cause_of_death"],
+         "order_by": ["cause_of_death"]
+      }
+  ]
+}
