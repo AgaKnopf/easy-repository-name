@@ -154,7 +154,7 @@
          "format": "table",
          "value": [
                "mastery_2 as \"mastery_2 popularity\",",
-               "COUNT(mastery_2) as \"count of mastery_2\"",
+               "COUNT(mastery_2) as \"count of mastery_2\""
          ],
          "table": ["chapter_end_stats"],
          "group_by": ["mastery_2"],
