@@ -165,7 +165,6 @@
          "type": "graph",
          "format": "table",
          "value": [
-            "time_stamp,",
             "map_coordinates_x,",
             "map_coordinates_y"
          ],
