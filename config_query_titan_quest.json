@@ -161,6 +161,19 @@
          "order_by":["\"count of mastery_2\""]
       },
       {
+         "text": "Player Death",
+         "type": "graph",
+         "format": "table",
+         "value": [
+            "time_stamp,",
+            "map_coordinates_x,",
+            "map_coordinates_y"
+         ],
+         "table": [
+	         "player_death"
+         ]
+      },
+      {
          "text": "Player Session Duration",
          "type": "graph",
          "format": "table",
