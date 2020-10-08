@@ -183,7 +183,7 @@
             "map_coordinates_y"
          ],
          "table": [
-	         "player_death"
+	    "player_death"
          ],
          "constraints": [
             "health"
