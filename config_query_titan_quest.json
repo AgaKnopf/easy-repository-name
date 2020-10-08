@@ -173,6 +173,19 @@
          ]
       },
       {
+         "text": "Player Death, health max",
+         "type": "graph",
+         "format": "table",
+         "value": [
+            "health_max",
+            "map_coordinates_x,",
+            "map_coordinates_y"
+         ],
+         "table": [
+	         "player_death"
+         ]
+      },
+      {
          "text": "Player Session Duration",
          "type": "graph",
          "format": "table",
