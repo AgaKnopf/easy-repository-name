@@ -63,19 +63,20 @@
                "value": "!="
             }
          ]
-      },      
-      "loot": {
-         "text" : "Loot",
-         "table": "",
-         "type" : "dropdown_list_input",
-         "attr" : [
-            {
-               "text" : "loot name",
-               "type" : "equals",
-               "column" : "descid"
-            }
-         ]
       },
+      "health": {
+         "text" : "Health",
+         "table": "",
+         "type": "dropdown_list_input",
+         "attr" : [
+          {
+            "text": "strength",
+            "table": "",
+            "type": "range",
+            "column": "health_max"
+           }
+         ]
+      },    
       "time": {
          "text" : "Time",
          "table": "",
@@ -177,12 +178,15 @@
          "type": "graph",
          "format": "table",
          "value": [
-            "health_max,",
+            "health_max",
             "map_coordinates_x,",
             "map_coordinates_y"
          ],
          "table": [
 	         "player_death"
+         ],
+         "constraints": [
+            "health"
          ]
       },
       {
