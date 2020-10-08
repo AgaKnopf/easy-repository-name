@@ -178,7 +178,7 @@
          "type": "graph",
          "format": "table",
          "value": [
-            "health_max",
+            "health_max,",
             "map_coordinates_x,",
             "map_coordinates_y"
          ],
