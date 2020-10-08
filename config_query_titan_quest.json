@@ -183,11 +183,16 @@
             "map_coordinates_y"
          ],
          "table": [
-	    "player_death"
+	         "player_death"
          ],
-         "constraints": [
-            "health"
-         ]
+         "constraints": {
+            "compound": [
+               {
+                  "template": "health",
+                  "html_input": "dropdown_input_00"
+               }
+            ]            
+         }
       },
       {
          "text": "Player Session Duration",
