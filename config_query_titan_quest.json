@@ -205,7 +205,7 @@
          ],
          "table": [
             "player_death",
-            "WHERE health < 1200 LIMIT 500"
+            "WHERE health_max < 1200 LIMIT 500"
          ]
       },      
       {
