@@ -965,8 +965,9 @@
          "type": "graph",
          "format": "table",
          "value": [
-            "DATE(start) as \"date\", COUNT(start) FROM sessions GROUP BY DATE(start) LIMIT 100"
-         ]
+            "DATE(start) as \"date\", COUNT(start)"
+         ],
+         "table": ["sessions GROUP BY DATE(start) LIMIT 100"]
       },
       {
          "text": "Stone Harvested",
