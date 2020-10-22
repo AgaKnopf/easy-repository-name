@@ -967,7 +967,7 @@
          "value": [
             "DATE(start) as \"date\", COUNT(start)"
          ],
-         "table": ["sessions GROUP BY DATE(start) LIMIT 100"]
+         "table": ["sessions GROUP BY DATE(start)"]
       },
       {
          "text": "Stone Harvested",
