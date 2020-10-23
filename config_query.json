@@ -286,7 +286,7 @@
          "table": [
             "(",
             "SELECT",
-               "logic_building_started.desc as desc1,",
+               "logic_building_started.descid as desc1,",
                "COUNT(*) as building_started",
             "FROM",
                "logic_building_started",
