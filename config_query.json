@@ -564,7 +564,7 @@
             "subtable_win.race,",
             "subtable_win.win_count as \"games won\",",
             "subtable_lose.lose_count as \"games lost\",",
-            "ROUND((CAST(subtable_win.win_count as decimal) / (subtable_lose.lose_count + subtable_win.win_count)), 2) as \"win rate\""
+            "ROUND((CAST(subtable_win.win_count as decimal) / (subtable_lose.lose_count + subtable_win.win_count)), 2) as \"win rate singleplayer\""
          ],
          "table": [ 
             "(",
