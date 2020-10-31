@@ -249,6 +249,7 @@
      }
   ],
   "limit":[
+     "1",
      "10",
      "20",
      "50",
@@ -1568,7 +1569,22 @@
                         ") as subtable"
          ],
          "group_by": ["subtable.tick_rounded"]
-      },	  
+      },
+      {
+         "text": "Time of the last database write",
+         "type": "graph",
+         "format": "table",
+         "value": [
+                     "TO_CHAR(",
+                     "start,",
+                     "'DD-MM-YYYY, HH24:MI'",
+                  ") as \"Last write time\""
+                  ],
+         "table": [
+                     "sessions"
+         ],
+         "order_by": ["\"Last write time\""]
+      },	
       {
          "text": "Units Built",
          "type": "graph",
