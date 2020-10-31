@@ -1457,7 +1457,7 @@
          "type": "graph",
          "format": "table",
          "value": [
-            "TO_CHAR(start, 'DD-MM-YYYY') as \"date\", COUNT(start)"
+            "TO_CHAR(start, 'DD-MM-YYYY') as \"dated\", COUNT(start)"
          ],
          "table": ["sessions GROUP BY TO_CHAR(start, 'DD-MM-YYYY')"]
       },
