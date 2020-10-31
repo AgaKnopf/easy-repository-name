@@ -1457,9 +1457,9 @@
          "type": "graph",
          "format": "table",
          "value": [
-            "DATE(start) as \"date\", COUNT(start)"
+            "TO_CHAR(start, 'DD-MM-YYYY') as \"date\", COUNT(start)"
          ],
-         "table": ["sessions GROUP BY DATE(start)"]
+         "table": ["sessions GROUP BY TO_CHAR(start, 'DD-MM-YYYY')"]
       },
       {
          "text": "Stone Harvested",
