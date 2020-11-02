@@ -1459,7 +1459,7 @@
          "value": [
             "TO_CHAR(start, 'YYYY-MM-DD') as \"dated\", COUNT(start)"
          ],
-         "table": ["sessions GROUP BY TO_CHAR(start, 'DD-MM-YYYY')"]
+         "table": ["sessions GROUP BY TO_CHAR(start, 'YYYY-MM-DD')"]
       },
       {
          "text": "Stone Harvested",
