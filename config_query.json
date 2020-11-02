@@ -1457,7 +1457,7 @@
          "type": "graph",
          "format": "table",
          "value": [
-            "TO_CHAR(start, 'DD-MM-YYYY') as \"dated\", COUNT(start)"
+            "TO_CHAR(start, 'YYYY-MM-DD') as \"dated\", COUNT(start)"
          ],
          "table": ["sessions GROUP BY TO_CHAR(start, 'DD-MM-YYYY')"]
       },
@@ -1577,7 +1577,7 @@
          "value": [
                      "TO_CHAR(",
                      "start,",
-                     "'DD-MM-YYYY, HH24:MI'",
+                     "'YYYY-MM-DD, HH24:MI'",
                   ") as \"Last write time\""
                   ],
          "table": [
