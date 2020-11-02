@@ -1462,7 +1462,7 @@
          "table": ["sessions GROUP BY TO_CHAR(start, 'YYYY-MM-DD')"]
       },
       {
-         "text": "Stone Harvested",
+         "text": "Stone Harvested",  
          "type": "graph",
          "format": "time_series",
          "value": [  
