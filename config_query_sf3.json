@@ -731,10 +731,10 @@
          "order_by": ["logic_hero_ability_unlock.descid"],
          "table": [
                      "logic_hero_ability_unlock",
-                     " LEFT JOIN ",
+                     "JOIN ",
                         "abilities_lookup ON ",
                         "abilities_lookup.descid = logic_hero_ability_unlock.descid",
-                     "LEFT JOIN",
+                     "JOIN",
                      "(",
                         "SELECT",
                            "*",
