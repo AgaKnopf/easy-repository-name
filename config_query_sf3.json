@@ -734,7 +734,7 @@
                      " LEFT JOIN ",
                         "abilities_lookup ON ",
                         "abilities_lookup.descid = logic_hero_ability_unlock.descid",
-                     "JOIN",
+                     "LEFT JOIN",
                      "(",
                         "SELECT",
                            "*",
