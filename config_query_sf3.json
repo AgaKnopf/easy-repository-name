@@ -838,8 +838,8 @@
          "type": "graph",
          "format": "table",
          "value": [                                                                                 
-                     "descid",
-                     "COUNT(*) as loot_count,"                     
+                     "descid,",
+                     "COUNT(*) as loot_count"                     
                   ],
          "table": [
             "(",
