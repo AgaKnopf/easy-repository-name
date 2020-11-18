@@ -462,7 +462,7 @@
                      "(",
                      " SELECT ",
                         "ROUND(basic_tick/1200,0) as tick_rounded, ",
-                        "time_stamp ",
+                        "logic_condition_win.time_stamp ",
                      "FROM ",
                         "logic_condition_win",
                      "JOIN",
