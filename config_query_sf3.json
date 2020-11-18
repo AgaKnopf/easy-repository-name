@@ -1187,7 +1187,7 @@
          "value": [
             "SUM(faction_tier_total_units.units_total) as sum_units_total,",
             "SUM(faction_tier_total_units.units_total / faction_tier_total_units.group_size)  as sum_sets_produced,",
-            "SUM(ROUND(CAST((faction_tier_total_units.units_total / faction_tier_total_units.group_size) AS DECIMAL)/ subtable2.total_players, 2)) as sum_set_per_player,",
+            "SUM(ROUND(CAST((faction_tier_total_units.units_total / faction_tier_total_units.group_size) AS DECIMAL)/ units_total_players.total_players, 2)) as sum_set_per_player,",
             "SUM(units_total_players.total_players) as sum_total_players"		
          ],
          "table": [
