@@ -837,9 +837,9 @@
          "text": "Number of items by name",
          "type": "graph",
          "format": "table",
-         "value": [                                                            
-                     "COUNT(*) as loot_count,",
-                     "descid"
+         "value": [                                                                                 
+                     "descid",
+                     "COUNT(*) as loot_count,"                     
                   ],
          "table": [
             "(",
