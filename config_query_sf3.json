@@ -996,8 +996,8 @@
          "type": "graph",
          "format": "table",
          "value": [   
-            "ROUND((descid_1 / descid_sum ) * 100, 2) as __name,",
-            "building_descid"
+            "building_descid,",
+            "ROUND((descid_1 / descid_sum ) * 100, 2) as __name"
          ],
          "order_by": ["__name"],
          "nested_names": [
