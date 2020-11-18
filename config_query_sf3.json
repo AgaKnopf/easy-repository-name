@@ -553,13 +553,18 @@
                   ],
          "group_by": ["pregame_skirmish_faction.race"],
          "table": [
-                     "logic_condition_win ",
-                     "LEFT JOIN pregame_skirmish_faction ON ",
-                        "pregame_skirmish_faction.session_id = logic_condition_win.session_id AND ",
-                        "pregame_skirmish_faction.sessionid = logic_condition_win.basic_sessionid ",
-                     "WHERE",
-	                     "pregame_skirmish_faction.race IS NOT NULL AND",
-                        "pregame_skirmish_configuration.general_revision IN ($revision)"
+            "logic_condition_win",  
+            "LEFT JOIN", 
+               "pregame_skirmish_faction ON",  
+               "pregame_skirmish_faction.session_id = logic_condition_win.session_id AND",
+               "pregame_skirmish_faction.sessionid = logic_condition_win.basic_sessionid",
+            "JOIN",
+               "pregame_skirmish_configuration ON",
+               "pregame_skirmish_configuration.session_id = logic_condition_win.session_id AND",
+               "pregame_skirmish_configuration.general_sessionid = logic_condition_win.basic_sessionid",
+            "WHERE", 
+               "pregame_skirmish_faction.race IS NOT NULL AND",
+               "pregame_skirmish_configuration.general_revision IN ($revision)"
                   ]
       }, 
       {
