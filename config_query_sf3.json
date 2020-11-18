@@ -838,42 +838,33 @@
          "type": "graph",
          "format": "table",
          "value": [                                                            
-                     "subtable.loot_count as loot_count,",
-                     "logic_hero_item_looted.descid"
+                     "COUNT(*) as loot_count,",
+                     "descid"
                   ],
          "table": [
-            "logic_hero_item_looted",
-            "RIGHT JOIN", 
             "(",
-               "SELECT", 
-                  "COUNT(*) as loot_count, ",
-                  "descid",
-               "FROM",
-                  "logic_hero_item_looted",
-               "WHERE",
-                  "descid <> 'Gold'",                  
-               "GROUP BY",
-                  "descid",	
-            ") as subtable1 ON",
-            "subtable1.descid = logic_hero_item_looted.descid",
-            "LEFT JOIN",
-               "(",
-                  "SELECT", 
-                     "session_id, general_sessionid, general_map",
-                  "FROM",
-                     "pregame_skirmish_configuration",
-                  "WHERE",
-                     "pregame_skirmish_configuration.general_revision IN ($revision)",
-               ")",
-                  "as subtable2 ON",
-               "subtable2.session_id = logic_hero_item_looted.session_id AND",
-               "subtable2.general_sessionid = logic_hero_item_looted.basic_sessionid"
+            "SELECT",
+               "logic_hero_item_looted.session_id,",
+               "logic_hero_item_looted.basic_sessionid,",
+               "descid",
+            "FROM",
+               "logic_hero_item_looted", 
+            "JOIN", 
+               "pregame_skirmish_configuration ON", 
+               "pregame_skirmish_configuration.session_id = logic_hero_item_looted.session_id AND",
+               "pregame_skirmish_configuration.general_sessionid = logic_hero_item_looted.basic_sessionid",  
+            "WHERE", 
+               "pregame_skirmish_configuration.general_revision IN (SELECT DISTINCT general_revision FROM pregame_skirmish_configuration) AND",
+               "descid <> 'Gold'",
+         ") as sub",
+         "JOIN",
+            "pregame_skirmish_configuration ON", 
+            "pregame_skirmish_configuration.session_id = sub.session_id AND",
+            "pregame_skirmish_configuration.general_sessionid = sub.basic_sessionid"
          ],
          "group_by": [
-            "logic_hero_item_looted.descid",
-            "subtable.loot_count"
+            "descid"
          ],
-         "use_table_constraints": "subtable2",
          "constraints": {
             "database": [
                {
