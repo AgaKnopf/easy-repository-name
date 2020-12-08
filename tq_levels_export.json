@@ -8,7 +8,7 @@
 	{
 	"name" : "Levels/World/Greece/Area001/Connector03.LVL",
 	 "offset" : [-6195, -23, 312],
-	 "bbox-origin" : {64.000000, 8.000000, 64.000000],
+	 "bbox-origin" : [64.000000, 8.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 47.000000, 64.000000] 
 	},
 	{
