@@ -14,7 +14,7 @@
 	{
 	"name" : "Levels/World/Greece/Area001/Connector04.LVL",
 	 "offset" : [-6195, -23, 184],
-	 "bbox-origin" : {64.000000, 15.000000, 64.000000],
+	 "bbox-origin" : [64.000000, 15.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 48.000000, 64.000000] 
 	},
 	{
