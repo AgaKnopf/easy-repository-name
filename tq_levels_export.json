@@ -1253,15 +1253,6 @@
 	 "bbox-origin" : [44.000000, 8.000000, 40.000000],
 	 "bbox-extents" : [44.000000, 8.000000, 40.000000] 
 	},
-	"name" : "Levels/World/Egypt/Thebes/ValleyTombs/Area03_Tomb02.LVL",
-	 "offset" : [-4533, -17, 6189],
-	 "bbox-origin" : [11.000000, 8.000000, 8.000000],
-	},
-	{
-	"name" : "Levels/World/Egypt/Thebes/ValleyTombs/Area08B_Tomb021.LVL",
-	 "bbox-origin" : [48.000000, 13.000000, 40.000000],
-	 "bbox-extents" : [48.000000, 13.000000, 40.000000] 
-	},
 	{
 	"name" : "Levels/World/Egypt/Thebes/ValleyTombs/Area01_Tomb03.LVL",
 	 "offset" : [-4253, 10, 6213],
@@ -1593,109 +1584,109 @@
 	 "bbox-extents" : [48.000000, 4.000000, 55.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\MiniDungeons\ThebesOptTombA.LVL",
+	"name" : "Levels/World/Egypt/MiniDungeons/ThebesOptTombA.LVL",
 	 "offset" : [-3614, 0, 5946],
 	 "bbox-origin" : [53.000000, 3.000000, 48.000000],
 	 "bbox-extents" : [53.000000, 12.000000, 48.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\MiniDungeons\ThebesOptTombB.LVL",
+	"name" : "Levels/World/Egypt/MiniDungeons/ThebesOptTombB.LVL",
 	 "offset" : [-3807, 0, 5955],
 	 "bbox-origin" : [57.000000, 7.000000, 48.000000],
 	 "bbox-extents" : [57.000000, 7.000000, 48.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\MiniDungeons\ThebesOptTombC.LVL",
+	"name" : "Levels/World/Egypt/MiniDungeons/ThebesOptTombC.LVL",
 	 "offset" : [-3464, 0, 5752],
 	 "bbox-origin" : [48.000000, 4.000000, 55.000000],
 	 "bbox-extents" : [48.000000, 4.000000, 55.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\MiniDungeons\RhakotisOptTombA.LVL",
+	"name" : "Levels/World/Egypt/MiniDungeons/RhakotisOptTombA.LVL",
 	 "offset" : [-3800, 0, 6534],
 	 "bbox-origin" : [48.000000, 4.000000, 48.000000],
 	 "bbox-extents" : [48.000000, 4.000000, 48.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\MiniDungeons\RhakotisOptTombB.LVL",
+	"name" : "Levels/World/Egypt/MiniDungeons/RhakotisOptTombB.LVL",
 	 "offset" : [-3194, 0, 5941],
 	 "bbox-origin" : [52.000000, 8.000000, 48.000000],
 	 "bbox-extents" : [52.000000, 8.000000, 48.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\MiniDungeons\RhakotisOptTombC.LVL",
+	"name" : "Levels/World/Egypt/MiniDungeons/RhakotisOptTombC.LVL",
 	 "offset" : [-3033, 0, 6090],
 	 "bbox-origin" : [48.000000, 0.000000, 47.000000],
 	 "bbox-extents" : [48.000000, 10.000000, 48.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\MiniDungeons\MemphisOptTombA.LVL",
+	"name" : "Levels/World/Egypt/MiniDungeons/MemphisOptTombA.LVL",
 	 "offset" : [-3805, 0, 6777],
 	 "bbox-origin" : [48.000000, 4.000000, 48.000000],
 	 "bbox-extents" : [48.000000, 4.000000, 48.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\MiniDungeons\MemphisOptTombB.LVL",
+	"name" : "Levels/World/Egypt/MiniDungeons/MemphisOptTombB.LVL",
 	 "offset" : [-4003, 0, 7507],
 	 "bbox-origin" : [48.000000, 5.000000, 54.000000],
 	 "bbox-extents" : [48.000000, 5.000000, 54.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\MiniDungeons\MemphisOptTombC.LVL",
+	"name" : "Levels/World/Egypt/MiniDungeons/MemphisOptTombC.LVL",
 	 "offset" : [-3770, 0, 7265],
 	 "bbox-origin" : [72.000000, 0.000000, 72.000000],
 	 "bbox-extents" : [72.000000, 9.000000, 72.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\MiniDungeons\MemphisOptTombD.LVL",
+	"name" : "Levels/World/Egypt/MiniDungeons/MemphisOptTombD.LVL",
 	 "offset" : [-4010, 0, 7271],
 	 "bbox-origin" : [64.000000, 5.000000, 66.000000],
 	 "bbox-extents" : [64.000000, 5.000000, 66.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\MiniDungeons\FayumOptTombA.LVL",
+	"name" : "Levels/World/Egypt/MiniDungeons/FayumOptTombA.LVL",
 	 "offset" : [-3235, 0, 6817],
 	 "bbox-origin" : [55.000000, 4.000000, 48.000000],
 	 "bbox-extents" : [55.000000, 4.000000, 48.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\MiniDungeons\FayumOptTombB.LVL",
+	"name" : "Levels/World/Egypt/MiniDungeons/FayumOptTombB.LVL",
 	 "offset" : [-3799, 0, 6645],
 	 "bbox-origin" : [60.000000, 4.000000, 60.000000],
 	 "bbox-extents" : [60.000000, 4.000000, 60.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\MiniDungeons\FayumOptTombC.LVL",
+	"name" : "Levels/World/Egypt/MiniDungeons/FayumOptTombC.LVL",
 	 "offset" : [-3397, 0, 6831],
 	 "bbox-origin" : [48.000000, 5.000000, 48.000000],
 	 "bbox-extents" : [48.000000, 5.000000, 48.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\MiniDungeons\FayumOptTombD.LVL",
+	"name" : "Levels/World/Egypt/MiniDungeons/FayumOptTombD.LVL",
 	 "offset" : [-3309, 36, 7948],
 	 "bbox-origin" : [48.000000, 5.000000, 52.000000],
 	 "bbox-extents" : [48.000000, 5.000000, 52.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\MiniDungeons\AbedjuOptTombA.LVL",
+	"name" : "Levels/World/Egypt/MiniDungeons/AbedjuOptTombA.LVL",
 	 "offset" : [-2954, 0, 6802],
 	 "bbox-origin" : [66.000000, 5.000000, 56.000000],
 	 "bbox-extents" : [66.000000, 5.000000, 56.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\MiniDungeons\AbedjuOptTombB.LVL",
+	"name" : "Levels/World/Egypt/MiniDungeons/AbedjuOptTombB.LVL",
 	 "offset" : [-2940, 0, 6629],
 	 "bbox-origin" : [48.000000, 5.000000, 48.000000],
 	 "bbox-extents" : [48.000000, 5.000000, 48.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\MiniDungeons\AbedjuOptTombC.LVL",
+	"name" : "Levels/World/Egypt/MiniDungeons/AbedjuOptTombC.LVL",
 	 "offset" : [-2774, 0, 6824],
 	 "bbox-origin" : [40.000000, -1.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 10.000000, 40.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\MiniDungeons\AbedjuOptTombD.LVL",
+	"name" : "Levels/World/Egypt/MiniDungeons/AbedjuOptTombD.LVL",
 	 "offset" : [-2939, 0, 6438],
 	 "bbox-origin" : [56.000000, -1.000000, 56.000000],
 	 "bbox-extents" : [56.000000, 10.000000, 56.000000] 
@@ -3775,9 +3766,6 @@
 	 "offset" : [-6868, 0, -456],
 	 "bbox-origin" : [32.000000, 1.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 33.000000, 64.000000] 
-	{
-	 "offset" : [-7060, 0, -456],
-	},
 	},
 	{
 	"name" : "Levels/World/Greece/Area003/PineForest04Border01.LVL",
@@ -4302,241 +4290,241 @@
 	 "bbox-extents" : [78.000000, 32.000000, 78.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Wood_01.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Wood_01.LVL",
 	 "offset" : [161, 22, -7494],
 	 "bbox-origin" : [64.000000, 8.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 60.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Wood_02.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Wood_02.LVL",
 	 "offset" : [289, 22, -7430],
 	 "bbox-origin" : [64.000000, 13.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 63.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Wood_03.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Wood_03.LVL",
 	 "offset" : [161, 22, -7622],
 	 "bbox-origin" : [64.000000, 3.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 56.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Wood_04.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Wood_04.LVL",
 	 "offset" : [289, 22, -7558],
 	 "bbox-origin" : [64.000000, 8.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 58.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Wood_05.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Wood_05.LVL",
 	 "offset" : [161, 14, -7750],
 	 "bbox-origin" : [64.000000, 15.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 65.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Marsh_01.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Marsh_01.LVL",
 	 "offset" : [-95, 22, -7494],
 	 "bbox-origin" : [64.000000, 7.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 57.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Marsh_02.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Marsh_02.LVL",
 	 "offset" : [33, 22, -7558],
 	 "bbox-origin" : [64.000000, 4.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 56.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Marsh_03.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Marsh_03.LVL",
 	 "offset" : [-95, 22, -7622],
 	 "bbox-origin" : [64.000000, 3.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 56.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Marsh_04.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Marsh_04.LVL",
 	 "offset" : [33, 22, -7686],
 	 "bbox-origin" : [64.000000, 1.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 54.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Marsh_05.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Marsh_05.LVL",
 	 "offset" : [-223, 22, -7686],
 	 "bbox-origin" : [64.000000, 11.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 61.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Marsh_06.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Marsh_06.LVL",
 	 "offset" : [-95, 22, -7750],
 	 "bbox-origin" : [64.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 52.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Marsh_07.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Marsh_07.LVL",
 	 "offset" : [33, 22, -7814],
 	 "bbox-origin" : [64.000000, 5.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 57.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Marsh_08.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Marsh_08.LVL",
 	 "offset" : [-95, 22, -7814],
 	 "bbox-origin" : [64.000000, 0.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 52.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Ruins_01.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Ruins_01.LVL",
 	 "offset" : [-351, 22, -7942],
 	 "bbox-origin" : [128.000000, 9.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 62.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Ruins_02.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Ruins_02.LVL",
 	 "offset" : [-95, 22, -8070],
 	 "bbox-origin" : [128.000000, 5.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 59.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Ruins_03.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Ruins_03.LVL",
 	 "offset" : [-351, 22, -8198],
 	 "bbox-origin" : [128.000000, 3.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 38.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Ruins_04.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Ruins_04.LVL",
 	 "offset" : [-95, 22, -8326],
 	 "bbox-origin" : [128.000000, 4.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 38.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Ruins_05.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Ruins_05.LVL",
 	 "offset" : [-351, 22, -8454],
 	 "bbox-origin" : [128.000000, 3.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 37.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_Wood_06.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_Wood_06.LVL",
 	 "offset" : [161, 14, -7878],
 	 "bbox-origin" : [64.000000, 15.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 65.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Rhodes_City_02.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Rhodes_City_02.LVL",
 	 "offset" : [713, -11, -6820],
 	 "bbox-origin" : [128.000000, 21.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 71.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Rhodes_City_03.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Rhodes_City_03.LVL",
 	 "offset" : [713, -11, -6948],
 	 "bbox-origin" : [128.000000, 30.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 80.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Rhodes_Beach_01.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Rhodes_Beach_01.LVL",
 	 "offset" : [713, -11, -7332],
 	 "bbox-origin" : [128.000000, 7.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 57.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Rhodes_Beach_02.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Rhodes_Beach_02.LVL",
 	 "offset" : [969, -11, -7204],
 	 "bbox-origin" : [64.000000, 9.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 59.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Rhodes_Beach_03.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Rhodes_Beach_03.LVL",
 	 "offset" : [713, -11, -7204],
 	 "bbox-origin" : [128.000000, 22.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 72.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Rhodes_TropicalForest_01.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Rhodes_TropicalForest_01.LVL",
 	 "offset" : [457, -11, -7258],
 	 "bbox-origin" : [128.000000, 30.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 80.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Rhodes_Beach_04.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Rhodes_Beach_04.LVL",
 	 "offset" : [841, -11, -6692],
 	 "bbox-origin" : [64.000000, 7.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 57.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Rhodes_Beach_05.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Rhodes_Beach_05.LVL",
 	 "offset" : [585, -11, -7002],
 	 "bbox-origin" : [64.000000, 30.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 80.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Rhodes_OceanBorder_01.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Rhodes_OceanBorder_01.LVL",
 	 "offset" : [457, -11, -6583],
 	 "bbox-origin" : [64.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 50.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_Wasteland_01.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_Wasteland_01.LVL",
 	 "offset" : [-453, 0, -9441],
 	 "bbox-origin" : [64.000000, 17.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 67.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_Wasteland_03.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_Wasteland_03.LVL",
 	 "offset" : [-581, 0, -9441],
 	 "bbox-origin" : [64.000000, 4.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 69.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_Wasteland_02.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_Wasteland_02.LVL",
 	 "offset" : [-524, 0, -9569],
 	 "bbox-origin" : [64.000000, -2.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 65.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_RiverEdge_01.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_RiverEdge_01.LVL",
 	 "offset" : [-524, 0, -9697],
 	 "bbox-origin" : [128.000000, -10.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 61.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_RiverEdge_02.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_RiverEdge_02.LVL",
 	 "offset" : [-652, 0, -9633],
 	 "bbox-origin" : [64.000000, -8.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 63.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_Bridge_01.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_Bridge_01.LVL",
 	 "offset" : [-140, 0, -9825],
 	 "bbox-origin" : [64.000000, -14.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 64.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_RiverEdge_03.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_RiverEdge_03.LVL",
 	 "offset" : [-396, 0, -9569],
 	 "bbox-origin" : [64.000000, 2.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 65.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_RiverEdge_04.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_RiverEdge_04.LVL",
 	 "offset" : [-12, 0, -9825],
 	 "bbox-origin" : [64.000000, -14.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 64.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_Swamp_01.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_Swamp_01.LVL",
 	 "offset" : [-332, 0, -10209],
 	 "bbox-origin" : [128.000000, -8.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 38.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_SwampBorder_01.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_SwampBorder_01.LVL",
 	 "offset" : [-396, 0, -10209],
 	 "bbox-origin" : [32.000000, -8.000000, 128.000000],
 	 "bbox-extents" : [32.000000, 38.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_StoneCity_01.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_StoneCity_01.LVL",
 	 "offset" : [-330, 0, -10337],
 	 "bbox-origin" : [128.000000, -11.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 58.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_SwampBorder_02.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_SwampBorder_02.LVL",
 	 "offset" : [-76, 0, -10209],
 	 "bbox-origin" : [32.000000, -8.000000, 128.000000],
 	 "bbox-extents" : [32.000000, 38.000000, 128.000000] 
@@ -4572,7 +4560,7 @@
 	 "bbox-extents" : [128.000000, 107.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Judgment_Flats_02.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Judgment_Flats_02.LVL",
 	 "offset" : [-730, 0, -12243],
 	 "bbox-origin" : [128.000000, -6.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 63.000000, 128.000000] 
@@ -4596,103 +4584,103 @@
 	 "bbox-extents" : [64.000000, 59.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Fields_02.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Fields_02.LVL",
 	 "offset" : [-28, -33, -13871],
 	 "bbox-origin" : [64.000000, -21.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 71.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Temple_01.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Temple_01.LVL",
 	 "offset" : [-412, -48, -13924],
 	 "bbox-origin" : [128.000000, 0.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 76.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Battleground_01.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Battleground_01.LVL",
 	 "offset" : [-796, 34, -14251],
 	 "bbox-origin" : [128.000000, -43.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 109.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Battleground_02.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Battleground_02.LVL",
 	 "offset" : [-860, 42, -14571],
 	 "bbox-origin" : [128.000000, -1.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 68.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Battleground_03.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Battleground_03.LVL",
 	 "offset" : [-988, 31, -14123],
 	 "bbox-origin" : [64.000000, 2.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 38.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Battleground_04.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Battleground_04.LVL",
 	 "offset" : [-988, 31, -14315],
 	 "bbox-origin" : [64.000000, 5.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 56.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Battleground_05.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Battleground_05.LVL",
 	 "offset" : [-1116, 31, -14123],
 	 "bbox-origin" : [64.000000, -1.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 54.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Battleground_06.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Battleground_06.LVL",
 	 "offset" : [-1116, 31, -14315],
 	 "bbox-origin" : [64.000000, -3.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 53.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Miniboss_01.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Miniboss_01.LVL",
 	 "offset" : [-1052, 42, -14443],
 	 "bbox-origin" : [64.000000, -14.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 88.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Fields_03.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Fields_03.LVL",
 	 "offset" : [-156, -48, -13871],
 	 "bbox-origin" : [64.000000, -3.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 75.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Fields_04.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Fields_04.LVL",
 	 "offset" : [100, -33, -13871],
 	 "bbox-origin" : [64.000000, -20.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 73.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_BossGate_02.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_BossGate_02.LVL",
 	 "offset" : [-732, 42, -14699],
 	 "bbox-origin" : [64.000000, -13.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 64.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Undergrounds\Judgment_TowerUG_Floor00.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Undergrounds/Judgment_TowerUG_Floor00.LVL",
 	 "offset" : [-2968, 0, -13037],
 	 "bbox-origin" : [72.000000, 6.000000, 72.000000],
 	 "bbox-extents" : [72.000000, 6.000000, 72.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Undergrounds\Judgment_TowerUG_Floor01.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Undergrounds/Judgment_TowerUG_Floor01.LVL",
 	 "offset" : [-2992, 0, -13362],
 	 "bbox-origin" : [90.000000, 12.000000, 84.000000],
 	 "bbox-extents" : [90.000000, 12.000000, 84.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Undergrounds\Judgment_TowerUG_Floor02.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Undergrounds/Judgment_TowerUG_Floor02.LVL",
 	 "offset" : [-3030, 0, -13781],
 	 "bbox-origin" : [108.000000, 11.000000, 120.000000],
 	 "bbox-extents" : [132.000000, 11.000000, 120.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Undergrounds\Judgment_TowerUG_Floor03.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Undergrounds/Judgment_TowerUG_Floor03.LVL",
 	 "offset" : [-2554, 0, -12981],
 	 "bbox-origin" : [114.000000, 12.000000, 102.000000],
 	 "bbox-extents" : [114.000000, 12.000000, 102.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Undergrounds\Judgment_TowerUG_Floor04.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Undergrounds/Judgment_TowerUG_Floor04.LVL",
 	 "offset" : [-2528, 0, -13772],
 	 "bbox-origin" : [96.000000, 11.000000, 108.000000],
 	 "bbox-extents" : [120.000000, 11.000000, 108.000000] 
@@ -4716,19 +4704,19 @@
 	 "bbox-extents" : [80.000000, 4.000000, 92.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area03_Epirus\Undergrounds\Epirus_TempleUG_OptionalTomb01.LVL",
+	"name" : "XPack/Levels/Area03_Epirus/Undergrounds/Epirus_TempleUG_OptionalTomb01.LVL",
 	 "offset" : [-362, 8, -7446],
 	 "bbox-origin" : [40.000000, 4.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 4.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area03_Epirus\Undergrounds\Epirus_TempleUG_OptionalTomb02.LVL",
+	"name" : "XPack/Levels/Area03_Epirus/Undergrounds/Epirus_TempleUG_OptionalTomb02.LVL",
 	 "offset" : [-402, -1, -7526],
 	 "bbox-origin" : [40.000000, 7.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 7.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area03_Epirus\Undergrounds\Epirus_TempleUG_OptionalTomb03.LVL",
+	"name" : "XPack/Levels/Area03_Epirus/Undergrounds/Epirus_TempleUG_OptionalTomb03.LVL",
 	 "offset" : [-482, -10, -7542],
 	 "bbox-origin" : [40.000000, 7.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 7.000000, 40.000000] 
@@ -4740,7 +4728,7 @@
 	 "bbox-extents" : [48.000000, 4.000000, 48.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area03_Epirus\Undergrounds\Epirus_TempleUG_OptionalCrypt02.LVL",
+	"name" : "XPack/Levels/Area03_Epirus/Undergrounds/Epirus_TempleUG_OptionalCrypt02.LVL",
 	 "offset" : [91, -9, -9225],
 	 "bbox-origin" : [40.000000, 7.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 7.000000, 40.000000] 
@@ -4770,19 +4758,19 @@
 	 "bbox-extents" : [40.000000, 10.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Undergrounds\Judgment_CaveUG_OrpheusMirror01.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Undergrounds/Judgment_CaveUG_OrpheusMirror01.LVL",
 	 "offset" : [-1628, 0, -12125],
 	 "bbox-origin" : [56.000000, 0.000000, 76.000000],
 	 "bbox-extents" : [56.000000, 10.000000, 76.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Undergrounds\Judgment_CaveUG_OrpheusMirror02.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Undergrounds/Judgment_CaveUG_OrpheusMirror02.LVL",
 	 "offset" : [-1660, 0, -12221],
 	 "bbox-origin" : [48.000000, 0.000000, 48.000000],
 	 "bbox-extents" : [48.000000, 10.000000, 48.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Undergrounds\Judgment_CaveUG_OrpheusMirror03.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Undergrounds/Judgment_CaveUG_OrpheusMirror03.LVL",
 	 "offset" : [-1516, 0, -12059],
 	 "bbox-origin" : [47.000000, 0.000000, 48.000000],
 	 "bbox-extents" : [48.000000, 10.000000, 48.000000] 
@@ -4830,79 +4818,79 @@
 	 "bbox-extents" : [128.000000, 130.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor_01.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor_01.LVL",
 	 "offset" : [-1165, 25, -15650],
 	 "bbox-origin" : [60.000000, 6.000000, 60.000000],
 	 "bbox-extents" : [60.000000, 6.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor_02.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor_02.LVL",
 	 "offset" : [-1261, -23, -15962],
 	 "bbox-origin" : [96.000000, 24.000000, 90.000000],
 	 "bbox-extents" : [96.000000, 24.000000, 90.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor_03.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor_03.LVL",
 	 "offset" : [-1491, -9, -16846],
 	 "bbox-origin" : [90.000000, 26.000000, 90.000000],
 	 "bbox-extents" : [90.000000, 34.000000, 90.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_VistaFloor_01.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_VistaFloor_01.LVL",
 	 "offset" : [-1154, 0, -16599],
 	 "bbox-origin" : [72.000000, 2.000000, 72.000000],
 	 "bbox-extents" : [72.000000, 10.000000, 72.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor_04.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor_04.LVL",
 	 "offset" : [-1165, 13, -15782],
 	 "bbox-origin" : [36.000000, 7.000000, 36.000000],
 	 "bbox-extents" : [36.000000, 15.000000, 36.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor_05.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor_05.LVL",
 	 "offset" : [-1431, -9, -16666],
 	 "bbox-origin" : [60.000000, 8.000000, 58.000000],
 	 "bbox-extents" : [60.000000, 16.000000, 61.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_BossRoom_01.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_BossRoom_01.LVL",
 	 "offset" : [-1153, 25, -15710],
 	 "bbox-origin" : [18.000000, 6.000000, 30.000000],
 	 "bbox-extents" : [18.000000, 6.000000, 30.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area03_Epirus\Epirus_Woods_01.LVL",
+	"name" : "XPack/Levels/Area03_Epirus/Epirus_Woods_01.LVL",
 	 "offset" : [0, 0, -8875],
 	 "bbox-origin" : [128.000000, 18.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 48.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area03_Epirus\Epirus_City_01.LVL",
+	"name" : "XPack/Levels/Area03_Epirus/Epirus_City_01.LVL",
 	 "offset" : [-256, 0, -8909],
 	 "bbox-origin" : [128.000000, 15.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 45.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area03_Epirus\Epirus_Deadlands_01.LVL",
+	"name" : "XPack/Levels/Area03_Epirus/Epirus_Deadlands_01.LVL",
 	 "offset" : [-384, 12, -8992],
 	 "bbox-origin" : [64.000000, 12.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 42.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area03_Epirus\Epirus_Deadlands_02.LVL",
+	"name" : "XPack/Levels/Area03_Epirus/Epirus_Deadlands_02.LVL",
 	 "offset" : [-512, 12, -8992],
 	 "bbox-origin" : [64.000000, 12.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 42.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area03_Epirus\Epirus_Deadlands_03.LVL",
+	"name" : "XPack/Levels/Area03_Epirus/Epirus_Deadlands_03.LVL",
 	 "offset" : [-468, 12, -9120],
 	 "bbox-origin" : [64.000000, 19.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 69.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area03_Epirus\Epirus_City_01Border.LVL",
+	"name" : "XPack/Levels/Area03_Epirus/Epirus_City_01Border.LVL",
 	 "offset" : [-256, 0, -9037],
 	 "bbox-origin" : [128.000000, 15.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 45.000000, 64.000000] 
@@ -4920,43 +4908,43 @@
 	 "bbox-extents" : [60.000000, 10.000000, 61.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Undergrounds\Rhodes_CaveUG_BlindQuest03.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Undergrounds/Rhodes_CaveUG_BlindQuest03.LVL",
 	 "offset" : [678, 0, -7874],
 	 "bbox-origin" : [40.000000, 3.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 14.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Undergrounds\Rhodes_CaveUG_VistaCave03.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Undergrounds/Rhodes_CaveUG_VistaCave03.LVL",
 	 "offset" : [-314, 0, -6480],
 	 "bbox-origin" : [40.000000, 4.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 4.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Undergrounds\Rhodes_CaveUG_BlindQuest05.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Undergrounds/Rhodes_CaveUG_BlindQuest05.LVL",
 	 "offset" : [638, 9, -7842],
 	 "bbox-origin" : [20.000000, 4.000000, 20.000000],
 	 "bbox-extents" : [20.000000, 4.000000, 20.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Rhodes_SecretVista_01.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Rhodes_SecretVista_01.LVL",
 	 "offset" : [-216, 0, -6070],
 	 "bbox-origin" : [64.000000, 13.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 56.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Rhodes_SecretVista_02.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Rhodes_SecretVista_02.LVL",
 	 "offset" : [-88, 9, -6070],
 	 "bbox-origin" : [32.000000, -4.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 45.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Rhodes_SecretVista_03.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Rhodes_SecretVista_03.LVL",
 	 "offset" : [-344, 0, -6112],
 	 "bbox-origin" : [64.000000, -3.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 39.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area03_Epirus\Epirus_TempleArea_01.LVL",
+	"name" : "XPack/Levels/Area03_Epirus/Epirus_TempleArea_01.LVL",
 	 "offset" : [128, 37, -8939],
 	 "bbox-origin" : [64.000000, -8.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 38.000000, 32.000000] 
@@ -4980,7 +4968,7 @@
 	 "bbox-extents" : [80.000000, 5.000000, 80.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Undergrounds\Styx_CryptUG_StoneCity01.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Undergrounds/Styx_CryptUG_StoneCity01.LVL",
 	 "offset" : [-905, 0, -10635],
 	 "bbox-origin" : [60.000000, 6.000000, 60.000000],
 	 "bbox-extents" : [60.000000, 6.000000, 60.000000] 
@@ -4998,31 +4986,31 @@
 	 "bbox-extents" : [110.000000, 91.000000, 125.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Undergrounds\Medea_CryptUG_Witches01.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Undergrounds/Medea_CryptUG_Witches01.LVL",
 	 "offset" : [-551, 0, -8338],
 	 "bbox-origin" : [40.000000, 11.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 11.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Undergrounds\Medea_CryptUG_Witches02.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Undergrounds/Medea_CryptUG_Witches02.LVL",
 	 "offset" : [-728, 0, -8335],
 	 "bbox-origin" : [44.000000, 4.000000, 40.000000],
 	 "bbox-extents" : [44.000000, 4.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Undergrounds\Judgment_StoneCity02_Entrance01.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Undergrounds/Judgment_StoneCity02_Entrance01.LVL",
 	 "offset" : [-1579, 0, -13354],
 	 "bbox-origin" : [90.000000, 3.000000, 90.000000],
 	 "bbox-extents" : [90.000000, 8.000000, 90.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Undergrounds\Judgment_StoneCity02_Exit01.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Undergrounds/Judgment_StoneCity02_Exit01.LVL",
 	 "offset" : [-1639, -9, -13222],
 	 "bbox-origin" : [42.000000, 10.000000, 36.000000],
 	 "bbox-extents" : [42.000000, 10.000000, 36.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Judgment_Tower_05Border.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Judgment_Tower_05Border.LVL",
 	 "offset" : [-666, -12, -13082],
 	 "bbox-origin" : [32.000000, -2.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 71.000000, 64.000000] 
@@ -5046,210 +5034,199 @@
 	 "bbox-extents" : [36.000000, 8.000000, 36.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Undergrounds\Judgment_StoneCity03_Entrance.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Undergrounds/Judgment_StoneCity03_Entrance.LVL",
 	 "offset" : [-1464, 9, -12944],
 	 "bbox-origin" : [24.000000, 6.000000, 23.000000],
 	 "bbox-extents" : [24.000000, 6.000000, 24.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Undergrounds\Judgment_StoneCity03_Main.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Undergrounds/Judgment_StoneCity03_Main.LVL",
 	 "offset" : [-1596, 0, -12992],
 	 "bbox-origin" : [66.000000, 10.000000, 60.000000],
 	 "bbox-extents" : [66.000000, 10.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Undergrounds\Judgment_StoneCity04_Entrance.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Undergrounds/Judgment_StoneCity04_Entrance.LVL",
 	 "offset" : [-1871, 0, -13026],
 	 "bbox-origin" : [65.000000, 10.000000, 60.000000],
 	 "bbox-extents" : [65.000000, 10.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Temple_01Border.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Temple_01Border.LVL",
 	 "offset" : [-412, -48, -14052],
 	 "bbox-origin" : [128.000000, 8.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 79.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_RiverEdge_06.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_RiverEdge_06.LVL",
 	 "offset" : [-140, 0, -9953],
 	 "bbox-origin" : [128.000000, -8.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 38.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_RiverEdge_07.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_RiverEdge_07.LVL",
 	 "offset" : [-396, 0, -9953],
 	 "bbox-origin" : [128.000000, -6.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 62.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_RiverEdge_08.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_RiverEdge_08.LVL",
 	 "offset" : [-12, 0, -10081],
 	 "bbox-origin" : [64.000000, -7.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 37.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_SwampBorder_03.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_SwampBorder_03.LVL",
 	 "offset" : [-458, 0, -10337],
 	 "bbox-origin" : [64.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 46.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_SwampBorder_04.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_SwampBorder_04.LVL",
 	 "offset" : [-524, 0, -10209],
 	 "bbox-origin" : [64.000000, -7.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 37.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Entrance_01.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Entrance_01.LVL",
 	 "offset" : [228, -36, -13871],
 	 "bbox-origin" : [64.000000, -18.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 70.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_StoneCity_02.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_StoneCity_02.LVL",
 	 "offset" : [-823, 0, -11180],
 	 "bbox-origin" : [64.000000, -8.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 76.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_StoneCity_03.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_StoneCity_03.LVL",
 	 "offset" : [-804, 0, -11308],
 	 "bbox-origin" : [64.000000, -2.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 75.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_StoneCity_04.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_StoneCity_04.LVL",
 	 "offset" : [-695, 0, -11180],
 	 "bbox-origin" : [64.000000, -12.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 73.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_StoneCity_05.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_StoneCity_05.LVL",
 	 "offset" : [-676, 0, -11308],
 	 "bbox-origin" : [64.000000, -8.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 81.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Undergrounds\Judgment_TowerUG_Floor06.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Undergrounds/Judgment_TowerUG_Floor06.LVL",
 	 "offset" : [-2526, 0, -14253],
 	 "bbox-origin" : [120.000000, -6.000000, 120.000000],
 	 "bbox-extents" : [120.000000, 30.000000, 120.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Fields_02Border.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Fields_02Border.LVL",
 	 "offset" : [-28, -98, -13935],
 	 "bbox-origin" : [64.000000, 21.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 71.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Undergrounds\Styx_CryptUG_StoneTransitionII01.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Undergrounds/Styx_CryptUG_StoneTransitionII01.LVL",
 	 "offset" : [-230, 0, -12735],
 	 "bbox-origin" : [78.000000, 6.000000, 78.000000],
 	 "bbox-extents" : [78.000000, 6.000000, 78.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Undergrounds\Styx_CryptUG_StoneTransitionI01.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Undergrounds/Styx_CryptUG_StoneTransitionI01.LVL",
 	 "offset" : [-1704, 0, -11291],
 	 "bbox-origin" : [48.000000, 6.000000, 60.000000],
 	 "bbox-extents" : [48.000000, 6.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Fields_03Border.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Fields_03Border.LVL",
 	 "offset" : [-156, -48, -13743],
 	 "bbox-origin" : [64.000000, -4.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 73.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Undergrounds\Styx_CryptUG_StoneTransitionIII01.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Undergrounds/Styx_CryptUG_StoneTransitionIII01.LVL",
 	 "offset" : [-1187, 0, -11764],
 	 "bbox-origin" : [84.000000, 6.000000, 59.000000],
 	 "bbox-extents" : [84.000000, 6.000000, 60.000000] 
-	{
-	 "offset" : [468, 4, -11091],
-	 "bbox-origin" : [66.000000, 6.000000, 72.000000],
-	 "bbox-extents" : [66.000000, 6.000000, 72.000000] 
 	},
 	{
-	 "offset" : [-540, -82, -14020],
-	 "bbox-extents" : [64.000000, 102.000000, 128.000000] 
-	{
-	 "bbox-origin" : [128.000000, -8.000000, 128.000000],
-	 "bbox-extents" : [128.000000, 62.000000, 128.000000] 
-	},
-	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_RiverEdge_10.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_RiverEdge_10.LVL",
 	 "offset" : [-396, 0, -9825],
 	 "bbox-origin" : [128.000000, -7.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 64.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Miniboss_02.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Miniboss_02.LVL",
 	 "offset" : [-924, 34, -14443],
 	 "bbox-origin" : [32.000000, 12.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 62.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_MiniBoss_01Border.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_MiniBoss_01Border.LVL",
 	 "offset" : [-1052, 15, -14507],
 	 "bbox-origin" : [64.000000, 17.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 70.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_BattlegroundMiddle_01.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_BattlegroundMiddle_01.LVL",
 	 "offset" : [-1116, 34, -14187],
 	 "bbox-origin" : [128.000000, -9.000000, 32.000000],
 	 "bbox-extents" : [128.000000, 48.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Battleground_01Border.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Battleground_01Border.LVL",
 	 "offset" : [-860, 34, -14315],
 	 "bbox-origin" : [128.000000, 5.000000, 32.000000],
 	 "bbox-extents" : [128.000000, 58.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_BattlegroundEdge_01.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_BattlegroundEdge_01.LVL",
 	 "offset" : [-1116, 34, -13995],
 	 "bbox-origin" : [128.000000, 0.000000, 32.000000],
 	 "bbox-extents" : [128.000000, 43.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Undergrounds\Styx_CryptUG_StoneCity02.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Undergrounds/Styx_CryptUG_StoneCity02.LVL",
 	 "offset" : [-649, -9, -10640],
 	 "bbox-origin" : [60.000000, 10.000000, 65.000000],
 	 "bbox-extents" : [60.000000, 10.000000, 65.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Undergrounds\Styx_CryptUG_StoneTransitionI02.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Undergrounds/Styx_CryptUG_StoneTransitionI02.LVL",
 	 "offset" : [-1977, -9, -11535],
 	 "bbox-origin" : [60.000000, 10.000000, 90.000000],
 	 "bbox-extents" : [60.000000, 10.000000, 90.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Undergrounds\Styx_CryptUG_StoneTransitionI03.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Undergrounds/Styx_CryptUG_StoneTransitionI03.LVL",
 	 "offset" : [-1977, -18, -11032],
 	 "bbox-origin" : [42.000000, 10.000000, 36.000000],
 	 "bbox-extents" : [42.000000, 10.000000, 36.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Optional01_01.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Optional01_01.LVL",
 	 "offset" : [-1960, 0, -14288],
 	 "bbox-origin" : [48.000000, 0.000000, 48.000000],
 	 "bbox-extents" : [48.000000, 10.000000, 48.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Undergrounds\Elysian_Optional01_02.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Undergrounds/Elysian_Optional01_02.LVL",
 	 "offset" : [-1952, 0, -14368],
 	 "bbox-origin" : [40.000000, -1.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 10.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Undergrounds\Elysian_OptionalCrypt01_01.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Undergrounds/Elysian_OptionalCrypt01_01.LVL",
 	 "offset" : [-1947, 0, -14150],
 	 "bbox-origin" : [40.000000, 4.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 4.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Undergrounds\Elysian_0ptional02_01.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Undergrounds/Elysian_0ptional02_01.LVL",
 	 "offset" : [-1674, 0, -14271],
 	 "bbox-origin" : [40.000000, 0.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 10.000000, 40.000000] 
@@ -5273,7 +5250,7 @@
 	 "bbox-extents" : [40.000000, 10.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Battleground_02Border.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Battleground_02Border.LVL",
 	 "offset" : [-860, 34, -14251],
 	 "bbox-origin" : [32.000000, 2.000000, 128.000000],
 	 "bbox-extents" : [32.000000, 38.000000, 128.000000] 
@@ -5303,97 +5280,97 @@
 	 "bbox-extents" : [64.000000, 81.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor01_02.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor01_02.LVL",
 	 "offset" : [-1285, -23, -16130],
 	 "bbox-origin" : [84.000000, 20.000000, 84.000000],
 	 "bbox-extents" : [84.000000, 28.000000, 84.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor1_02Border.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor1_02Border.LVL",
 	 "offset" : [-1117, 13, -16130],
 	 "bbox-origin" : [24.000000, 2.000000, 84.000000],
 	 "bbox-extents" : [24.000000, 10.000000, 84.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor02_01.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor02_01.LVL",
 	 "offset" : [-1288, 0, -16309],
 	 "bbox-origin" : [90.000000, 7.000000, 84.000000],
 	 "bbox-extents" : [90.000000, 15.000000, 84.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor02Crystal_01.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor02Crystal_01.LVL",
 	 "offset" : [-1471, 0, -16478],
 	 "bbox-origin" : [60.000000, 7.000000, 48.000000],
 	 "bbox-extents" : [60.000000, 15.000000, 48.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor02_02.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor02_02.LVL",
 	 "offset" : [-927, -24, -16869],
 	 "bbox-origin" : [120.000000, 18.000000, 120.000000],
 	 "bbox-extents" : [120.000000, 18.000000, 120.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Undergrounds\Judgment_caveUG_OrpheusMirror04.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Undergrounds/Judgment_caveUG_OrpheusMirror04.LVL",
 	 "offset" : [-1541, -6, -12139],
 	 "bbox-origin" : [40.000000, -1.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 10.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Battleground_03Border.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Battleground_03Border.LVL",
 	 "offset" : [-604, 34, -14507],
 	 "bbox-origin" : [32.000000, 1.000000, 128.000000],
 	 "bbox-extents" : [32.000000, 61.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Battleground_04Border.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Battleground_04Border.LVL",
 	 "offset" : [-604, 32, -14635],
 	 "bbox-origin" : [32.000000, -2.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 63.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Undergrounds\Judgment_UGCrypt_OrpheusPrison01.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Undergrounds/Judgment_UGCrypt_OrpheusPrison01.LVL",
 	 "offset" : [-1910, 0, -12245],
 	 "bbox-origin" : [64.000000, -1.000000, 60.000000],
 	 "bbox-extents" : [64.000000, 10.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_StoneCity_02Border01.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_StoneCity_02Border01.LVL",
 	 "offset" : [-823, 0, -11052],
 	 "bbox-origin" : [64.000000, -17.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 67.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_StoneCity_02Border02.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_StoneCity_02Border02.LVL",
 	 "offset" : [-951, 0, -11180],
 	 "bbox-origin" : [64.000000, -14.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 70.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_StoneCity_04Border01.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_StoneCity_04Border01.LVL",
 	 "offset" : [-804, 0, -11372],
 	 "bbox-origin" : [128.000000, -7.000000, 32.000000],
 	 "bbox-extents" : [128.000000, 70.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_StoneCity_06Border01.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_StoneCity_06Border01.LVL",
 	 "offset" : [-1177, 0, -11193],
 	 "bbox-origin" : [64.000000, -17.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 67.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_StoneCity_06Border02.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_StoneCity_06Border02.LVL",
 	 "offset" : [-1478, 0, -11321],
 	 "bbox-origin" : [32.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 55.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_StoneCity_08Border01.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_StoneCity_08Border01.LVL",
 	 "offset" : [-1414, 0, -11449],
 	 "bbox-origin" : [128.000000, -6.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 79.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_StoneCity_08Border02.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_StoneCity_08Border02.LVL",
 	 "offset" : [-1158, 0, -11321],
 	 "bbox-origin" : [64.000000, -17.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 67.000000, 64.000000] 
@@ -5405,61 +5382,61 @@
 	 "bbox-extents" : [64.000000, 76.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_BattlegroundTowers_01.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_BattlegroundTowers_01.LVL",
 	 "offset" : [-1244, 6, -14190],
 	 "bbox-origin" : [64.000000, 15.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 51.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Undergrounds\Judgment_TempleUG_Mnemosyne03.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Undergrounds/Judgment_TempleUG_Mnemosyne03.LVL",
 	 "offset" : [87, 4, -10719],
 	 "bbox-origin" : [60.000000, 10.000000, 60.000000],
 	 "bbox-extents" : [60.000000, 10.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_SecondTemple_01Border.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_SecondTemple_01Border.LVL",
 	 "offset" : [-540, -58, -14084],
 	 "bbox-origin" : [64.000000, 34.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 95.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor03_Border01.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor03_Border01.LVL",
 	 "offset" : [-1491, -18, -16666],
 	 "bbox-origin" : [30.000000, 6.000000, 30.000000],
 	 "bbox-extents" : [30.000000, 6.000000, 30.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor04_01.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor04_01.LVL",
 	 "offset" : [-1199, 1, -17307],
 	 "bbox-origin" : [84.000000, 11.000000, 72.000000],
 	 "bbox-extents" : [84.000000, 11.000000, 72.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor04_02.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor04_02.LVL",
 	 "offset" : [-1295, 1, -17540],
 	 "bbox-origin" : [60.000000, 14.000000, 60.000000],
 	 "bbox-extents" : [60.000000, 22.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor04_03.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor04_03.LVL",
 	 "offset" : [-1319, 1, -17307],
 	 "bbox-origin" : [60.000000, 11.000000, 54.000000],
 	 "bbox-extents" : [60.000000, 11.000000, 78.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor04_04.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor04_04.LVL",
 	 "offset" : [-1474, 0, -17087],
 	 "bbox-origin" : [60.000000, 12.000000, 60.000000],
 	 "bbox-extents" : [60.000000, 12.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor04_05.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor04_05.LVL",
 	 "offset" : [-1508, 0, -17303],
 	 "bbox-origin" : [72.000000, 20.000000, 60.000000],
 	 "bbox-extents" : [72.000000, 28.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor04_06.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor04_06.LVL",
 	 "offset" : [-1652, 0, -17327],
 	 "bbox-origin" : [72.000000, 8.000000, 72.000000],
 	 "bbox-extents" : [72.000000, 16.000000, 72.000000] 
@@ -5471,43 +5448,43 @@
 	 "bbox-extents" : [40.000000, 10.000000, 48.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area02_Medea\Medea_MedeaGrove03.LVL",
+	"name" : "XPack/Levels/Area02_Medea/Medea_MedeaGrove03.LVL",
 	 "offset" : [201, 29, -7366],
 	 "bbox-origin" : [128.000000, 0.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 71.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor04_05Stairs.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor04_05Stairs.LVL",
 	 "offset" : [-1484, 24, -17183],
 	 "bbox-origin" : [24.000000, 11.000000, 23.000000],
 	 "bbox-extents" : [24.000000, 11.000000, 24.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor05_01.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor05_01.LVL",
 	 "offset" : [-1772, 0, -17327],
 	 "bbox-origin" : [72.000000, 8.000000, 60.000000],
 	 "bbox-extents" : [72.000000, 16.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor05_02.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor05_02.LVL",
 	 "offset" : [-1994, 0, -17328],
 	 "bbox-origin" : [72.000000, 11.000000, 60.000000],
 	 "bbox-extents" : [72.000000, 11.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor05_03.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor05_03.LVL",
 	 "offset" : [-2143, 0, -17303],
 	 "bbox-origin" : [36.000000, 6.000000, 36.000000],
 	 "bbox-extents" : [36.000000, 6.000000, 36.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor05_04.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor05_04.LVL",
 	 "offset" : [-2279, 0, -17308],
 	 "bbox-origin" : [46.000000, 9.000000, 60.000000],
 	 "bbox-extents" : [73.000000, 17.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_SecondTemple_Border02.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_SecondTemple_Border02.LVL",
 	 "offset" : [-668, 0, -13995],
 	 "bbox-origin" : [64.000000, -8.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 81.000000, 64.000000] 
@@ -5549,7 +5526,7 @@
 	 "bbox-extents" : [60.000000, 18.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_Floor04_06Border.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_Floor04_06Border.LVL",
 	 "offset" : [-1592, 12, -17387],
 	 "bbox-origin" : [30.000000, 2.000000, 30.000000],
 	 "bbox-extents" : [30.000000, 10.000000, 30.000000] 
@@ -5567,31 +5544,31 @@
 	 "bbox-extents" : [120.000000, 28.000000, 120.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area08_HadesPalace\HadesPalace_AnteChamber_01.LVL",
+	"name" : "XPack/Levels/Area08_HadesPalace/HadesPalace_AnteChamber_01.LVL",
 	 "offset" : [-1213, 25, -15710],
 	 "bbox-origin" : [30.000000, 6.000000, 30.000000],
 	 "bbox-extents" : [30.000000, 6.000000, 30.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Undergrounds\Judgment_StoneCity_Exit01.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Undergrounds/Judgment_StoneCity_Exit01.LVL",
 	 "offset" : [-1844, 0, -13320],
 	 "bbox-origin" : [72.000000, 7.000000, 77.000000],
 	 "bbox-extents" : [72.000000, 12.000000, 77.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area03_Epirus\Epirus_City_02.LVL",
+	"name" : "XPack/Levels/Area03_Epirus/Epirus_City_02.LVL",
 	 "offset" : [-256, 21, -9101],
 	 "bbox-origin" : [128.000000, 5.000000, 32.000000],
 	 "bbox-extents" : [128.000000, 35.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Area05_Judgment_Flats03Border.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Area05_Judgment_Flats03Border.LVL",
 	 "offset" : [-1114, 0, -12248],
 	 "bbox-origin" : [64.000000, -7.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 62.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area03_Epirus\Epirus_Deadlands_01Border.LVL",
+	"name" : "XPack/Levels/Area03_Epirus/Epirus_Deadlands_01Border.LVL",
 	 "offset" : [-340, 0, -9056],
 	 "bbox-origin" : [32.000000, 18.000000, 32.000000],
 	 "bbox-extents" : [32.000000, 48.000000, 32.000000] 
@@ -5609,13 +5586,13 @@
 	 "bbox-extents" : [40.000000, 10.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Rields_02Minimap.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Rields_02Minimap.LVL",
 	 "offset" : [-5, -77, -13743],
 	 "bbox-origin" : [64.000000, 0.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 50.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_BattlegroundTowers_01Border.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_BattlegroundTowers_01Border.LVL",
 	 "offset" : [-1244, 9, -14318],
 	 "bbox-origin" : [64.000000, 9.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 45.000000, 64.000000] 
@@ -5627,109 +5604,109 @@
 	 "bbox-extents" : [128.000000, 80.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Undergrounds\ScrambledEggs_Floor01.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Undergrounds/ScrambledEggs_Floor01.LVL",
 	 "offset" : [-639, 0, -6945],
 	 "bbox-origin" : [60.000000, 6.000000, 60.000000],
 	 "bbox-extents" : [60.000000, 6.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Undergrounds\ScrambledEggs_Floor02.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Undergrounds/ScrambledEggs_Floor02.LVL",
 	 "offset" : [-1011, 0, -6884],
 	 "bbox-origin" : [66.000000, 4.000000, 60.000000],
 	 "bbox-extents" : [66.000000, 5.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Undergrounds\ScrambledEggs_Floor03.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Undergrounds/ScrambledEggs_Floor03.LVL",
 	 "offset" : [-1699, 15, -6911],
 	 "bbox-origin" : [150.000000, 8.000000, 150.000000],
 	 "bbox-extents" : [150.000000, 16.000000, 150.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Undergrounds\ScrambledEggs_Floor03Border.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Undergrounds/ScrambledEggs_Floor03Border.LVL",
 	 "offset" : [-1814, 5, -6756],
 	 "bbox-origin" : [60.000000, 6.000000, 60.000000],
 	 "bbox-extents" : [60.000000, 6.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Undergrounds\ScrambledEggs_Floor04.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Undergrounds/ScrambledEggs_Floor04.LVL",
 	 "offset" : [-1435, 27, -6791],
 	 "bbox-origin" : [30.000000, 1.000000, 30.000000],
 	 "bbox-extents" : [30.000000, 10.000000, 30.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Undergrounds\ScrambledEggs_Floor05.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Undergrounds/ScrambledEggs_Floor05.LVL",
 	 "offset" : [-1735, 27, -6659],
 	 "bbox-origin" : [30.000000, 1.000000, 30.000000],
 	 "bbox-extents" : [30.000000, 10.000000, 30.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Undergrounds\ScrabledEggs_Floor06.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Undergrounds/ScrabledEggs_Floor06.LVL",
 	 "offset" : [-1917, 0, -6421],
 	 "bbox-origin" : [66.000000, 9.000000, 66.000000],
 	 "bbox-extents" : [66.000000, 9.000000, 66.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Wasteland01_Border01.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Wasteland01_Border01.LVL",
 	 "offset" : [-325, 0, -9441],
 	 "bbox-origin" : [32.000000, 8.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 58.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area03_Epirus\Epirus_TempleArea_02.LVL",
+	"name" : "XPack/Levels/Area03_Epirus/Epirus_TempleArea_02.LVL",
 	 "offset" : [0, 20, -8939],
 	 "bbox-origin" : [64.000000, 2.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 34.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Miniboss_02Border.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Miniboss_02Border.LVL",
 	 "offset" : [-924, 0, -14571],
 	 "bbox-origin" : [32.000000, 29.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 79.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_SecondTemple01_Border2.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_SecondTemple01_Border2.LVL",
 	 "offset" : [-540, 0, -14212],
 	 "bbox-origin" : [64.000000, -34.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 84.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_SecondTemple01_Border3.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_SecondTemple01_Border3.LVL",
 	 "offset" : [-540, 0, -13764],
 	 "bbox-origin" : [64.000000, -34.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 84.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_SecondTemple01_Border4.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_SecondTemple01_Border4.LVL",
 	 "offset" : [-604, 0, -13867],
 	 "bbox-origin" : [32.000000, -34.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 84.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Miniboss_01Border2.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Miniboss_01Border2.LVL",
 	 "offset" : [-1116, 0, -14443],
 	 "bbox-origin" : [32.000000, 7.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 57.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area06_Elysian\Elysian_Battleground_05Border.LVL",
+	"name" : "XPack/Levels/Area06_Elysian/Elysian_Battleground_05Border.LVL",
 	 "offset" : [-1180, 0, -14062],
 	 "bbox-origin" : [32.000000, 12.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 42.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Rhodes_Beach_02Border.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Rhodes_Beach_02Border.LVL",
 	 "offset" : [969, -27, -6948],
 	 "bbox-origin" : [32.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 50.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Rhodes_SecretVista_02Border.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Rhodes_SecretVista_02Border.LVL",
 	 "offset" : [-179, -38, -5942],
 	 "bbox-origin" : [64.000000, 0.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 30.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area01_Rhodes\Rhodes_TropicalForest_01Border01.LVL",
+	"name" : "XPack/Levels/Area01_Rhodes/Rhodes_TropicalForest_01Border01.LVL",
 	 "offset" : [457, 24, -7322],
 	 "bbox-origin" : [128.000000, 0.000000, 32.000000],
 	 "bbox-extents" : [128.000000, 50.000000, 32.000000] 
@@ -5741,43 +5718,43 @@
 	 "bbox-extents" : [128.000000, 68.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Corinthia\CorinthiaOutskirts.LVL",
+	"name" : "XPack2/Levels/Corinthia/CorinthiaOutskirts.LVL",
 	 "offset" : [-7596, 0, 56],
 	 "bbox-origin" : [128.000000, -3.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 61.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Corinthia\RoadToKenchreai01.LVL",
+	"name" : "XPack2/Levels/Corinthia/RoadToKenchreai01.LVL",
 	 "offset" : [-7124, 0, -712],
 	 "bbox-origin" : [128.000000, 18.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 78.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Corinthia\KenchreaiPort.LVL",
+	"name" : "XPack2/Levels/Corinthia/KenchreaiPort.LVL",
 	 "offset" : [-7124, 0, -968],
 	 "bbox-origin" : [128.000000, 20.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 74.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Corinthia\Underground\TempleOfAsklepius.LVL",
+	"name" : "XPack2/Levels/Corinthia/Underground/TempleOfAsklepius.LVL",
 	 "offset" : [-7173, 0, 379],
 	 "bbox-origin" : [28.000000, 6.000000, 32.000000],
 	 "bbox-extents" : [28.000000, 6.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\HercynianForest.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/HercynianForest.LVL",
 	 "offset" : [6488, 7, -6154],
 	 "bbox-origin" : [128.000000, -2.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 47.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\ShoresOfScandia.LVL",
+	"name" : "XPack2/Levels/Scandia/ShoresOfScandia.LVL",
 	 "offset" : [6498, 0, -9521],
 	 "bbox-origin" : [64.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 35.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\KingGylfisSettlement.LVL",
+	"name" : "XPack2/Levels/Scandia/KingGylfisSettlement.LVL",
 	 "offset" : [6307, 0, -9777],
 	 "bbox-origin" : [128.000000, 11.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 43.000000, 128.000000] 
@@ -5807,199 +5784,199 @@
 	 "bbox-extents" : [64.000000, 35.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Corinthia\LechaionHarbor.LVL",
+	"name" : "XPack2/Levels/Corinthia/LechaionHarbor.LVL",
 	 "offset" : [-7724, 0, 56],
 	 "bbox-origin" : [64.000000, -13.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 63.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Corinthia\ForgottenRoad.LVL",
+	"name" : "XPack2/Levels/Corinthia/ForgottenRoad.LVL",
 	 "offset" : [-7316, 0, -72],
 	 "bbox-origin" : [64.000000, 13.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 66.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Corinthia\ForgottenRoad02.LVL",
+	"name" : "XPack2/Levels/Corinthia/ForgottenRoad02.LVL",
 	 "offset" : [-7188, 0, -72],
 	 "bbox-origin" : [64.000000, 2.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 49.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Corinthia\Underground\ArcadiaDungeonPassage.LVL",
+	"name" : "XPack2/Levels/Corinthia/Underground/ArcadiaDungeonPassage.LVL",
 	 "offset" : [-6432, 0, -1053],
 	 "bbox-origin" : [80.000000, 4.000000, 120.000000],
 	 "bbox-extents" : [80.000000, 4.000000, 120.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\HeuneburgOutskirts01.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/HeuneburgOutskirts01.LVL",
 	 "offset" : [7079, 0, -5655],
 	 "bbox-origin" : [128.000000, 10.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 71.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\Heuneburg01.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/Heuneburg01.LVL",
 	 "offset" : [6995, 0, -5911],
 	 "bbox-origin" : [128.000000, 7.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 63.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\SwabianJura01.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/SwabianJura01.LVL",
 	 "offset" : [6823, 0, -5603],
 	 "bbox-origin" : [128.000000, 15.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 49.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\LembergSummit01.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/LembergSummit01.LVL",
 	 "offset" : [6567, 0, -5642],
 	 "bbox-origin" : [128.000000, 35.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 65.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\HercynianBorder01.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/HercynianBorder01.LVL",
 	 "offset" : [6501, 0, -5898],
 	 "bbox-origin" : [128.000000, 14.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 44.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\HercynianForest02.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/HercynianForest02.LVL",
 	 "offset" : [6388, 0, -6410],
 	 "bbox-origin" : [128.000000, 7.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 49.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\HercynianForest03.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/HercynianForest03.LVL",
 	 "offset" : [6388, 0, -6666],
 	 "bbox-origin" : [128.000000, 11.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 44.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\HercynianForest04.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/HercynianForest04.LVL",
 	 "offset" : [6410, 0, -6922],
 	 "bbox-origin" : [128.000000, 0.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 33.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\RhineValley01.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/RhineValley01.LVL",
 	 "offset" : [6154, 0, -7020],
 	 "bbox-origin" : [128.000000, 0.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 39.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\RhineValley02.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/RhineValley02.LVL",
 	 "offset" : [5898, 0, -7158],
 	 "bbox-origin" : [128.000000, 10.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 50.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\GlaubergOutskirts01.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/GlaubergOutskirts01.LVL",
 	 "offset" : [5386, 0, -7156],
 	 "bbox-origin" : [128.000000, 6.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 42.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\Glauberg01.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/Glauberg01.LVL",
 	 "offset" : [5386, 0, -7412],
 	 "bbox-origin" : [128.000000, 9.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 39.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\RhineValley03.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/RhineValley03.LVL",
 	 "offset" : [5642, 0, -7158],
 	 "bbox-origin" : [128.000000, 9.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 51.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\Glauberg02.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/Glauberg02.LVL",
 	 "offset" : [5385, 0, -7668],
 	 "bbox-origin" : [128.000000, 10.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 40.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\RhineValley02b.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/RhineValley02b.LVL",
 	 "offset" : [6154, 0, -7148],
 	 "bbox-origin" : [64.000000, -2.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 37.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\HeuneburgOutskirts02.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/HeuneburgOutskirts02.LVL",
 	 "offset" : [6995, 0, -6039],
 	 "bbox-origin" : [128.000000, 5.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 64.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\HeuneburgOutskirts03.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/HeuneburgOutskirts03.LVL",
 	 "offset" : [7251, 0, -5911],
 	 "bbox-origin" : [64.000000, 4.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 58.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\HercynianForest02b.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/HercynianForest02b.LVL",
 	 "offset" : [6260, 0, -6528],
 	 "bbox-origin" : [64.000000, 6.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 47.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\HeuneburgOutskirts03b.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/HeuneburgOutskirts03b.LVL",
 	 "offset" : [7251, 0, -6039],
 	 "bbox-origin" : [64.000000, 5.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 59.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\LembergSummit01b.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/LembergSummit01b.LVL",
 	 "offset" : [6311, 15, -5642],
 	 "bbox-origin" : [128.000000, 22.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 58.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\RhineValley01b.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/RhineValley01b.LVL",
 	 "offset" : [6282, 0, -7084],
 	 "bbox-origin" : [64.000000, 2.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 32.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\Underground\SwabianJura01_Cave.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/Underground/SwabianJura01_Cave.LVL",
 	 "offset" : [6847, 0, -5870],
 	 "bbox-origin" : [60.000000, -1.000000, 60.000000],
 	 "bbox-extents" : [60.000000, 10.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\Underground\HercynianForest_Cave.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/Underground/HercynianForest_Cave.LVL",
 	 "offset" : [7137, 0, -6638],
 	 "bbox-origin" : [60.000000, -1.000000, 60.000000],
 	 "bbox-extents" : [60.000000, 10.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\Underground\HercynianForest03_Cave.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/Underground/HercynianForest03_Cave.LVL",
 	 "offset" : [6701, 0, -7183],
 	 "bbox-origin" : [80.000000, 0.000000, 63.000000],
 	 "bbox-extents" : [80.000000, 10.000000, 63.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\Underground\HercynianForest04_TrollKing.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/Underground/HercynianForest04_TrollKing.LVL",
 	 "offset" : [5690, 0, -6267],
 	 "bbox-origin" : [100.000000, 4.000000, 60.000000],
 	 "bbox-extents" : [100.000000, 4.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\Underground\HercynianForest06_Cave.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/Underground/HercynianForest06_Cave.LVL",
 	 "offset" : [5795, 0, -5894],
 	 "bbox-origin" : [60.000000, 4.000000, 60.000000],
 	 "bbox-extents" : [60.000000, 4.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\Underground\RhineValley_Connect.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/Underground/RhineValley_Connect.LVL",
 	 "offset" : [6144, 0, -7519],
 	 "bbox-origin" : [100.000000, 3.000000, 64.000000],
 	 "bbox-extents" : [100.000000, 15.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\Underground\GlaubergOutskirts01_Cave.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/Underground/GlaubergOutskirts01_Cave.LVL",
 	 "offset" : [5847, 0, -7513],
 	 "bbox-origin" : [60.000000, 4.000000, 60.000000],
 	 "bbox-extents" : [60.000000, 4.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\HeuneburgRhine.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/HeuneburgRhine.LVL",
 	 "offset" : [7115, 0, -6167],
 	 "bbox-origin" : [128.000000, 2.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 57.000000, 64.000000] 
@@ -6011,193 +5988,193 @@
 	 "bbox-extents" : [32.000000, 37.000000, 16.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\Underground\SwabianJura01_SaltMineB_01.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/Underground/SwabianJura01_SaltMineB_01.LVL",
 	 "offset" : [6538, 0, -4623],
 	 "bbox-origin" : [41.000000, 4.000000, 40.000000],
 	 "bbox-extents" : [41.000000, 4.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\Underground\SwabianJura01_SaltMineB_02.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/Underground/SwabianJura01_SaltMineB_02.LVL",
 	 "offset" : [6370, -9, -4623],
 	 "bbox-origin" : [84.000000, 8.000000, 39.000000],
 	 "bbox-extents" : [84.000000, 8.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\Underground\SwabianJura01_SaltMineB_03.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/Underground/SwabianJura01_SaltMineB_03.LVL",
 	 "offset" : [6370, -9, -4743],
 	 "bbox-origin" : [60.000000, -1.000000, 60.000000],
 	 "bbox-extents" : [60.000000, 10.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\Underground\SwabianJura01_SaltMineB_04.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/Underground/SwabianJura01_SaltMineB_04.LVL",
 	 "offset" : [6202, -18, -4703],
 	 "bbox-origin" : [84.000000, 8.000000, 80.000000],
 	 "bbox-extents" : [84.000000, 8.000000, 80.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\WeserUplands01.LVL",
+	"name" : "XPack2/Levels/WildLands/WeserUplands01.LVL",
 	 "offset" : [5385, 0, -7924],
 	 "bbox-origin" : [64.000000, 2.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 37.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Externsteine01.LVL",
+	"name" : "XPack2/Levels/WildLands/Externsteine01.LVL",
 	 "offset" : [4873, 17, -8109],
 	 "bbox-origin" : [64.000000, -8.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 43.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\TeutoburgForest01.LVL",
+	"name" : "XPack2/Levels/WildLands/TeutoburgForest01.LVL",
 	 "offset" : [5001, 0, -7972],
 	 "bbox-origin" : [128.000000, 6.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 43.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\WildHeathlands01.LVL",
+	"name" : "XPack2/Levels/WildLands/WildHeathlands01.LVL",
 	 "offset" : [4852, 0, -8365],
 	 "bbox-origin" : [64.000000, 8.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 41.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\WildHeathlands02.LVL",
+	"name" : "XPack2/Levels/WildLands/WildHeathlands02.LVL",
 	 "offset" : [4724, 7, -8429],
 	 "bbox-origin" : [64.000000, 0.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 42.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\WildHeathlands03.LVL",
+	"name" : "XPack2/Levels/WildLands/WildHeathlands03.LVL",
 	 "offset" : [4852, 0, -8621],
 	 "bbox-origin" : [64.000000, 0.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 33.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\SuebiLakelands01.LVL",
+	"name" : "XPack2/Levels/WildLands/SuebiLakelands01.LVL",
 	 "offset" : [4711, 0, -8749],
 	 "bbox-origin" : [128.000000, 7.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 39.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\SuebiLakelands02.LVL",
+	"name" : "XPack2/Levels/WildLands/SuebiLakelands02.LVL",
 	 "offset" : [4562, 0, -9005],
 	 "bbox-origin" : [128.000000, 5.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 41.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Underground\NerthusSanctuary01.LVL",
+	"name" : "XPack2/Levels/WildLands/Underground/NerthusSanctuary01.LVL",
 	 "offset" : [3664, 0, -9210],
 	 "bbox-origin" : [120.000000, 12.000000, 44.000000],
 	 "bbox-extents" : [120.000000, 14.000000, 44.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\NerthusGrove01.LVL",
+	"name" : "XPack2/Levels/WildLands/NerthusGrove01.LVL",
 	 "offset" : [4905, 0, -9359],
 	 "bbox-origin" : [64.000000, 3.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 36.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\ZealandCoast01.LVL",
+	"name" : "XPack2/Levels/WildLands/ZealandCoast01.LVL",
 	 "offset" : [5002, -13, -9897],
 	 "bbox-origin" : [64.000000, 26.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 56.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\SuebiLakelands03.LVL",
+	"name" : "XPack2/Levels/WildLands/SuebiLakelands03.LVL",
 	 "offset" : [4306, 0, -8927],
 	 "bbox-origin" : [128.000000, 2.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 37.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\ZealandCoast02.LVL",
+	"name" : "XPack2/Levels/WildLands/ZealandCoast02.LVL",
 	 "offset" : [4959, 0, -10025],
 	 "bbox-origin" : [64.000000, 17.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 52.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Underground\ZealandCoast02_Cave.LVL",
+	"name" : "XPack2/Levels/WildLands/Underground/ZealandCoast02_Cave.LVL",
 	 "offset" : [4606, 3, -10294],
 	 "bbox-origin" : [32.000000, 4.000000, 33.000000],
 	 "bbox-extents" : [32.000000, 4.000000, 33.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Underground\FafnirsCave.LVL",
+	"name" : "XPack2/Levels/WildLands/Underground/FafnirsCave.LVL",
 	 "offset" : [4452, 0, -8044],
 	 "bbox-origin" : [80.000000, 0.000000, 59.000000],
 	 "bbox-extents" : [80.000000, 10.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Underground\TeutoburgForest01_Cave.LVL",
+	"name" : "XPack2/Levels/WildLands/Underground/TeutoburgForest01_Cave.LVL",
 	 "offset" : [4854, 0, -7665],
 	 "bbox-origin" : [40.000000, 4.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 4.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Underground\WildHeathlands02_Cave.LVL",
+	"name" : "XPack2/Levels/WildLands/Underground/WildHeathlands02_Cave.LVL",
 	 "offset" : [4492, 0, -8379],
 	 "bbox-origin" : [40.000000, 5.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 5.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Underground\SubeiLakelands03_Cave.LVL",
+	"name" : "XPack2/Levels/WildLands/Underground/SubeiLakelands03_Cave.LVL",
 	 "offset" : [4562, 0, -8704],
 	 "bbox-origin" : [40.000000, -1.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 10.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Underground\ZealandCoast01_Cave.LVL",
+	"name" : "XPack2/Levels/WildLands/Underground/ZealandCoast01_Cave.LVL",
 	 "offset" : [4332, 0, -9902],
 	 "bbox-origin" : [35.000000, 5.000000, 40.000000],
 	 "bbox-extents" : [35.000000, 5.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Externsteine01b.LVL",
+	"name" : "XPack2/Levels/WildLands/Externsteine01b.LVL",
 	 "offset" : [5001, 17, -8100],
 	 "bbox-origin" : [128.000000, -10.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 40.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\WeserUplands02.LVL",
+	"name" : "XPack2/Levels/WildLands/WeserUplands02.LVL",
 	 "offset" : [5257, 0, -7944],
 	 "bbox-origin" : [64.000000, 2.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 37.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Externsteine01c.LVL",
+	"name" : "XPack2/Levels/WildLands/Externsteine01c.LVL",
 	 "offset" : [4745, 0, -8109],
 	 "bbox-origin" : [64.000000, 19.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 49.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\SuebiLakelands02b.LVL",
+	"name" : "XPack2/Levels/WildLands/SuebiLakelands02b.LVL",
 	 "offset" : [4562, 0, -9069],
 	 "bbox-origin" : [128.000000, 2.000000, 32.000000],
 	 "bbox-extents" : [128.000000, 37.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\SuebiLakelands03b.LVL",
+	"name" : "XPack2/Levels/WildLands/SuebiLakelands03b.LVL",
 	 "offset" : [4306, 0, -8991],
 	 "bbox-origin" : [128.000000, 0.000000, 32.000000],
 	 "bbox-extents" : [128.000000, 35.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\SubeiLakelands01b.LVL",
+	"name" : "XPack2/Levels/WildLands/SubeiLakelands01b.LVL",
 	 "offset" : [4818, -4, -8813],
 	 "bbox-origin" : [64.000000, 6.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 36.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\WildHeathlands03b.LVL",
+	"name" : "XPack2/Levels/WildLands/WildHeathlands03b.LVL",
 	 "offset" : [4788, 0, -8621],
 	 "bbox-origin" : [32.000000, 2.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 34.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\WildHeathlands03c.LVL",
+	"name" : "XPack2/Levels/WildLands/WildHeathlands03c.LVL",
 	 "offset" : [4788, 0, -8493],
 	 "bbox-origin" : [32.000000, 2.000000, 32.000000],
 	 "bbox-extents" : [32.000000, 35.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\NerthusAltar01.LVL",
+	"name" : "XPack2/Levels/WildLands/NerthusAltar01.LVL",
 	 "offset" : [4297, 0, -9394],
 	 "bbox-origin" : [64.000000, 7.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 39.000000, 128.000000] 
@@ -6221,103 +6198,103 @@
 	 "bbox-extents" : [40.000000, 9.000000, 80.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\WildHeathlands02c.LVL",
+	"name" : "XPack2/Levels/WildLands/WildHeathlands02c.LVL",
 	 "offset" : [4788, 0, -8173],
 	 "bbox-origin" : [32.000000, 10.000000, 32.000000],
 	 "bbox-extents" : [32.000000, 40.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\KingGylfisSettlement02.LVL",
+	"name" : "XPack2/Levels/Scandia/KingGylfisSettlement02.LVL",
 	 "offset" : [6563, 0, -9777],
 	 "bbox-origin" : [32.000000, 1.000000, 128.000000],
 	 "bbox-extents" : [32.000000, 32.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Barrows01.LVL",
+	"name" : "XPack2/Levels/Scandia/Barrows01.LVL",
 	 "offset" : [6627, 0, -10033],
 	 "bbox-origin" : [64.000000, 1.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 45.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Barrows01b.LVL",
+	"name" : "XPack2/Levels/Scandia/Barrows01b.LVL",
 	 "offset" : [6563, 27, -10033],
 	 "bbox-origin" : [32.000000, -14.000000, 128.000000],
 	 "bbox-extents" : [32.000000, 44.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Barrows02.LVL",
+	"name" : "XPack2/Levels/Scandia/Barrows02.LVL",
 	 "offset" : [6563, 0, -10161],
 	 "bbox-origin" : [128.000000, 3.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 47.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Mill01.LVL",
+	"name" : "XPack2/Levels/Scandia/Mill01.LVL",
 	 "offset" : [6179, 0, -10161],
 	 "bbox-origin" : [64.000000, 1.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 47.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\FrozenRiver01.LVL",
+	"name" : "XPack2/Levels/Scandia/FrozenRiver01.LVL",
 	 "offset" : [5923, 0, -9905],
 	 "bbox-origin" : [128.000000, 9.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 41.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\FrozenRiver02.LVL",
+	"name" : "XPack2/Levels/Scandia/FrozenRiver02.LVL",
 	 "offset" : [5923, 0, -10161],
 	 "bbox-origin" : [128.000000, 11.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 48.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\FrozenRiver03.LVL",
+	"name" : "XPack2/Levels/Scandia/FrozenRiver03.LVL",
 	 "offset" : [5923, 0, -10289],
 	 "bbox-origin" : [128.000000, 10.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 43.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Underground\WolfDen01.LVL",
+	"name" : "XPack2/Levels/Scandia/Underground/WolfDen01.LVL",
 	 "offset" : [5550, 0, -9736],
 	 "bbox-origin" : [41.000000, 4.000000, 40.000000],
 	 "bbox-extents" : [41.000000, 4.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Underground\ShrineInterior01.LVL",
+	"name" : "XPack2/Levels/Scandia/Underground/ShrineInterior01.LVL",
 	 "offset" : [5640, 0, -10607],
 	 "bbox-origin" : [60.000000, 5.000000, 60.000000],
 	 "bbox-extents" : [60.000000, 5.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Underground\DraugKingBarrow01.LVL",
+	"name" : "XPack2/Levels/Scandia/Underground/DraugKingBarrow01.LVL",
 	 "offset" : [7097, 0, -10106],
 	 "bbox-origin" : [64.000000, 9.000000, 48.000000],
 	 "bbox-extents" : [64.000000, 9.000000, 48.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Underground\Barrow01.LVL",
+	"name" : "XPack2/Levels/Scandia/Underground/Barrow01.LVL",
 	 "offset" : [7117, 0, -10225],
 	 "bbox-origin" : [48.000000, 9.000000, 32.000000],
 	 "bbox-extents" : [48.000000, 9.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Underground\Barrow02.LVL",
+	"name" : "XPack2/Levels/Scandia/Underground/Barrow02.LVL",
 	 "offset" : [7253, 0, -10235],
 	 "bbox-origin" : [44.000000, 9.000000, 32.000000],
 	 "bbox-extents" : [44.000000, 9.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Underground\Barrow03.LVL",
+	"name" : "XPack2/Levels/Scandia/Underground/Barrow03.LVL",
 	 "offset" : [7077, 0, -9915],
 	 "bbox-origin" : [48.000000, 9.000000, 32.000000],
 	 "bbox-extents" : [48.000000, 9.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Underground\Barrow04.LVL",
+	"name" : "XPack2/Levels/Scandia/Underground/Barrow04.LVL",
 	 "offset" : [7217, 0, -9906],
 	 "bbox-origin" : [40.000000, 9.000000, 32.000000],
 	 "bbox-extents" : [40.000000, 9.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\BirchForest01.LVL",
+	"name" : "XPack2/Levels/Scandia/BirchForest01.LVL",
 	 "offset" : [6307, 0, -10161],
 	 "bbox-origin" : [128.000000, 6.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 48.000000, 128.000000] 
@@ -6341,19 +6318,19 @@
 	 "bbox-extents" : [128.000000, 42.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Zealand01b.LVL",
+	"name" : "XPack2/Levels/WildLands/Zealand01b.LVL",
 	 "offset" : [4938, 0, -9897],
 	 "bbox-origin" : [32.000000, 24.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 54.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Zealand02b.LVL",
+	"name" : "XPack2/Levels/WildLands/Zealand02b.LVL",
 	 "offset" : [4895, 0, -10025],
 	 "bbox-origin" : [32.000000, 23.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 53.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Underground\Zealand0102Cave.LVL",
+	"name" : "XPack2/Levels/WildLands/Underground/Zealand0102Cave.LVL",
 	 "offset" : [4295, 0, -10222],
 	 "bbox-origin" : [41.000000, 9.000000, 69.000000],
 	 "bbox-extents" : [41.000000, 9.000000, 69.000000] 
@@ -6365,43 +6342,43 @@
 	 "bbox-extents" : [24.000000, 4.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Zealand01c.LVL",
+	"name" : "XPack2/Levels/WildLands/Zealand01c.LVL",
 	 "offset" : [5002, 0, -9769],
 	 "bbox-origin" : [64.000000, 17.000000, 16.000000],
 	 "bbox-extents" : [64.000000, 52.000000, 16.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Zealand01d.LVL",
+	"name" : "XPack2/Levels/WildLands/Zealand01d.LVL",
 	 "offset" : [5130, 0, -9897],
 	 "bbox-origin" : [16.000000, -2.000000, 64.000000],
 	 "bbox-extents" : [16.000000, 32.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Zealand02c.LVL",
+	"name" : "XPack2/Levels/WildLands/Zealand02c.LVL",
 	 "offset" : [5087, 0, -10025],
 	 "bbox-origin" : [16.000000, -2.000000, 64.000000],
 	 "bbox-extents" : [16.000000, 32.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Zealand02d.LVL",
+	"name" : "XPack2/Levels/WildLands/Zealand02d.LVL",
 	 "offset" : [4932, 0, -10057],
 	 "bbox-origin" : [64.000000, 17.000000, 16.000000],
 	 "bbox-extents" : [64.000000, 52.000000, 16.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Underground\BirchForestUnderground01.LVL",
+	"name" : "XPack2/Levels/Scandia/Underground/BirchForestUnderground01.LVL",
 	 "offset" : [6459, 0, -10611],
 	 "bbox-origin" : [40.000000, 4.000000, 41.000000],
 	 "bbox-extents" : [40.000000, 4.000000, 41.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Underground\BirchForestUnderground02.LVL",
+	"name" : "XPack2/Levels/Scandia/Underground/BirchForestUnderground02.LVL",
 	 "offset" : [6483, -9, -10707],
 	 "bbox-origin" : [44.000000, 9.000000, 47.000000],
 	 "bbox-extents" : [44.000000, 9.000000, 48.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Underground\BirchForestUnderground03.LVL",
+	"name" : "XPack2/Levels/Scandia/Underground/BirchForestUnderground03.LVL",
 	 "offset" : [6531, -18, -10787],
 	 "bbox-origin" : [40.000000, 8.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 8.000000, 40.000000] 
@@ -6419,67 +6396,67 @@
 	 "bbox-extents" : [40.000000, 9.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Underground\ZelandCoast03_Cave.LVL",
+	"name" : "XPack2/Levels/WildLands/Underground/ZelandCoast03_Cave.LVL",
 	 "offset" : [4332, -9, -9822],
 	 "bbox-origin" : [41.000000, 8.000000, 40.000000],
 	 "bbox-extents" : [41.000000, 8.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Asgard\Greensward01.LVL",
+	"name" : "XPack2/Levels/Asgard/Greensward01.LVL",
 	 "offset" : [2982, 0, -10814],
 	 "bbox-origin" : [128.000000, 20.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 50.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Asgard\Greensward02.LVL",
+	"name" : "XPack2/Levels/Asgard/Greensward02.LVL",
 	 "offset" : [3045, 0, -11070],
 	 "bbox-origin" : [128.000000, 13.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 45.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Asgard\Gladsheim01.LVL",
+	"name" : "XPack2/Levels/Asgard/Gladsheim01.LVL",
 	 "offset" : [2876, 0, -11326],
 	 "bbox-origin" : [128.000000, 21.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 51.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Asgard\Gladsheim02.LVL",
+	"name" : "XPack2/Levels/Asgard/Gladsheim02.LVL",
 	 "offset" : [2876, 0, -11454],
 	 "bbox-origin" : [128.000000, 18.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 48.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Asgard\Valholl01.LVL",
+	"name" : "XPack2/Levels/Asgard/Valholl01.LVL",
 	 "offset" : [3043, 0, -11710],
 	 "bbox-origin" : [128.000000, 31.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 61.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Asgard\Gladsheim01b.LVL",
+	"name" : "XPack2/Levels/Asgard/Gladsheim01b.LVL",
 	 "offset" : [3132, 0, -11326],
 	 "bbox-origin" : [128.000000, 21.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 51.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Shrine01c.LVL",
+	"name" : "XPack2/Levels/Scandia/Shrine01c.LVL",
 	 "offset" : [5795, 0, -10289],
 	 "bbox-origin" : [64.000000, 15.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 45.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Underground\FrozenRiver03Cave.LVL",
+	"name" : "XPack2/Levels/Scandia/Underground/FrozenRiver03Cave.LVL",
 	 "offset" : [6008, 0, -10685],
 	 "bbox-origin" : [40.000000, 4.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 4.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Underground\FrozenRiver02Cave.LVL",
+	"name" : "XPack2/Levels/Scandia/Underground/FrozenRiver02Cave.LVL",
 	 "offset" : [5550, 0, -9930],
 	 "bbox-origin" : [40.000000, 4.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 4.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Asgard\Greensward03.LVL",
+	"name" : "XPack2/Levels/Asgard/Greensward03.LVL",
 	 "offset" : [3045, 0, -10942],
 	 "bbox-origin" : [128.000000, 14.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 46.000000, 64.000000] 
@@ -6491,55 +6468,55 @@
 	 "bbox-extents" : [128.000000, 47.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Underground\GylfisHall01.LVL",
+	"name" : "XPack2/Levels/Scandia/Underground/GylfisHall01.LVL",
 	 "offset" : [6070, 0, -9472],
 	 "bbox-origin" : [40.000000, 5.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 5.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Barrows02b.LVL",
+	"name" : "XPack2/Levels/Scandia/Barrows02b.LVL",
 	 "offset" : [6691, 0, -10193],
 	 "bbox-origin" : [64.000000, 3.000000, 16.000000],
 	 "bbox-extents" : [64.000000, 47.000000, 16.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\Underground\LembergCave.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/Underground/LembergCave.LVL",
 	 "offset" : [5753, 0, -5505],
 	 "bbox-origin" : [40.000000, -1.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 10.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Mill01c.LVL",
+	"name" : "XPack2/Levels/Scandia/Mill01c.LVL",
 	 "offset" : [6179, 0, -10193],
 	 "bbox-origin" : [128.000000, 9.000000, 16.000000],
 	 "bbox-extents" : [128.000000, 39.000000, 16.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\BirchForest01b.LVL",
+	"name" : "XPack2/Levels/Scandia/BirchForest01b.LVL",
 	 "offset" : [6435, 0, -10193],
 	 "bbox-origin" : [128.000000, 4.000000, 16.000000],
 	 "bbox-extents" : [128.000000, 44.000000, 16.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\ShrineOfOdin.LVL",
+	"name" : "XPack2/Levels/Scandia/ShrineOfOdin.LVL",
 	 "offset" : [5667, 0, -10225],
 	 "bbox-origin" : [128.000000, 15.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 45.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Asgard\Valholl01b.LVL",
+	"name" : "XPack2/Levels/Asgard/Valholl01b.LVL",
 	 "offset" : [3043, 0, -11582],
 	 "bbox-origin" : [128.000000, 22.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 52.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Asgard\Gladsheim01c.LVL",
+	"name" : "XPack2/Levels/Asgard/Gladsheim01c.LVL",
 	 "offset" : [3388, 0, -11326],
 	 "bbox-origin" : [32.000000, 21.000000, 128.000000],
 	 "bbox-extents" : [32.000000, 51.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Asgard\Gladsheim02c.LVL",
+	"name" : "XPack2/Levels/Asgard/Gladsheim02c.LVL",
 	 "offset" : [3388, 0, -11454],
 	 "bbox-origin" : [32.000000, 15.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 45.000000, 64.000000] 
@@ -6569,343 +6546,343 @@
 	 "bbox-extents" : [80.000000, 8.000000, 80.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\SuebiLakelands01d.LVL",
+	"name" : "XPack2/Levels/WildLands/SuebiLakelands01d.LVL",
 	 "offset" : [4679, 0, -8749],
 	 "bbox-origin" : [16.000000, 8.000000, 64.000000],
 	 "bbox-extents" : [16.000000, 38.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Asgard\Underground\ValhollCave06.LVL",
+	"name" : "XPack2/Levels/Asgard/Underground/ValhollCave06.LVL",
 	 "offset" : [1834, -18, -11288],
 	 "bbox-origin" : [35.000000, 9.000000, 24.000000],
 	 "bbox-extents" : [36.000000, 9.000000, 24.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Asgard\Underground\ValhollCave07.LVL",
+	"name" : "XPack2/Levels/Asgard/Underground/ValhollCave07.LVL",
 	 "offset" : [1754, -18, -11352],
 	 "bbox-origin" : [40.000000, 8.000000, 32.000000],
 	 "bbox-extents" : [40.000000, 8.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\NerthusGrove01b.LVL",
+	"name" : "XPack2/Levels/WildLands/NerthusGrove01b.LVL",
 	 "offset" : [5033, 0, -9359],
 	 "bbox-origin" : [16.000000, -1.000000, 64.000000],
 	 "bbox-extents" : [16.000000, 31.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Asgard\Underground\ValhollCave08.LVL",
+	"name" : "XPack2/Levels/Asgard/Underground/ValhollCave08.LVL",
 	 "offset" : [1754, -18, -11288],
 	 "bbox-origin" : [40.000000, 9.000000, 32.000000],
 	 "bbox-extents" : [40.000000, 9.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\WildHeathlands01b.LVL",
+	"name" : "XPack2/Levels/WildLands/WildHeathlands01b.LVL",
 	 "offset" : [4980, 0, -8365],
 	 "bbox-origin" : [16.000000, 0.000000, 128.000000],
 	 "bbox-extents" : [16.000000, 30.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\WildHeathlands03d.LVL",
+	"name" : "XPack2/Levels/WildLands/WildHeathlands03d.LVL",
 	 "offset" : [4980, 0, -8621],
 	 "bbox-origin" : [16.000000, 0.000000, 128.000000],
 	 "bbox-extents" : [16.000000, 33.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\HercynianForest_B.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/HercynianForest_B.LVL",
 	 "offset" : [6744, 0, -6154],
 	 "bbox-origin" : [16.000000, 3.000000, 128.000000],
 	 "bbox-extents" : [16.000000, 33.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\HercynianForest04b.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/HercynianForest04b.LVL",
 	 "offset" : [6666, 0, -6922],
 	 "bbox-origin" : [16.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [16.000000, 30.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\GlaubergOutskirts01b.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/GlaubergOutskirts01b.LVL",
 	 "offset" : [5386, 0, -6900],
 	 "bbox-origin" : [128.000000, 2.000000, 16.000000],
 	 "bbox-extents" : [128.000000, 36.000000, 16.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Barrows01c.LVL",
+	"name" : "XPack2/Levels/Scandia/Barrows01c.LVL",
 	 "offset" : [6755, 0, -10033],
 	 "bbox-origin" : [16.000000, -7.000000, 128.000000],
 	 "bbox-extents" : [16.000000, 37.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Asgard\Himinbjorg_C.LVL",
+	"name" : "XPack2/Levels/Asgard/Himinbjorg_C.LVL",
 	 "offset" : [2659, 0, -11710],
 	 "bbox-origin" : [64.000000, 5.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 35.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Asgard\Himinbjorg_D.LVL",
+	"name" : "XPack2/Levels/Asgard/Himinbjorg_D.LVL",
 	 "offset" : [2659, 0, -11966],
 	 "bbox-origin" : [64.000000, 30.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 60.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Scandia\Underground\VolvasCave01.LVL",
+	"name" : "XPack2/Levels/Scandia/Underground/VolvasCave01.LVL",
 	 "offset" : [6070, 0, -9337],
 	 "bbox-origin" : [40.000000, 4.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 4.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\Glauberg02b.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/Glauberg02b.LVL",
 	 "offset" : [5353, 0, -7688],
 	 "bbox-origin" : [16.000000, 2.000000, 64.000000],
 	 "bbox-extents" : [16.000000, 32.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Corinthia\Corinthia_B.LVL",
+	"name" : "XPack2/Levels/Corinthia/Corinthia_B.LVL",
 	 "offset" : [-7493, 0, 312],
 	 "bbox-origin" : [128.000000, 1.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 55.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Corinthia\LechaionHarbor_B.LVL",
+	"name" : "XPack2/Levels/Corinthia/LechaionHarbor_B.LVL",
 	 "offset" : [-7724, 0, -72],
 	 "bbox-origin" : [128.000000, -9.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 59.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Corinthia\KenchreaiPort_B.LVL",
+	"name" : "XPack2/Levels/Corinthia/KenchreaiPort_B.LVL",
 	 "offset" : [-6868, 0, -968],
 	 "bbox-origin" : [64.000000, -1.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 51.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Corinthia\KenchreaiPort_C.LVL",
+	"name" : "XPack2/Levels/Corinthia/KenchreaiPort_C.LVL",
 	 "offset" : [-6868, 0, -1000],
 	 "bbox-origin" : [128.000000, 3.000000, 16.000000],
 	 "bbox-extents" : [128.000000, 56.000000, 16.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\FjordSW.LVL",
+	"name" : "XPack2/Levels/DarkLands/FjordSW.LVL",
 	 "offset" : [4581, 0, -11264],
 	 "bbox-origin" : [128.000000, 12.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 71.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\FjordNW.LVL",
+	"name" : "XPack2/Levels/DarkLands/FjordNW.LVL",
 	 "offset" : [4581, 0, -11520],
 	 "bbox-origin" : [128.000000, 11.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 69.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\FjordNE.LVL",
+	"name" : "XPack2/Levels/DarkLands/FjordNE.LVL",
 	 "offset" : [4837, 0, -11648],
 	 "bbox-origin" : [128.000000, 12.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 48.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\FjordSE.LVL",
+	"name" : "XPack2/Levels/DarkLands/FjordSE.LVL",
 	 "offset" : [4837, 0, -11392],
 	 "bbox-origin" : [128.000000, 9.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 67.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\FjordSEb.LVL",
+	"name" : "XPack2/Levels/DarkLands/FjordSEb.LVL",
 	 "offset" : [4837, 0, -11136],
 	 "bbox-origin" : [64.000000, -2.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 52.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\FjordSWb.LVL",
+	"name" : "XPack2/Levels/DarkLands/FjordSWb.LVL",
 	 "offset" : [4645, 0, -11008],
 	 "bbox-origin" : [128.000000, 12.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 71.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\AncestralLands01.LVL",
+	"name" : "XPack2/Levels/DarkLands/AncestralLands01.LVL",
 	 "offset" : [4453, 0, -11520],
 	 "bbox-origin" : [64.000000, 20.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 70.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\AncestralLands02.LVL",
+	"name" : "XPack2/Levels/DarkLands/AncestralLands02.LVL",
 	 "offset" : [4325, 0, -11584],
 	 "bbox-origin" : [64.000000, 37.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 67.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\AncestralLands03.LVL",
+	"name" : "XPack2/Levels/DarkLands/AncestralLands03.LVL",
 	 "offset" : [4197, 0, -11648],
 	 "bbox-origin" : [64.000000, 47.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 77.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\AncestralLands01b.LVL",
+	"name" : "XPack2/Levels/DarkLands/AncestralLands01b.LVL",
 	 "offset" : [4389, 0, -11328],
 	 "bbox-origin" : [32.000000, 20.000000, 32.000000],
 	 "bbox-extents" : [32.000000, 50.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Southgate01.LVL",
+	"name" : "XPack2/Levels/DarkLands/Southgate01.LVL",
 	 "offset" : [4069, 0, -11712],
 	 "bbox-origin" : [64.000000, 55.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 85.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Southgate02.LVL",
+	"name" : "XPack2/Levels/DarkLands/Southgate02.LVL",
 	 "offset" : [3941, 0, -11776],
 	 "bbox-origin" : [64.000000, 55.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 85.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Corinthia\CorinthiaOutskirts_B.LVL",
+	"name" : "XPack2/Levels/Corinthia/CorinthiaOutskirts_B.LVL",
 	 "offset" : [-7749, 0, 312],
 	 "bbox-origin" : [128.000000, -12.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 64.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\UpperHalls01.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/UpperHalls01.LVL",
 	 "offset" : [4210, -27, -12224],
 	 "bbox-origin" : [100.000000, -2.000000, 76.000000],
 	 "bbox-extents" : [100.000000, 11.000000, 83.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\LowerHalls01.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/LowerHalls01.LVL",
 	 "offset" : [4410, -36, -12296],
 	 "bbox-origin" : [71.000000, 9.000000, 116.000000],
 	 "bbox-extents" : [88.000000, 9.000000, 116.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\MFC01.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/MFC01.LVL",
 	 "offset" : [4498, -36, -12376],
 	 "bbox-origin" : [40.000000, 5.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 7.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\Mines01.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/Mines01.LVL",
 	 "offset" : [5206, -36, -12296],
 	 "bbox-origin" : [80.000000, 9.000000, 61.000000],
 	 "bbox-extents" : [80.000000, 9.000000, 61.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\FungoidCavern01.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/FungoidCavern01.LVL",
 	 "offset" : [5302, -45, -12496],
 	 "bbox-origin" : [100.000000, 7.000000, 100.000000],
 	 "bbox-extents" : [100.000000, 19.000000, 100.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\SecretTunnel.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/SecretTunnel.LVL",
 	 "offset" : [4578, -54, -12448],
 	 "bbox-origin" : [24.000000, 9.000000, 39.000000],
 	 "bbox-extents" : [24.000000, 9.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\CrystalCave.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/CrystalCave.LVL",
 	 "offset" : [4562, -54, -12512],
 	 "bbox-origin" : [31.000000, 9.000000, 32.000000],
 	 "bbox-extents" : [32.000000, 9.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\Mines02.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/Mines02.LVL",
 	 "offset" : [4330, -36, -12416],
 	 "bbox-origin" : [84.000000, 9.000000, 60.000000],
 	 "bbox-extents" : [84.000000, 9.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Corinthia\KenchreaiPort_D.LVL",
+	"name" : "XPack2/Levels/Corinthia/KenchreaiPort_D.LVL",
 	 "offset" : [-7124, 0, -1032],
 	 "bbox-origin" : [128.000000, 3.000000, 32.000000],
 	 "bbox-extents" : [128.000000, 56.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\FjordCave01.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/FjordCave01.LVL",
 	 "offset" : [4643, 0, -11697],
 	 "bbox-origin" : [40.000000, 4.000000, 41.000000],
 	 "bbox-extents" : [40.000000, 4.000000, 41.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\SouthGate01Cave.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/SouthGate01Cave.LVL",
 	 "offset" : [3865, 0, -11381],
 	 "bbox-origin" : [40.000000, 4.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 4.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\LakeUrd01.LVL",
+	"name" : "XPack2/Levels/Muspelheim/LakeUrd01.LVL",
 	 "offset" : [4126, 0, -13646],
 	 "bbox-origin" : [64.000000, 0.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 54.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\Yggdravidja01.LVL",
+	"name" : "XPack2/Levels/Muspelheim/Yggdravidja01.LVL",
 	 "offset" : [4126, 0, -13774],
 	 "bbox-origin" : [128.000000, 10.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 63.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\LowDesert01.LVL",
+	"name" : "XPack2/Levels/Muspelheim/LowDesert01.LVL",
 	 "offset" : [4126, 0, -13902],
 	 "bbox-origin" : [128.000000, 10.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 64.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\LowDesert02.LVL",
+	"name" : "XPack2/Levels/Muspelheim/LowDesert02.LVL",
 	 "offset" : [4382, 0, -14030],
 	 "bbox-origin" : [64.000000, 10.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 64.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\HighDesert01.LVL",
+	"name" : "XPack2/Levels/Muspelheim/HighDesert01.LVL",
 	 "offset" : [4126, 0, -14030],
 	 "bbox-origin" : [128.000000, 11.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 61.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\Entrance.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/Entrance.LVL",
 	 "offset" : [4210, -27, -12064],
 	 "bbox-origin" : [28.000000, 4.000000, 44.000000],
 	 "bbox-extents" : [28.000000, 4.000000, 44.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\EldrFields01.LVL",
+	"name" : "XPack2/Levels/Muspelheim/EldrFields01.LVL",
 	 "offset" : [4126, 0, -14158],
 	 "bbox-origin" : [128.000000, 17.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 67.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\EldrFields02.LVL",
+	"name" : "XPack2/Levels/Muspelheim/EldrFields02.LVL",
 	 "offset" : [4382, 0, -14286],
 	 "bbox-origin" : [64.000000, 12.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 62.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\EldrFields03.LVL",
+	"name" : "XPack2/Levels/Muspelheim/EldrFields03.LVL",
 	 "offset" : [4126, 0, -14286],
 	 "bbox-origin" : [128.000000, 20.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 70.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\LandsEnd01.LVL",
+	"name" : "XPack2/Levels/Muspelheim/LandsEnd01.LVL",
 	 "offset" : [4126, 0, -14542],
 	 "bbox-origin" : [128.000000, 59.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 109.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\LakeUrd01b.LVL",
+	"name" : "XPack2/Levels/Muspelheim/LakeUrd01b.LVL",
 	 "offset" : [4254, 0, -13646],
 	 "bbox-origin" : [32.000000, 3.000000, 128.000000],
 	 "bbox-extents" : [32.000000, 57.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\LakeUrd01c.LVL",
+	"name" : "XPack2/Levels/Muspelheim/LakeUrd01c.LVL",
 	 "offset" : [4062, 0, -13646],
 	 "bbox-origin" : [32.000000, 3.000000, 128.000000],
 	 "bbox-extents" : [32.000000, 57.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\LakeUrd01d.LVL",
+	"name" : "XPack2/Levels/Muspelheim/LakeUrd01d.LVL",
 	 "offset" : [4062, 0, -13390],
 	 "bbox-origin" : [128.000000, -1.000000, 32.000000],
 	 "bbox-extents" : [128.000000, 52.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Corinthia\Underground\SmallRoadsideCave.LVL",
+	"name" : "XPack2/Levels/Corinthia/Underground/SmallRoadsideCave.LVL",
 	 "offset" : [-6413, 0, -1318],
 	 "bbox-origin" : [40.000000, 9.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 9.000000, 40.000000] 
@@ -6935,73 +6912,73 @@
 	 "bbox-extents" : [40.000000, 9.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\SecretTunnelStairs.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/SecretTunnelStairs.LVL",
 	 "offset" : [4578, -54, -12368],
 	 "bbox-origin" : [20.000000, 13.000000, 19.000000],
 	 "bbox-extents" : [20.000000, 13.000000, 20.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\UtgardOuter01.LVL",
+	"name" : "XPack2/Levels/Jotunheim/UtgardOuter01.LVL",
 	 "offset" : [2723, 0, -12094],
 	 "bbox-origin" : [128.000000, 35.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 65.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\UtgardOuter02.LVL",
+	"name" : "XPack2/Levels/Jotunheim/UtgardOuter02.LVL",
 	 "offset" : [2595, 0, -12222],
 	 "bbox-origin" : [64.000000, 30.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 60.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\UtgardInner02.LVL",
+	"name" : "XPack2/Levels/Jotunheim/UtgardInner02.LVL",
 	 "offset" : [2723, 0, -12478],
 	 "bbox-origin" : [64.000000, 45.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 75.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\UtgardEscarpment.LVL",
+	"name" : "XPack2/Levels/Jotunheim/UtgardEscarpment.LVL",
 	 "offset" : [2851, 0, -12478],
 	 "bbox-origin" : [64.000000, 45.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 75.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\Wasteland01.LVL",
+	"name" : "XPack2/Levels/Jotunheim/Wasteland01.LVL",
 	 "offset" : [2979, 0, -12478],
 	 "bbox-origin" : [128.000000, 40.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 70.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\Wasteland02.LVL",
+	"name" : "XPack2/Levels/Jotunheim/Wasteland02.LVL",
 	 "offset" : [2979, 0, -12734],
 	 "bbox-origin" : [128.000000, 32.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 62.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\Hnitbjorg01.LVL",
+	"name" : "XPack2/Levels/Jotunheim/Hnitbjorg01.LVL",
 	 "offset" : [3235, 0, -12606],
 	 "bbox-origin" : [64.000000, 43.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 73.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\Jarnvidja01.LVL",
+	"name" : "XPack2/Levels/Jotunheim/Jarnvidja01.LVL",
 	 "offset" : [3235, 0, -12862],
 	 "bbox-origin" : [64.000000, 40.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 70.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\Jarnvidja02.LVL",
+	"name" : "XPack2/Levels/Jotunheim/Jarnvidja02.LVL",
 	 "offset" : [2979, 0, -12990],
 	 "bbox-origin" : [128.000000, 24.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 54.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\Jarnvidja03.LVL",
+	"name" : "XPack2/Levels/Jotunheim/Jarnvidja03.LVL",
 	 "offset" : [3235, 0, -12990],
 	 "bbox-origin" : [64.000000, 22.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 52.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\YggdrasilGlade01.LVL",
+	"name" : "XPack2/Levels/Jotunheim/YggdrasilGlade01.LVL",
 	 "offset" : [2979, 0, -13118],
 	 "bbox-origin" : [128.000000, 22.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 52.000000, 64.000000] 
@@ -7013,19 +6990,19 @@
 	 "bbox-extents" : [128.000000, 65.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\MeadCliff.LVL",
+	"name" : "XPack2/Levels/Jotunheim/MeadCliff.LVL",
 	 "offset" : [3363, 0, -12606],
 	 "bbox-origin" : [64.000000, 40.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 70.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\Underground\FireShrine01.LVL",
+	"name" : "XPack2/Levels/Muspelheim/Underground/FireShrine01.LVL",
 	 "offset" : [3784, 9, -14123],
 	 "bbox-origin" : [28.000000, 4.000000, 36.000000],
 	 "bbox-extents" : [28.000000, 4.000000, 36.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\Underground\FireShrine02.LVL",
+	"name" : "XPack2/Levels/Muspelheim/Underground/FireShrine02.LVL",
 	 "offset" : [3680, 1, -14139],
 	 "bbox-origin" : [52.000000, 8.000000, 52.000000],
 	 "bbox-extents" : [52.000000, 8.000000, 52.000000] 
@@ -7037,271 +7014,271 @@
 	 "bbox-extents" : [32.000000, 65.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\Underground\MimersMaze01.LVL",
+	"name" : "XPack2/Levels/Jotunheim/Underground/MimersMaze01.LVL",
 	 "offset" : [2975, 12, -13753],
 	 "bbox-origin" : [171.000000, 11.000000, 200.000000],
 	 "bbox-extents" : [172.000000, 11.000000, 200.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Yggdrasil\Underground\Root01.LVL",
+	"name" : "XPack2/Levels/Yggdrasil/Underground/Root01.LVL",
 	 "offset" : [3404, 27, -13727],
 	 "bbox-origin" : [80.000000, 8.000000, 47.000000],
 	 "bbox-extents" : [80.000000, 8.000000, 48.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\UpperHalls01b.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/UpperHalls01b.LVL",
 	 "offset" : [4210, -36, -12296],
 	 "bbox-origin" : [80.000000, 4.000000, 32.000000],
 	 "bbox-extents" : [80.000000, 4.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\WeserUplands01b.LVL",
+	"name" : "XPack2/Levels/WildLands/WeserUplands01b.LVL",
 	 "offset" : [5513, 0, -7924],
 	 "bbox-origin" : [32.000000, 1.000000, 128.000000],
 	 "bbox-extents" : [32.000000, 36.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\Externsteine01d.LVL",
+	"name" : "XPack2/Levels/WildLands/Externsteine01d.LVL",
 	 "offset" : [4873, 0, -7853],
 	 "bbox-origin" : [64.000000, 2.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 32.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\LowDesert02b.LVL",
+	"name" : "XPack2/Levels/Muspelheim/LowDesert02b.LVL",
 	 "offset" : [4382, 0, -13774],
 	 "bbox-origin" : [32.000000, 5.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 35.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\EldrFields01b.LVL",
+	"name" : "XPack2/Levels/Muspelheim/EldrFields01b.LVL",
 	 "offset" : [4062, 0, -14136],
 	 "bbox-origin" : [32.000000, 17.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 67.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\Yggdravidja01b.LVL",
+	"name" : "XPack2/Levels/Muspelheim/Yggdravidja01b.LVL",
 	 "offset" : [4318, 0, -13646],
 	 "bbox-origin" : [64.000000, 5.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 55.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\AncestralLands03b.LVL",
+	"name" : "XPack2/Levels/DarkLands/AncestralLands03b.LVL",
 	 "offset" : [4197, 0, -11712],
 	 "bbox-origin" : [64.000000, 45.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 75.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\AncestralLands02b.LVL",
+	"name" : "XPack2/Levels/DarkLands/AncestralLands02b.LVL",
 	 "offset" : [4325, 0, -11648],
 	 "bbox-origin" : [64.000000, 32.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 62.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Corinthia\PineForest05b.LVL",
+	"name" : "XPack2/Levels/Corinthia/PineForest05b.LVL",
 	 "offset" : [-7316, 0, -200],
 	 "bbox-origin" : [32.000000, 14.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 64.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\Underground\UtgardOuterStore.LVL",
+	"name" : "XPack2/Levels/Jotunheim/Underground/UtgardOuterStore.LVL",
 	 "offset" : [2214, 0, -11836],
 	 "bbox-origin" : [32.000000, 4.000000, 32.000000],
 	 "bbox-extents" : [32.000000, 4.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\Underground\UtgardInnerStore.LVL",
+	"name" : "XPack2/Levels/Jotunheim/Underground/UtgardInnerStore.LVL",
 	 "offset" : [2214, 0, -11941],
 	 "bbox-origin" : [32.000000, 4.000000, 32.000000],
 	 "bbox-extents" : [32.000000, 4.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\Underground\Prison01.LVL",
+	"name" : "XPack2/Levels/Jotunheim/Underground/Prison01.LVL",
 	 "offset" : [2665, -9, -12998],
 	 "bbox-origin" : [31.000000, 9.000000, 48.000000],
 	 "bbox-extents" : [32.000000, 9.000000, 48.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\Underground\Prison02.LVL",
+	"name" : "XPack2/Levels/Jotunheim/Underground/Prison02.LVL",
 	 "offset" : [2601, 0, -12998],
 	 "bbox-origin" : [32.000000, 4.000000, 48.000000],
 	 "bbox-extents" : [32.000000, 4.000000, 48.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\SuebiLakelands01c.LVL",
+	"name" : "XPack2/Levels/WildLands/SuebiLakelands01c.LVL",
 	 "offset" : [4660, 0, -8621],
 	 "bbox-origin" : [64.000000, 8.000000, 16.000000],
 	 "bbox-extents" : [64.000000, 38.000000, 16.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\SuebiLakelands02c.LVL",
+	"name" : "XPack2/Levels/WildLands/SuebiLakelands02c.LVL",
 	 "offset" : [4818, 0, -8941],
 	 "bbox-origin" : [16.000000, 1.000000, 64.000000],
 	 "bbox-extents" : [16.000000, 36.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\WildLands\SuebiLakelands01e.LVL",
+	"name" : "XPack2/Levels/WildLands/SuebiLakelands01e.LVL",
 	 "offset" : [4967, 0, -8749],
 	 "bbox-origin" : [16.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [16.000000, 33.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\SwabianJura01b.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/SwabianJura01b.LVL",
 	 "offset" : [6846, 0, -5347],
 	 "bbox-origin" : [64.000000, 7.000000, 16.000000],
 	 "bbox-extents" : [64.000000, 37.000000, 16.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\CelticHeartlands\RhineValley02c.LVL",
+	"name" : "XPack2/Levels/CelticHeartlands/RhineValley02c.LVL",
 	 "offset" : [6026, 0, -7190],
 	 "bbox-origin" : [64.000000, 7.000000, 16.000000],
 	 "bbox-extents" : [64.000000, 37.000000, 16.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\YggdrasilGlade02.LVL",
+	"name" : "XPack2/Levels/Jotunheim/YggdrasilGlade02.LVL",
 	 "offset" : [2979, 0, -13246],
 	 "bbox-origin" : [128.000000, 22.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 52.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\Hnitbjorg01b.LVL",
+	"name" : "XPack2/Levels/Jotunheim/Hnitbjorg01b.LVL",
 	 "offset" : [3235, 0, -12350],
 	 "bbox-origin" : [128.000000, 41.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 71.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\UtgardOuter01c.LVL",
+	"name" : "XPack2/Levels/Jotunheim/UtgardOuter01c.LVL",
 	 "offset" : [3043, 0, -12094],
 	 "bbox-origin" : [32.000000, 35.000000, 128.000000],
 	 "bbox-extents" : [32.000000, 65.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Asgard\Himinbjorg_E.LVL",
+	"name" : "XPack2/Levels/Asgard/Himinbjorg_E.LVL",
 	 "offset" : [2531, 0, -11966],
 	 "bbox-origin" : [64.000000, 15.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 45.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\UtgardOuter02b.LVL",
+	"name" : "XPack2/Levels/Jotunheim/UtgardOuter02b.LVL",
 	 "offset" : [2467, 0, -12222],
 	 "bbox-origin" : [64.000000, 17.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 47.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\UtgardInner02b.LVL",
+	"name" : "XPack2/Levels/Jotunheim/UtgardInner02b.LVL",
 	 "offset" : [2467, 0, -12478],
 	 "bbox-origin" : [128.000000, 30.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 60.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\Underground\Wasteland01_cave.LVL",
+	"name" : "XPack2/Levels/Jotunheim/Underground/Wasteland01_cave.LVL",
 	 "offset" : [2607, 0, -12789],
 	 "bbox-origin" : [40.000000, -1.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 10.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\Underground\Wasteland02_cave.LVL",
+	"name" : "XPack2/Levels/Jotunheim/Underground/Wasteland02_cave.LVL",
 	 "offset" : [2731, 0, -12791],
 	 "bbox-origin" : [40.000000, 4.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 4.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\Underground\Hnitbjorg01_Cave.LVL",
+	"name" : "XPack2/Levels/Jotunheim/Underground/Hnitbjorg01_Cave.LVL",
 	 "offset" : [3501, 0, -12882],
 	 "bbox-origin" : [40.000000, 9.000000, 80.000000],
 	 "bbox-extents" : [40.000000, 9.000000, 80.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\LowerHalls01b.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/LowerHalls01b.LVL",
 	 "offset" : [4370, -36, -12296],
 	 "bbox-origin" : [20.000000, 4.000000, 32.000000],
 	 "bbox-extents" : [20.000000, 4.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\Root01.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/Root01.LVL",
 	 "offset" : [4442, -54, -12576],
 	 "bbox-origin" : [60.000000, 13.000000, 60.000000],
 	 "bbox-extents" : [60.000000, 13.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\Underground\Root02.LVL",
+	"name" : "XPack2/Levels/Jotunheim/Underground/Root02.LVL",
 	 "offset" : [3492, 9, -13895],
 	 "bbox-origin" : [48.000000, 13.000000, 84.000000],
 	 "bbox-extents" : [48.000000, 13.000000, 84.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\UpperHalls01c.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/UpperHalls01c.LVL",
 	 "offset" : [4130, -36, -12296],
 	 "bbox-origin" : [40.000000, 9.000000, 152.000000],
 	 "bbox-extents" : [40.000000, 9.000000, 152.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Asgard\Valholl01c.LVL",
+	"name" : "XPack2/Levels/Asgard/Valholl01c.LVL",
 	 "offset" : [3299, 0, -11710],
 	 "bbox-origin" : [64.000000, 21.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 51.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\Underground\Root03.LVL",
+	"name" : "XPack2/Levels/Jotunheim/Underground/Root03.LVL",
 	 "offset" : [3588, 0, -13895],
 	 "bbox-origin" : [60.000000, 8.000000, 40.000000],
 	 "bbox-extents" : [60.000000, 8.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\LandsEndVolcano01.LVL",
+	"name" : "XPack2/Levels/Muspelheim/LandsEndVolcano01.LVL",
 	 "offset" : [4382, 0, -14542],
 	 "bbox-origin" : [64.000000, 29.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 79.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\LandsEndVolcano02.LVL",
+	"name" : "XPack2/Levels/Muspelheim/LandsEndVolcano02.LVL",
 	 "offset" : [4382, 0, -14414],
 	 "bbox-origin" : [64.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 50.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\LandsEndVolcano03.LVL",
+	"name" : "XPack2/Levels/Muspelheim/LandsEndVolcano03.LVL",
 	 "offset" : [4126, 0, -14798],
 	 "bbox-origin" : [128.000000, 51.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 101.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\LandsEndVolcano04.LVL",
+	"name" : "XPack2/Levels/Muspelheim/LandsEndVolcano04.LVL",
 	 "offset" : [3998, 0, -14542],
 	 "bbox-origin" : [64.000000, 37.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 68.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\LandsEndVolcano05.LVL",
+	"name" : "XPack2/Levels/Muspelheim/LandsEndVolcano05.LVL",
 	 "offset" : [3998, 0, -14414],
 	 "bbox-origin" : [64.000000, 33.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 63.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\LandsEndVolcano06.LVL",
+	"name" : "XPack2/Levels/Muspelheim/LandsEndVolcano06.LVL",
 	 "offset" : [3998, 0, -14798],
 	 "bbox-origin" : [64.000000, 51.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 81.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\LandsEndVolcano07.LVL",
+	"name" : "XPack2/Levels/Muspelheim/LandsEndVolcano07.LVL",
 	 "offset" : [4382, 0, -14798],
 	 "bbox-origin" : [64.000000, 51.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 81.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\LandsEndVolcano08.LVL",
+	"name" : "XPack2/Levels/Muspelheim/LandsEndVolcano08.LVL",
 	 "offset" : [3998, 0, -14286],
 	 "bbox-origin" : [64.000000, 33.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 83.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Muspelheim\Underground\LandsEndCorridor01.LVL",
+	"name" : "XPack2/Levels/Muspelheim/Underground/LandsEndCorridor01.LVL",
 	 "offset" : [3731, 9, -15120],
 	 "bbox-origin" : [40.000000, 4.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 4.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Jotunheim\Underground\MimersMaze02.LVL",
+	"name" : "XPack2/Levels/Jotunheim/Underground/MimersMaze02.LVL",
 	 "offset" : [2855, 12, -13553],
 	 "bbox-origin" : [60.000000, 3.000000, 60.000000],
 	 "bbox-extents" : [60.000000, 5.000000, 60.000000] 
@@ -7385,13 +7362,13 @@
 	 "bbox-extents" : [40.000000, 4.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\minechasm.LVL",
+	"name" : "XPack2/Levels/DarkLands/minechasm.LVL",
 	 "offset" : [4926, 0, -12876],
 	 "bbox-origin" : [64.000000, 0.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 74.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\minechasmB.LVL",
+	"name" : "XPack2/Levels/DarkLands/minechasmB.LVL",
 	 "offset" : [5054, 0, -12876],
 	 "bbox-origin" : [16.000000, 10.000000, 128.000000],
 	 "bbox-extents" : [16.000000, 40.000000, 128.000000] 
@@ -7403,391 +7380,391 @@
 	 "bbox-extents" : [40.000000, 4.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Primrose\RhakotisSlumsExtra02b.LVL",
+	"name" : "XPack2/Levels/Primrose/RhakotisSlumsExtra02b.LVL",
 	 "offset" : [-2329, 0, 4057],
 	 "bbox-origin" : [32.000000, 6.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 36.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Primrose\DelphiActorsTemple.LVL",
+	"name" : "XPack2/Levels/Primrose/DelphiActorsTemple.LVL",
 	 "offset" : [-9399, 0, -1158],
 	 "bbox-origin" : [32.000000, 6.000000, 32.000000],
 	 "bbox-extents" : [32.000000, 6.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\UpperHalls01d.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/UpperHalls01d.LVL",
 	 "offset" : [4266, -26, -12064],
 	 "bbox-origin" : [52.000000, 4.000000, 32.000000],
 	 "bbox-extents" : [52.000000, 4.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\LowerHalls01c.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/LowerHalls01c.LVL",
 	 "offset" : [4570, -36, -12264],
 	 "bbox-origin" : [20.000000, 4.000000, 84.000000],
 	 "bbox-extents" : [20.000000, 4.000000, 84.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\DHBackdrop01.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/DHBackdrop01.LVL",
 	 "offset" : [4082, -81, -12263],
 	 "bbox-origin" : [128.000000, 8.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 86.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\DHBackdrop02.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/DHBackdrop02.LVL",
 	 "offset" : [4338, -74, -12073],
 	 "bbox-origin" : [128.000000, 2.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 52.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\DHBackdrop03.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/DHBackdrop03.LVL",
 	 "offset" : [4082, -81, -12519],
 	 "bbox-origin" : [128.000000, 8.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 87.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\DarkLands\Underground\DHBackdrop04.LVL",
+	"name" : "XPack2/Levels/DarkLands/Underground/DHBackdrop04.LVL",
 	 "offset" : [4338, -74, -12329],
 	 "bbox-origin" : [128.000000, 1.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 51.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack2\Levels\Primrose\PrimroseGrid01.LVL",
+	"name" : "XPack2/Levels/Primrose/PrimroseGrid01.LVL",
 	 "offset" : [6605, 0, -7487],
 	 "bbox-origin" : [180.000000, 0.000000, 152.000000],
 	 "bbox-extents" : [180.000000, 10.000000, 152.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\f64x64.LVL",
+	"name" : "XPack3/Levels/f64x64.LVL",
 	 "offset" : [5584, -20, -2928],
 	 "bbox-origin" : [32.000000, 0.000000, 32.000000],
 	 "bbox-extents" : [32.000000, 30.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Shoals01.LVL",
+	"name" : "XPack3/Levels/Atlantis/Shoals01.LVL",
 	 "offset" : [5648, -9, -1145],
 	 "bbox-origin" : [64.000000, 4.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 64.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Shoals02.LVL",
+	"name" : "XPack3/Levels/Atlantis/Shoals02.LVL",
 	 "offset" : [5648, -9, -1017],
 	 "bbox-origin" : [64.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 59.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Shoals03.LVL",
+	"name" : "XPack3/Levels/Atlantis/Shoals03.LVL",
 	 "offset" : [5392, -9, -953],
 	 "bbox-origin" : [64.000000, 11.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 65.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Shoals04.LVL",
+	"name" : "XPack3/Levels/Atlantis/Shoals04.LVL",
 	 "offset" : [5264, -9, -953],
 	 "bbox-origin" : [64.000000, -10.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 79.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Shoals05.LVL",
+	"name" : "XPack3/Levels/Atlantis/Shoals05.LVL",
 	 "offset" : [5520, -9, -953],
 	 "bbox-origin" : [64.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 56.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Shoals06.LVL",
+	"name" : "XPack3/Levels/Atlantis/Shoals06.LVL",
 	 "offset" : [5520, -9, -1081],
 	 "bbox-origin" : [64.000000, 8.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 61.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisA01.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisA01.LVL",
 	 "offset" : [4816, -9, -1209],
 	 "bbox-origin" : [64.000000, 22.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 82.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisA02.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisA02.LVL",
 	 "offset" : [4816, -9, -1337],
 	 "bbox-origin" : [64.000000, -3.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 62.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisA03.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisA03.LVL",
 	 "offset" : [4688, -9, -1273],
 	 "bbox-origin" : [64.000000, 10.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 70.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisA04.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisA04.LVL",
 	 "offset" : [4560, -9, -1209],
 	 "bbox-origin" : [64.000000, 14.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 65.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisA05.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisA05.LVL",
 	 "offset" : [4560, -9, -1337],
 	 "bbox-origin" : [64.000000, 9.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 70.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisA06.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisA06.LVL",
 	 "offset" : [4688, -9, -1401],
 	 "bbox-origin" : [64.000000, 4.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 75.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisA07.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisA07.LVL",
 	 "offset" : [4816, -20, -1465],
 	 "bbox-origin" : [64.000000, -7.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 77.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisA08.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisA08.LVL",
 	 "offset" : [4688, -20, -1529],
 	 "bbox-origin" : [64.000000, 1.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 86.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisA09.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisA09.LVL",
 	 "offset" : [4560, -20, -1465],
 	 "bbox-origin" : [64.000000, 7.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 83.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisB01.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisB01.LVL",
 	 "offset" : [4816, -20, -1593],
 	 "bbox-origin" : [64.000000, 5.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 75.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisB02.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisB02.LVL",
 	 "offset" : [4560, -5, -1593],
 	 "bbox-origin" : [64.000000, -14.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 75.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisB03.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisB03.LVL",
 	 "offset" : [4432, -20, -1529],
 	 "bbox-origin" : [64.000000, 8.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 83.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisB04.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisB04.LVL",
 	 "offset" : [4432, -5, -1657],
 	 "bbox-origin" : [64.000000, -7.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 60.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisB05.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisB05.LVL",
 	 "offset" : [4560, -5, -1721],
 	 "bbox-origin" : [64.000000, -7.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 67.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisB06.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisB06.LVL",
 	 "offset" : [4688, -5, -1657],
 	 "bbox-origin" : [64.000000, -7.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 82.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisB07.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisB07.LVL",
 	 "offset" : [4816, -5, -1721],
 	 "bbox-origin" : [64.000000, -4.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 54.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisB08.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisB08.LVL",
 	 "offset" : [4688, -5, -1785],
 	 "bbox-origin" : [64.000000, -10.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 64.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisB09.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisB09.LVL",
 	 "offset" : [4560, -5, -1849],
 	 "bbox-origin" : [64.000000, -7.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 67.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisB10.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisB10.LVL",
 	 "offset" : [4432, -5, -1785],
 	 "bbox-origin" : [64.000000, -11.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 66.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisB11.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisB11.LVL",
 	 "offset" : [4304, -5, -1721],
 	 "bbox-origin" : [64.000000, -2.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 62.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisB12.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisB12.LVL",
 	 "offset" : [4432, -5, -1913],
 	 "bbox-origin" : [64.000000, -20.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 81.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisB13.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisB13.LVL",
 	 "offset" : [4560, -5, -1977],
 	 "bbox-origin" : [64.000000, -7.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 67.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisC01.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisC01.LVL",
 	 "offset" : [4304, -20, -1977],
 	 "bbox-origin" : [64.000000, 18.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 68.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisC02.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisC02.LVL",
 	 "offset" : [4176, 20, -2041],
 	 "bbox-origin" : [64.000000, -12.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 62.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisC03.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisC03.LVL",
 	 "offset" : [4304, 20, -2105],
 	 "bbox-origin" : [64.000000, -20.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 70.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisC04.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisC04.LVL",
 	 "offset" : [4432, 20, -2041],
 	 "bbox-origin" : [64.000000, -20.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 70.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisC05.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisC05.LVL",
 	 "offset" : [4432, 20, -2169],
 	 "bbox-origin" : [64.000000, -16.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 66.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisC06.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisC06.LVL",
 	 "offset" : [4304, 20, -2233],
 	 "bbox-origin" : [64.000000, -20.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 70.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisC07.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisC07.LVL",
 	 "offset" : [4176, 20, -2169],
 	 "bbox-origin" : [64.000000, -15.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 65.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisC08.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisC08.LVL",
 	 "offset" : [4048, 20, -2105],
 	 "bbox-origin" : [64.000000, -12.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 62.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisC09.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisC09.LVL",
 	 "offset" : [4176, 20, -2297],
 	 "bbox-origin" : [64.000000, -25.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 75.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisC10.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisC10.LVL",
 	 "offset" : [4304, 20, -2361],
 	 "bbox-origin" : [64.000000, -25.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 75.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisC11.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisC11.LVL",
 	 "offset" : [4432, 20, -2297],
 	 "bbox-origin" : [64.000000, -20.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 70.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisC12.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisC12.LVL",
 	 "offset" : [4432, 20, -2425],
 	 "bbox-origin" : [64.000000, -16.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 73.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains01.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains01.LVL",
 	 "offset" : [7807, -20, -2052],
 	 "bbox-origin" : [64.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 80.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains02.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains02.LVL",
 	 "offset" : [7679, -20, -1988],
 	 "bbox-origin" : [64.000000, 20.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 89.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains03.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains03.LVL",
 	 "offset" : [7551, -20, -2052],
 	 "bbox-origin" : [64.000000, 26.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 83.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains04.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains04.LVL",
 	 "offset" : [7551, -20, -1924],
 	 "bbox-origin" : [64.000000, 14.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 83.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains05.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains05.LVL",
 	 "offset" : [7423, -20, -2116],
 	 "bbox-origin" : [64.000000, 27.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 82.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains06.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains06.LVL",
 	 "offset" : [7423, -20, -1988],
 	 "bbox-origin" : [64.000000, 20.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 89.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains07.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains07.LVL",
 	 "offset" : [7423, -20, -1860],
 	 "bbox-origin" : [64.000000, 15.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 84.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains08.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains08.LVL",
 	 "offset" : [7295, -20, -2052],
 	 "bbox-origin" : [64.000000, 20.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 89.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains09.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains09.LVL",
 	 "offset" : [7295, -20, -1924],
 	 "bbox-origin" : [64.000000, 30.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 80.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains10.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains10.LVL",
 	 "offset" : [7295, -20, -1796],
 	 "bbox-origin" : [64.000000, 26.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 76.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains11.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains11.LVL",
 	 "offset" : [7167, -20, -1988],
 	 "bbox-origin" : [64.000000, 19.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 90.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains12.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains12.LVL",
 	 "offset" : [7167, -20, -1860],
 	 "bbox-origin" : [64.000000, 21.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 88.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains13.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains13.LVL",
 	 "offset" : [7167, -20, -1732],
 	 "bbox-origin" : [64.000000, 30.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 80.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains14.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains14.LVL",
 	 "offset" : [7039, -20, -1796],
 	 "bbox-origin" : [64.000000, 30.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 99.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains15.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains15.LVL",
 	 "offset" : [6911, -20, -1860],
 	 "bbox-origin" : [64.000000, 40.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 90.000000, 64.000000] 
@@ -7895,223 +7872,223 @@
 	 "bbox-extents" : [64.000000, 74.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden01.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden01.LVL",
 	 "offset" : [6648, -20, -1796],
 	 "bbox-origin" : [64.000000, 22.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 72.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden02.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden02.LVL",
 	 "offset" : [6648, -20, -1924],
 	 "bbox-origin" : [64.000000, 27.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 77.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden03.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden03.LVL",
 	 "offset" : [6520, -20, -1860],
 	 "bbox-origin" : [64.000000, 50.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 100.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden04.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden04.LVL",
 	 "offset" : [6520, -20, -1732],
 	 "bbox-origin" : [64.000000, 45.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 95.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden05.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden05.LVL",
 	 "offset" : [6392, -20, -1668],
 	 "bbox-origin" : [64.000000, 26.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 76.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden06.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden06.LVL",
 	 "offset" : [6392, -20, -1796],
 	 "bbox-origin" : [64.000000, 37.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 87.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden07.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden07.LVL",
 	 "offset" : [6392, -20, -1924],
 	 "bbox-origin" : [64.000000, 49.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 100.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden08.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden08.LVL",
 	 "offset" : [6392, -20, -2052],
 	 "bbox-origin" : [64.000000, 45.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 95.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden09.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden09.LVL",
 	 "offset" : [6264, -20, -1988],
 	 "bbox-origin" : [64.000000, 50.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 100.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden10.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden10.LVL",
 	 "offset" : [6264, -20, -1860],
 	 "bbox-origin" : [64.000000, 49.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 99.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden11.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden11.LVL",
 	 "offset" : [6136, -20, -1924],
 	 "bbox-origin" : [64.000000, 45.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 95.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden12.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden12.LVL",
 	 "offset" : [6136, -20, -1796],
 	 "bbox-origin" : [64.000000, 37.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 87.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden13.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden13.LVL",
 	 "offset" : [6008, -20, -1860],
 	 "bbox-origin" : [64.000000, 45.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 95.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden14.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden14.LVL",
 	 "offset" : [6008, -20, -1988],
 	 "bbox-origin" : [64.000000, 55.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 109.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden15.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden15.LVL",
 	 "offset" : [5880, -20, -2052],
 	 "bbox-origin" : [64.000000, 51.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 104.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis01.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis01.LVL",
 	 "offset" : [8596, -20, -3686],
 	 "bbox-origin" : [64.000000, 2.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 67.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis02.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis02.LVL",
 	 "offset" : [8468, -20, -3750],
 	 "bbox-origin" : [64.000000, 9.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 60.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis03.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis03.LVL",
 	 "offset" : [8596, -20, -3814],
 	 "bbox-origin" : [64.000000, -3.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 61.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis04.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis04.LVL",
 	 "offset" : [8468, -20, -3878],
 	 "bbox-origin" : [64.000000, 10.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 60.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis05.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis05.LVL",
 	 "offset" : [8596, -20, -3942],
 	 "bbox-origin" : [64.000000, 13.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 78.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis06.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis06.LVL",
 	 "offset" : [8468, -20, -4006],
 	 "bbox-origin" : [64.000000, 12.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 77.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis07.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis07.LVL",
 	 "offset" : [8596, -20, -4070],
 	 "bbox-origin" : [64.000000, 12.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 78.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis08.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis08.LVL",
 	 "offset" : [8468, -20, -4134],
 	 "bbox-origin" : [64.000000, 7.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 82.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis09.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis09.LVL",
 	 "offset" : [8596, -20, -4198],
 	 "bbox-origin" : [64.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 65.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis10.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis10.LVL",
 	 "offset" : [8340, -20, -4198],
 	 "bbox-origin" : [64.000000, 30.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 80.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis11.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis11.LVL",
 	 "offset" : [8468, -20, -4262],
 	 "bbox-origin" : [64.000000, -3.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 71.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis12.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis12.LVL",
 	 "offset" : [8596, -20, -4326],
 	 "bbox-origin" : [64.000000, -2.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 62.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis13.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis13.LVL",
 	 "offset" : [8340, -20, -4326],
 	 "bbox-origin" : [64.000000, 30.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 80.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis14.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis14.LVL",
 	 "offset" : [8468, -20, -4390],
 	 "bbox-origin" : [64.000000, 30.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 80.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis15.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis15.LVL",
 	 "offset" : [8596, -20, -4454],
 	 "bbox-origin" : [64.000000, 22.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 87.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis16.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis16.LVL",
 	 "offset" : [8468, -20, -4518],
 	 "bbox-origin" : [64.000000, 30.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 80.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Gadir01.LVL",
+	"name" : "XPack3/Levels/Iberia/Gadir01.LVL",
 	 "offset" : [8596, -20, -3558],
 	 "bbox-origin" : [128.000000, -45.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 105.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Underground\NecroPassagea01.LVL",
+	"name" : "XPack3/Levels/Iberia/Underground/NecroPassagea01.LVL",
 	 "offset" : [7882, -20, -4166],
 	 "bbox-origin" : [80.000000, 13.000000, 100.000000],
 	 "bbox-extents" : [80.000000, 13.000000, 100.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Underground\NecroPassageB01.LVL",
+	"name" : "XPack3/Levels/Iberia/Underground/NecroPassageB01.LVL",
 	 "offset" : [7904, -20, -3853],
 	 "bbox-origin" : [100.000000, 13.000000, 80.000000],
 	 "bbox-extents" : [100.000000, 13.000000, 80.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Underground\NecroCave01.LVL",
+	"name" : "XPack3/Levels/Iberia/Underground/NecroCave01.LVL",
 	 "offset" : [7606, -20, -4140],
 	 "bbox-origin" : [60.000000, 4.000000, 39.000000],
 	 "bbox-extents" : [60.000000, 4.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Underground\NecroCave02.LVL",
+	"name" : "XPack3/Levels/Iberia/Underground/NecroCave02.LVL",
 	 "offset" : [7572, -20, -3860],
 	 "bbox-origin" : [60.000000, 4.000000, 60.000000],
 	 "bbox-extents" : [60.000000, 4.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Underground\MtnGardenTransition.LVL",
+	"name" : "XPack3/Levels/Iberia/Underground/MtnGardenTransition.LVL",
 	 "offset" : [6899, -20, -2172],
 	 "bbox-origin" : [40.000000, 4.000000, 28.000000],
 	 "bbox-extents" : [40.000000, 4.000000, 28.000000] 
@@ -8129,25 +8106,25 @@
 	 "bbox-extents" : [24.000000, 4.000000, 44.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Underground\MountainsTransitionCave01.LVL",
+	"name" : "XPack3/Levels/Iberia/Underground/MountainsTransitionCave01.LVL",
 	 "offset" : [7168, 0, -2562],
 	 "bbox-origin" : [104.000000, 27.000000, 88.000000],
 	 "bbox-extents" : [104.000000, 27.000000, 88.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Underground\WallC01.LVL",
+	"name" : "XPack3/Levels/Atlantis/Underground/WallC01.LVL",
 	 "offset" : [3852, -20, -1773],
 	 "bbox-origin" : [140.000000, 8.000000, 64.000000],
 	 "bbox-extents" : [140.000000, 8.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisHigh01b.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisHigh01b.LVL",
 	 "offset" : [4176, 21, -2425],
 	 "bbox-origin" : [64.000000, -8.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 82.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisHigh02b.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisHigh02b.LVL",
 	 "offset" : [4176, 21, -2553],
 	 "bbox-origin" : [64.000000, 24.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 86.000000, 64.000000] 
@@ -8159,139 +8136,139 @@
 	 "bbox-extents" : [80.000000, 20.000000, 80.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains11b.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains11b.LVL",
 	 "offset" : [7167, 12, -2116],
 	 "bbox-origin" : [64.000000, -4.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 82.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Underground\NecroSmallTomb.LVL",
+	"name" : "XPack3/Levels/Iberia/Underground/NecroSmallTomb.LVL",
 	 "offset" : [9003, -20, -4166],
 	 "bbox-origin" : [32.000000, 4.000000, 31.000000],
 	 "bbox-extents" : [32.000000, 4.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Underground\NecroLargeTomb01.LVL",
+	"name" : "XPack3/Levels/Iberia/Underground/NecroLargeTomb01.LVL",
 	 "offset" : [8951, -20, -4419],
 	 "bbox-origin" : [80.000000, 9.000000, 68.000000],
 	 "bbox-extents" : [80.000000, 9.000000, 68.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Underground\HighlandsCave01.LVL",
+	"name" : "XPack3/Levels/Iberia/Underground/HighlandsCave01.LVL",
 	 "offset" : [7856, 12, -2672],
 	 "bbox-origin" : [48.000000, 13.000000, 56.000000],
 	 "bbox-extents" : [48.000000, 13.000000, 56.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Shore01.LVL",
+	"name" : "XPack3/Levels/Malta/Shore01.LVL",
 	 "offset" : [10604, -20, -4451],
 	 "bbox-origin" : [64.000000, 21.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 71.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Gadir01B.LVL",
+	"name" : "XPack3/Levels/Iberia/Gadir01B.LVL",
 	 "offset" : [8596, 12, -3302],
 	 "bbox-origin" : [128.000000, -66.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 116.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Gadir01C.LVL",
+	"name" : "XPack3/Levels/Iberia/Gadir01C.LVL",
 	 "offset" : [8852, 12, -3302],
 	 "bbox-origin" : [128.000000, -66.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 116.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Gadir01D.LVL",
+	"name" : "XPack3/Levels/Iberia/Gadir01D.LVL",
 	 "offset" : [8852, 12, -3558],
 	 "bbox-origin" : [128.000000, -66.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 116.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisA01b.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisA01b.LVL",
 	 "offset" : [4944, 12, -1209],
 	 "bbox-origin" : [32.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 83.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Shore02.LVL",
+	"name" : "XPack3/Levels/Malta/Shore02.LVL",
 	 "offset" : [10604, 12, -4579],
 	 "bbox-origin" : [64.000000, 4.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 66.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Shore03.LVL",
+	"name" : "XPack3/Levels/Malta/Shore03.LVL",
 	 "offset" : [10732, 12, -4643],
 	 "bbox-origin" : [64.000000, 1.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 63.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Shore04.LVL",
+	"name" : "XPack3/Levels/Malta/Shore04.LVL",
 	 "offset" : [10604, 12, -4707],
 	 "bbox-origin" : [64.000000, 9.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 70.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Forest01.LVL",
+	"name" : "XPack3/Levels/Malta/Forest01.LVL",
 	 "offset" : [10732, 12, -4771],
 	 "bbox-origin" : [64.000000, 8.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 71.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Forest02.LVL",
+	"name" : "XPack3/Levels/Malta/Forest02.LVL",
 	 "offset" : [10732, 12, -4899],
 	 "bbox-origin" : [64.000000, 10.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 72.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Forest03.LVL",
+	"name" : "XPack3/Levels/Malta/Forest03.LVL",
 	 "offset" : [10604, 12, -4835],
 	 "bbox-origin" : [64.000000, 7.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 68.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Forest04.LVL",
+	"name" : "XPack3/Levels/Malta/Forest04.LVL",
 	 "offset" : [10604, 12, -4963],
 	 "bbox-origin" : [64.000000, 21.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 71.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\CoralTombs01.LVL",
+	"name" : "XPack3/Levels/Malta/CoralTombs01.LVL",
 	 "offset" : [10476, 12, -4899],
 	 "bbox-origin" : [64.000000, 12.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 62.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\CoralTombs02.LVL",
+	"name" : "XPack3/Levels/Malta/CoralTombs02.LVL",
 	 "offset" : [10348, 12, -4835],
 	 "bbox-origin" : [64.000000, 10.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 60.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\CoralTombs03.LVL",
+	"name" : "XPack3/Levels/Malta/CoralTombs03.LVL",
 	 "offset" : [10348, 12, -4963],
 	 "bbox-origin" : [64.000000, 17.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 67.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\CoralTombs04.LVL",
+	"name" : "XPack3/Levels/Malta/CoralTombs04.LVL",
 	 "offset" : [10220, 12, -4899],
 	 "bbox-origin" : [64.000000, 10.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 60.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\CoralTombs05.LVL",
+	"name" : "XPack3/Levels/Malta/CoralTombs05.LVL",
 	 "offset" : [10220, 12, -5027],
 	 "bbox-origin" : [64.000000, 12.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 62.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\CoralTombs06.LVL",
+	"name" : "XPack3/Levels/Malta/CoralTombs06.LVL",
 	 "offset" : [10348, 12, -5091],
 	 "bbox-origin" : [64.000000, 16.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 66.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\CoralTombs07.LVL",
+	"name" : "XPack3/Levels/Malta/CoralTombs07.LVL",
 	 "offset" : [10476, 12, -5027],
 	 "bbox-origin" : [64.000000, 16.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 66.000000, 64.000000] 
@@ -8363,67 +8340,67 @@
 	 "bbox-extents" : [64.000000, 78.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Underground\Catacombs01.LVL",
+	"name" : "XPack3/Levels/Malta/Underground/Catacombs01.LVL",
 	 "offset" : [11046, 1, -5244],
 	 "bbox-origin" : [100.000000, 9.000000, 80.000000],
 	 "bbox-extents" : [100.000000, 27.000000, 80.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Underground\Catacombs02.LVL",
+	"name" : "XPack3/Levels/Malta/Underground/Catacombs02.LVL",
 	 "offset" : [11046, 1, -5324],
 	 "bbox-origin" : [100.000000, 13.000000, 40.000000],
 	 "bbox-extents" : [100.000000, 13.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Underground\Catacombs03.LVL",
+	"name" : "XPack3/Levels/Malta/Underground/Catacombs03.LVL",
 	 "offset" : [10926, 1, -5484],
 	 "bbox-origin" : [60.000000, 13.000000, 200.000000],
 	 "bbox-extents" : [60.000000, 13.000000, 200.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Underground\Catacombs04.LVL",
+	"name" : "XPack3/Levels/Malta/Underground/Catacombs04.LVL",
 	 "offset" : [11046, 1, -5484],
 	 "bbox-origin" : [100.000000, 13.000000, 80.000000],
 	 "bbox-extents" : [100.000000, 13.000000, 80.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisAscent01.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisAscent01.LVL",
 	 "offset" : [4471, -19, -3787],
 	 "bbox-origin" : [64.000000, 28.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 78.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisAscent02.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisAscent02.LVL",
 	 "offset" : [4471, -19, -3915],
 	 "bbox-origin" : [64.000000, 22.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 72.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisAscent03.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisAscent03.LVL",
 	 "offset" : [4343, -19, -3851],
 	 "bbox-origin" : [64.000000, 30.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 80.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisAscent04.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisAscent04.LVL",
 	 "offset" : [4343, -19, -3979],
 	 "bbox-origin" : [64.000000, 24.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 74.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisHigh02c.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisHigh02c.LVL",
 	 "offset" : [4304, 21, -2745],
 	 "bbox-origin" : [64.000000, 36.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 86.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisHigh02d.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisHigh02d.LVL",
 	 "offset" : [4432, 21, -2553],
 	 "bbox-origin" : [64.000000, -4.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 71.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains02b.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains02b.LVL",
 	 "offset" : [7679, 12, -2244],
 	 "bbox-origin" : [64.000000, -24.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 102.000000, 128.000000] 
@@ -8441,7 +8418,7 @@
 	 "bbox-extents" : [68.000000, 10.000000, 72.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Shoals06b.LVL",
+	"name" : "XPack3/Levels/Atlantis/Shoals06b.LVL",
 	 "offset" : [5456, 12, -1081],
 	 "bbox-origin" : [32.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [32.000000, 63.000000, 64.000000] 
@@ -8453,259 +8430,259 @@
 	 "bbox-extents" : [40.000000, 10.000000, 48.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\CoralTombs01a.LVL",
+	"name" : "XPack3/Levels/Malta/CoralTombs01a.LVL",
 	 "offset" : [10476, 14, -4771],
 	 "bbox-origin" : [64.000000, 11.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 61.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Gadir01e.LVL",
+	"name" : "XPack3/Levels/Iberia/Gadir01e.LVL",
 	 "offset" : [8468, -20, -3622],
 	 "bbox-origin" : [64.000000, -43.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 108.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Gadif01f.LVL",
+	"name" : "XPack3/Levels/Iberia/Gadif01f.LVL",
 	 "offset" : [8468, -20, -3366],
 	 "bbox-origin" : [64.000000, -50.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 100.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis01b.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis01b.LVL",
 	 "offset" : [8724, -20, -3814],
 	 "bbox-origin" : [64.000000, -33.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 93.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis06b.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis06b.LVL",
 	 "offset" : [8212, -20, -4070],
 	 "bbox-origin" : [128.000000, 30.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 80.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis10b.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis10b.LVL",
 	 "offset" : [8212, -20, -4326],
 	 "bbox-origin" : [64.000000, 30.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 80.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Necropolis14b.LVL",
+	"name" : "XPack3/Levels/Iberia/Necropolis14b.LVL",
 	 "offset" : [8212, -20, -4582],
 	 "bbox-origin" : [128.000000, 30.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 80.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasHighlands01b.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasHighlands01b.LVL",
 	 "offset" : [7999, -20, -2436],
 	 "bbox-origin" : [32.000000, -22.000000, 32.000000],
 	 "bbox-extents" : [32.000000, 72.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasHighlands05b.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasHighlands05b.LVL",
 	 "offset" : [8191, -20, -2244],
 	 "bbox-origin" : [32.000000, -12.000000, 32.000000],
 	 "bbox-extents" : [32.000000, 62.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains01b.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains01b.LVL",
 	 "offset" : [7807, -20, -1924],
 	 "bbox-origin" : [64.000000, 6.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 73.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains04b.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains04b.LVL",
 	 "offset" : [7551, -20, -1796],
 	 "bbox-origin" : [64.000000, 25.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 75.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains07b.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains07b.LVL",
 	 "offset" : [7423, -20, -1732],
 	 "bbox-origin" : [64.000000, 25.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 75.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains03b.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains03b.LVL",
 	 "offset" : [7551, -20, -2116],
 	 "bbox-origin" : [64.000000, 30.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 80.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains08b.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains08b.LVL",
 	 "offset" : [7295, -20, -2180],
 	 "bbox-origin" : [64.000000, 21.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 88.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains11c.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains11c.LVL",
 	 "offset" : [7167, -20, -2180],
 	 "bbox-origin" : [64.000000, 21.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 88.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains14b.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains14b.LVL",
 	 "offset" : [7039, -20, -1924],
 	 "bbox-origin" : [64.000000, 31.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 98.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains14c.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains14c.LVL",
 	 "offset" : [7039, -20, -1668],
 	 "bbox-origin" : [64.000000, 19.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 86.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains15b.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains15b.LVL",
 	 "offset" : [6911, -20, -1924],
 	 "bbox-origin" : [64.000000, 40.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 90.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains15c.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains15c.LVL",
 	 "offset" : [6911, -20, -1732],
 	 "bbox-origin" : [64.000000, 40.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 90.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains15d.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains15d.LVL",
 	 "offset" : [6847, -20, -1924],
 	 "bbox-origin" : [32.000000, 40.000000, 128.000000],
 	 "bbox-extents" : [32.000000, 90.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\AtlasMountains02c.LVL",
+	"name" : "XPack3/Levels/Iberia/AtlasMountains02c.LVL",
 	 "offset" : [7679, -20, -1860],
 	 "bbox-origin" : [128.000000, 16.000000, 32.000000],
 	 "bbox-extents" : [128.000000, 83.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden01b.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden01b.LVL",
 	 "offset" : [6776, -20, -1924],
 	 "bbox-origin" : [32.000000, 0.000000, 128.000000],
 	 "bbox-extents" : [32.000000, 50.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden03b.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden03b.LVL",
 	 "offset" : [6520, -20, -2116],
 	 "bbox-origin" : [64.000000, 0.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 50.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden01c.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden01c.LVL",
 	 "offset" : [6648, -20, -1668],
 	 "bbox-origin" : [32.000000, 0.000000, 32.000000],
 	 "bbox-extents" : [32.000000, 50.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden10b.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden10b.LVL",
 	 "offset" : [6264, -20, -1732],
 	 "bbox-origin" : [64.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 50.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden08b.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden08b.LVL",
 	 "offset" : [6264, -20, -2180],
 	 "bbox-origin" : [128.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 50.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden09b.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden09b.LVL",
 	 "offset" : [6264, -20, -2052],
 	 "bbox-origin" : [64.000000, 0.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 50.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden11b.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden11b.LVL",
 	 "offset" : [6136, -20, -2052],
 	 "bbox-origin" : [64.000000, 52.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 102.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden14b.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden14b.LVL",
 	 "offset" : [6008, -20, -2116],
 	 "bbox-origin" : [64.000000, 57.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 107.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden15b.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden15b.LVL",
 	 "offset" : [5880, -20, -2180],
 	 "bbox-origin" : [64.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 50.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden15c.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden15c.LVL",
 	 "offset" : [5752, -20, -2180],
 	 "bbox-origin" : [64.000000, 0.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 50.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Garden15d.LVL",
+	"name" : "XPack3/Levels/Iberia/Garden15d.LVL",
 	 "offset" : [5752, -20, -1924],
 	 "bbox-origin" : [128.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 50.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Shoals03b.LVL",
+	"name" : "XPack3/Levels/Atlantis/Shoals03b.LVL",
 	 "offset" : [5328, -20, -825],
 	 "bbox-origin" : [128.000000, 8.000000, 32.000000],
 	 "bbox-extents" : [128.000000, 58.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Shore03b.LVL",
+	"name" : "XPack3/Levels/Malta/Shore03b.LVL",
 	 "offset" : [10732, -20, -4515],
 	 "bbox-origin" : [64.000000, 16.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 66.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Shore03c.LVL",
+	"name" : "XPack3/Levels/Malta/Shore03c.LVL",
 	 "offset" : [10860, -20, -4707],
 	 "bbox-origin" : [32.000000, 10.000000, 128.000000],
 	 "bbox-extents" : [32.000000, 60.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Forest02b.LVL",
+	"name" : "XPack3/Levels/Malta/Forest02b.LVL",
 	 "offset" : [10860, -20, -4963],
 	 "bbox-origin" : [32.000000, 10.000000, 128.000000],
 	 "bbox-extents" : [32.000000, 60.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Forest02c.LVL",
+	"name" : "XPack3/Levels/Malta/Forest02c.LVL",
 	 "offset" : [10732, -20, -4963],
 	 "bbox-origin" : [64.000000, 34.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 84.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Shore02b.LVL",
+	"name" : "XPack3/Levels/Malta/Shore02b.LVL",
 	 "offset" : [10540, -20, -4643],
 	 "bbox-origin" : [32.000000, 28.000000, 128.000000],
 	 "bbox-extents" : [32.000000, 78.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Tartarus\Arena01.LVL",
+	"name" : "XPack3/Levels/Tartarus/Arena01.LVL",
 	 "offset" : [13653, 0, -6868],
 	 "bbox-origin" : [128.000000, 26.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 76.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Tartarus\Arena02.LVL",
+	"name" : "XPack3/Levels/Tartarus/Arena02.LVL",
 	 "offset" : [13653, 0, -8458],
 	 "bbox-origin" : [128.000000, 16.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 71.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Tartarus\Arena03.LVL",
+	"name" : "XPack3/Levels/Tartarus/Arena03.LVL",
 	 "offset" : [13652, -4, -10021],
 	 "bbox-origin" : [128.000000, 23.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 73.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Tartarus\Arena04.LVL",
+	"name" : "XPack3/Levels/Tartarus/Arena04.LVL",
 	 "offset" : [13652, 0, -11746],
 	 "bbox-origin" : [128.000000, 23.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 76.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Tartarus\Arena05.LVL",
+	"name" : "XPack3/Levels/Tartarus/Arena05.LVL",
 	 "offset" : [13662, 0, -13489],
 	 "bbox-origin" : [128.000000, 21.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 76.000000, 128.000000] 
@@ -8717,55 +8694,55 @@
 	 "bbox-extents" : [72.000000, 13.000000, 88.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Underground\MaltaCave01.LVL",
+	"name" : "XPack3/Levels/Malta/Underground/MaltaCave01.LVL",
 	 "offset" : [10119, -18, -4502],
 	 "bbox-origin" : [80.000000, 4.000000, 80.000000],
 	 "bbox-extents" : [80.000000, 4.000000, 80.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Malta\Underground\MaltaCave02.LVL",
+	"name" : "XPack3/Levels/Malta/Underground/MaltaCave02.LVL",
 	 "offset" : [11176, -18, -4700],
 	 "bbox-origin" : [80.000000, 4.000000, 80.000000],
 	 "bbox-extents" : [80.000000, 4.000000, 80.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Iberia\Underground\GadirNatCave01.LVL",
+	"name" : "XPack3/Levels/Iberia/Underground/GadirNatCave01.LVL",
 	 "offset" : [8087, 16, -3506],
 	 "bbox-origin" : [40.000000, 4.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 4.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Tartarus\Underground/TransitionCave01.LVL",
+	"name" : "XPack3/Levels/Tartarus/Underground/TransitionCave01.LVL",
 	 "offset" : [12113, 16, -9994],
 	 "bbox-origin" : [40.000000, 4.000000, 43.000000],
 	 "bbox-extents" : [40.000000, 4.000000, 44.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Jungle10b.LVL",
+	"name" : "XPack3/Levels/Atlantis/Jungle10b.LVL",
 	 "offset" : [4688, 10, -1017],
 	 "bbox-origin" : [64.000000, 12.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 62.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisB11b.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisB11b.LVL",
 	 "offset" : [4304, 16, -1849],
 	 "bbox-origin" : [64.000000, -14.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 64.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisB11c.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisB11c.LVL",
 	 "offset" : [4304, 16, -1593],
 	 "bbox-origin" : [64.000000, -20.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 70.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisC09b.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisC09b.LVL",
 	 "offset" : [4048, 16, -2361],
 	 "bbox-origin" : [64.000000, -10.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 60.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisA05b.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisA05b.LVL",
 	 "offset" : [4432, 16, -1401],
 	 "bbox-origin" : [64.000000, -12.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 80.000000, 128.000000] 
@@ -8807,19 +8784,19 @@
 	 "bbox-extents" : [128.000000, 87.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisHigh02e.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisHigh02e.LVL",
 	 "offset" : [4432, -17, -2809],
 	 "bbox-origin" : [64.000000, 52.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 102.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisHigh04b.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisHigh04b.LVL",
 	 "offset" : [4176, -17, -2873],
 	 "bbox-origin" : [64.000000, 57.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 107.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Underground\CaveHighDistrict01.LVL",
+	"name" : "XPack3/Levels/Atlantis/Underground/CaveHighDistrict01.LVL",
 	 "offset" : [4801, -17, -2727],
 	 "bbox-origin" : [40.000000, 4.000000, 40.000000],
 	 "bbox-extents" : [40.000000, 4.000000, 40.000000] 
@@ -8837,13 +8814,13 @@
 	 "bbox-extents" : [52.000000, 8.000000, 48.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Underground\TempleOfPos01.LVL",
+	"name" : "XPack3/Levels/Atlantis/Underground/TempleOfPos01.LVL",
 	 "offset" : [4827, -8, -3102],
 	 "bbox-origin" : [48.000000, 8.000000, 48.000000],
 	 "bbox-extents" : [48.000000, 8.000000, 48.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\AtlantisAscent10b.LVL",
+	"name" : "XPack3/Levels/Atlantis/AtlantisAscent10b.LVL",
 	 "offset" : [4215, -17, -4491],
 	 "bbox-origin" : [128.000000, 8.000000, 32.000000],
 	 "bbox-extents" : [128.000000, 58.000000, 32.000000] 
@@ -8855,7 +8832,7 @@
 	 "bbox-extents" : [80.000000, 24.000000, 108.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Underground\TempleOfPos05.LVL",
+	"name" : "XPack3/Levels/Atlantis/Underground/TempleOfPos05.LVL",
 	 "offset" : [4850, 13, -3836],
 	 "bbox-origin" : [24.000000, 12.000000, 69.000000],
 	 "bbox-extents" : [24.000000, 12.000000, 74.000000] 
@@ -8867,37 +8844,37 @@
 	 "bbox-extents" : [128.000000, 95.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\TiamatArenaVistaB.LVL",
+	"name" : "XPack3/Levels/Atlantis/TiamatArenaVistaB.LVL",
 	 "offset" : [3301, -17, -3339],
 	 "bbox-origin" : [64.000000, 17.000000, 128.000000],
 	 "bbox-extents" : [64.000000, 69.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\TiamatArenaVistaC.LVL",
+	"name" : "XPack3/Levels/Atlantis/TiamatArenaVistaC.LVL",
 	 "offset" : [3301, -17, -3467],
 	 "bbox-origin" : [128.000000, 18.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 68.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Tartarus\Arena06.LVL",
+	"name" : "XPack3/Levels/Tartarus/Arena06.LVL",
 	 "offset" : [15454, 23, -6914],
 	 "bbox-origin" : [128.000000, -7.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 77.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Tartarus\Arena08.LVL",
+	"name" : "XPack3/Levels/Tartarus/Arena08.LVL",
 	 "offset" : [15531, 20, -10066],
 	 "bbox-origin" : [128.000000, -6.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 62.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Tartarus\Arena09.LVL",
+	"name" : "XPack3/Levels/Tartarus/Arena09.LVL",
 	 "offset" : [15491, 21, -11816],
 	 "bbox-origin" : [128.000000, 0.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 64.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Tartarus\Arena10.LVL",
+	"name" : "XPack3/Levels/Tartarus/Arena10.LVL",
 	 "offset" : [15589, 22, -13602],
 	 "bbox-origin" : [128.000000, -10.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 66.000000, 128.000000] 
@@ -8908,38 +8885,20 @@
 	 "bbox-origin" : [128.000000, 5.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 55.000000, 128.000000] 
 	},
-	"name" : "XPack3\Levels\Tartarus\Arena00Boss.LVL",
-	 "bbox-origin" : [128.000000, 10.000000, 128.000000],
-	},
-	"name" : "XPack3\Levels\Tartarus\Arena11.LVL",
-	 "bbox-origin" : [128.000000, 33.000000, 128.000000],
-	},
-	"name" : "XPack3\Levels\Tartarus\Arena12.LVL",
-	 "bbox-origin" : [128.000000, 28.000000, 128.000000],
-	 "bbox-extents" : [128.000000, 78.000000, 128.000000] 
-	},
 	{
-	"name" : "XPack3\Levels\Tartarus\Arena13.LVL",
-	 "bbox-origin" : [128.000000, 26.000000, 128.000000],
-	 "bbox-extents" : [128.000000, 81.000000, 128.000000] 
-	},
-	"name" : "XPack3\Levels\Tartarus\Arena14.LVL",
-	 "offset" : [17446, -16, -11806],
-	 "bbox-origin" : [128.000000, 25.000000, 128.000000],
-	},
-	"name" : "XPack3\Levels\Tartarus\Arena15.LVL",
+	"name" : "XPack3/Levels/Tartarus/Arena15.LVL",
 	 "offset" : [17411, -16, -13604],
 	 "bbox-origin" : [128.000000, 24.000000, 128.000000],
 	 "bbox-extents" : [128.000000, 74.000000, 128.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Tartarus\Arena00BossB.LVL",
+	"name" : "XPack3/Levels/Tartarus/Arena00BossB.LVL",
 	 "offset" : [15581, -16, -15124],
 	 "bbox-origin" : [128.000000, 26.000000, 32.000000],
 	 "bbox-extents" : [128.000000, 76.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Underground\JungleAscentCave.LVL",
+	"name" : "XPack3/Levels/Atlantis/Underground/JungleAscentCave.LVL",
 	 "offset" : [4425, 0, -821],
 	 "bbox-origin" : [48.000000, 4.000000, 40.000000],
 	 "bbox-extents" : [48.000000, 4.000000, 40.000000] 
@@ -8951,91 +8910,91 @@
 	 "bbox-extents" : [60.000000, 10.000000, 60.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Underground\ShoalsCave01.LVL",
+	"name" : "XPack3/Levels/Atlantis/Underground/ShoalsCave01.LVL",
 	 "offset" : [5556, -1, -551],
 	 "bbox-origin" : [52.000000, -1.000000, 40.000000],
 	 "bbox-extents" : [52.000000, 10.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Underground\IntermediateJungleCave.LVL",
+	"name" : "XPack3/Levels/Atlantis/Underground/IntermediateJungleCave.LVL",
 	 "offset" : [4951, 0, -494],
 	 "bbox-origin" : [60.000000, -1.000000, 40.000000],
 	 "bbox-extents" : [60.000000, 10.000000, 40.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Shoals05b.LVL",
+	"name" : "XPack3/Levels/Atlantis/Shoals05b.LVL",
 	 "offset" : [5584, -16, -825],
 	 "bbox-origin" : [64.000000, 5.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 55.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Shoals03bb.LVL",
+	"name" : "XPack3/Levels/Atlantis/Shoals03bb.LVL",
 	 "offset" : [5328, -16, -761],
 	 "bbox-origin" : [128.000000, 6.000000, 64.000000],
 	 "bbox-extents" : [128.000000, 56.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Jungle06b.LVL",
+	"name" : "XPack3/Levels/Atlantis/Jungle06b.LVL",
 	 "offset" : [5200, -16, -825],
 	 "bbox-origin" : [64.000000, 2.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 63.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Jungle06c.LVL",
+	"name" : "XPack3/Levels/Atlantis/Jungle06c.LVL",
 	 "offset" : [5072, -16, -825],
 	 "bbox-origin" : [64.000000, -8.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 70.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Jungle07b.LVL",
+	"name" : "XPack3/Levels/Atlantis/Jungle07b.LVL",
 	 "offset" : [4944, -16, -825],
 	 "bbox-origin" : [64.000000, 0.000000, 64.000000],
 	 "bbox-extents" : [64.000000, 51.000000, 64.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Underground\SerpentoidShoalsCave.LVL",
+	"name" : "XPack3/Levels/Atlantis/Underground/SerpentoidShoalsCave.LVL",
 	 "offset" : [5474, 0, -1433],
 	 "bbox-origin" : [60.000000, 8.000000, 60.000000],
 	 "bbox-extents" : [60.000000, 8.000000, 60.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\Rhakotis\Rhakotis02b.LVL",
+	"name" : "Levels/World/Egypt/Rhakotis/Rhakotis02b.LVL",
 	 "offset" : [-2073, -16, 4218],
 	 "bbox-origin" : [16.000000, 15.000000, 16.000000],
 	 "bbox-extents" : [16.000000, 65.000000, 16.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\Memphis\AbedjuConnector01b.LVL",
+	"name" : "Levels/World/Egypt/Memphis/AbedjuConnector01b.LVL",
 	 "offset" : [-3705, -16, 4472],
 	 "bbox-origin" : [16.000000, -8.000000, 16.000000],
 	 "bbox-extents" : [16.000000, 58.000000, 16.000000] 
 	},
 	{
-	"name" : "XPack3\Levels\Atlantis\Shoals01b.LVL",
+	"name" : "XPack3/Levels/Atlantis/Shoals01b.LVL",
 	 "offset" : [5776, -16, -1145],
 	 "bbox-origin" : [16.000000, -1.000000, 128.000000],
 	 "bbox-extents" : [16.000000, 51.000000, 128.000000] 
 	},
 	{
-	"name" : "Levels\World\Greece\StartingTownVer2\MMapAdd01.LVL",
+	"name" : "Levels/World/Greece/StartingTownVer2/MMapAdd01.LVL",
 	 "offset" : [-5811, -16, 472],
 	 "bbox-origin" : [16.000000, 11.000000, 128.000000],
 	 "bbox-extents" : [16.000000, 61.000000, 128.000000] 
 	},
 	{
-	"name" : "Levels\World\Egypt\Rhakotis\MMapAdd01.LVL",
+	"name" : "Levels/World/Egypt/Rhakotis/MMapAdd01.LVL",
 	 "offset" : [-2361, -16, 4315],
 	 "bbox-origin" : [16.000000, 19.000000, 16.000000],
 	 "bbox-extents" : [16.000000, 69.000000, 16.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area04_Styx\Styx_Wasteland_02b.LVL",
+	"name" : "XPack/Levels/Area04_Styx/Styx_Wasteland_02b.LVL",
 	 "offset" : [-588, -16, -9505],
 	 "bbox-origin" : [32.000000, 6.000000, 32.000000],
 	 "bbox-extents" : [32.000000, 56.000000, 32.000000] 
 	},
 	{
-	"name" : "XPack\Levels\Area05_Judgment\Judgement_Flats_04b.LVL",
+	"name" : "XPack/Levels/Area05_Judgment/Judgement_Flats_04b.LVL",
 	 "offset" : [-669, -16, -12563],
 	 "bbox-origin" : [64.000000, 12.000000, 32.000000],
 	 "bbox-extents" : [64.000000, 62.000000, 32.000000] 
