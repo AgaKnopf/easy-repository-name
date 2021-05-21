@@ -988,11 +988,11 @@
          "type": "graph",
          "format": "time_series",
          "value": [
-                     "(now() - interval '5 hours' + (ROW_NUMBER() OVER(ORDER BY subtable.tick_minutes)) * interval '1 minute') as \"time\",",                      
+                     "(now() - interval '5 hours' + (ROW_NUMBER() OVER(ORDER BY id_hero_by_tick_minutes.tick_minutes)) * interval '1 minute') as \"time\",",                      
                      "COUNT(*) as \"count of id_hero\""
                   ],
          "group_by": [
-                        "subtable.tick_minutes"
+                        "id_hero_by_tick_minutes.tick_minutes"
                      ],
          "order_by": ["\"time\""],
          "table": [
